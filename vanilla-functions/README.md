@@ -39,7 +39,9 @@ Lets now create a function. Now we have used functions before `main()` but visua
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now what happens when we move the **Sorry** function after the **Main** function.  Will it still work?  Copy and paste the function definition below the **Main** function and press the <kbd>Run</kbd> button.
+
+![alt_text](images/moveSorryAfterMain.png)
 
 ![](../images/line2.png)
 
