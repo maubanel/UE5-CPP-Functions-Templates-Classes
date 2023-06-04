@@ -22,7 +22,9 @@ Open up **Visual Studio 22** and press the **Create new project** button.
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/emptycppproj.png)
+Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Next</kbd> button.
+
+![create an empty c++ project](images/emptycppproj.png)
 
 ![](../images/line2.png)
 
