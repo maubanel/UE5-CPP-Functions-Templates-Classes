@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets set up a new project in Visual Studio 22.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **Visual Studio 22** and press the **Create new Project** button.
+
+![create new vs22 project](images/newProject.png)
 
 ![](../images/line2.png)
 
