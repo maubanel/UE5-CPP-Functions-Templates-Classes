@@ -39,15 +39,17 @@ Lets now create a function. Now we have used functions before `main()` but visua
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now what happens when we move the **Sorry** function after the **Main** function.  Will it still work?  Copy and paste the function definition below the **Main** function and press the <kbd>Run</kbd> button.
+Now what happens when we move the **Sorry** function after the **Main** function.  Will it still work?  Copy and paste the function definition below the **Main** function and press the <kbd>Local Windows Debugger</kbd> button. Woops we get an error message saying it didn't compile.  We don't want to run the last build so press <kbd>No</kbd>.
 
-![alt_text](images/moveSorryAfterMain.png)
+![ move Sorr() to end](images/moveSorryAfterMain.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**.
+
+![alt_text](images/identifierNotFound.png)
 
 ![](../images/line2.png)
 
