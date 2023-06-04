@@ -14,6 +14,7 @@ The implementations are different and have different pros and cons.  This will e
 ## Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up VS22](setting-up/README.md#user-content-setting-up-unreal) <br>
+<kbd></kbd> &nbsp;&nbsp; [Vanilla CPP Functions](vanilla-functions/README.md#user-content-vanilla-cpp-functions) <br>
 
 <!-- LICENSE -->
 ## License
