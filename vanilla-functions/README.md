@@ -47,9 +47,9 @@ Now what happens when we move the **Sorry** function after the **Main** function
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**.
+Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**. In C++ you can have the definition of the **C++** file anywhere but you need to **declare** it to the compiler before it is called.
 
-![alt_text](images/identifierNotFound.png)
+![compiled function error](images/identifierNotFound.png)
 
 ![](../images/line2.png)
 
