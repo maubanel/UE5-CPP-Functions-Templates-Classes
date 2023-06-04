@@ -2,7 +2,7 @@
 
 ### Setting Up VS22
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -50,5 +50,5 @@ Now we need a `.cpp` file to hold our **main()** function that runs with the pro
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
-|---|---|---|
+| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+|---|---| 
