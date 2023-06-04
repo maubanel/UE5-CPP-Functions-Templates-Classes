@@ -1,4 +1,4 @@
-# UE5 CPP Functions, Templates & Classes
+# UE5 CPP Functions | Templates | Classes
 
 
 <!-- OVERVIEW -->
