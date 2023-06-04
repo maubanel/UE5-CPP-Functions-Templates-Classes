@@ -67,10 +67,10 @@ Now press <kbd>Local Windows Debugger</kbd> button and the function runs as it d
 
 In C++ programming, header files are used to declare functions, that are used in a program. Header files are included in a program using the `#include` **preprocessor** directive. In C++, header files may or may not end with the .h extension, but it is customary to do so.
 
-User-defined header files are created by the user and can also be imported using the #include directive. To create one right click on the **Header** file folder
+User-defined header files are created by the user and can also be imported using the #include directive. To create one right click on the **Header Files** folder and select **New Item...** and call it `Functions.h` the same name as the `.cpp` file.  Press the <kbd>Add</kbd> button.
 
 
-![alt_text](images/cppHeaderFile.png)
+![add Functions.h to header folder](images/cppHeaderFile.png)
 
 ![](../images/line2.png)
 
