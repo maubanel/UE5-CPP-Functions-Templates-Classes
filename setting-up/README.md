@@ -14,7 +14,7 @@ Lets set up a new project in Visual Studio 22.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Open up **Visual Studio 22** and press the **Create new Project** button.
+Open up **Visual Studio 22** and press the **Create new project** button.
 
 ![create new vs22 project](images/newProject.png)
 
@@ -22,7 +22,7 @@ Open up **Visual Studio 22** and press the **Create new Project** button.
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/emptycppproj.png)
 
 ![](../images/line2.png)
 
