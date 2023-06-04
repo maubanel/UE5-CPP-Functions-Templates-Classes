@@ -23,7 +23,7 @@ A user defined function has:
 
 A function starts with a **return value** type.  If the function returns nothing the type is `void`. In C++, `void` is a keyword that is used to indicate the absence of a type. It is used in several different contexts. It is important to note that void is not a type qualifier on any value. Despite the name, this is semantically similar to an implicit unit type, not a zero or bottom type (which is sometimes confusingly called the "void type").
 
-Lets now create a function. Now we have used functions before `main()` but visual studio runs **main()** by default.  We can also define a new function before `main()`.  In this case we defined a new function that returns no value (it is void).  Next run the game to see what happens.
+Lets now create a function. Now we have used functions before `main()` but visual studio runs **main()** by default.  We can also define a new function before `main()`.  In this case we defined a new function that returns no value (it is void).  Next run the game to see what happens. Then we have `void Sorry()` a function that returns no value and prints `Sorry!` to console.
 
 ![alt_text](images/basicFunction.png)
 
