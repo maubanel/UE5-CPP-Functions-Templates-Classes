@@ -2,9 +2,9 @@
 
 
 <!-- OVERVIEW -->
-This walk through follows up on [UE5-CPP-Overview](https://github.com/maubanel/UE5-CPP-Overview) where we cover the equivalent nodes for the **C++** syntax learned for **Blueprints** in **Unreal**.
+This walk through follows up on [UE5-Blueprint-Overview](https://github.com/maubanel/UE5-BP-Overview/tree/main). Now we will look at Functions, Templates and Classes in vanilla C++, in Blueprints Native, and in C++ Unreal Classes.
 
-This is a very quick overview of the foundation of the visual Blueprint scripting language in Unreal Engine 5. It will cover basic data types, type safety, order of operations, if statements, switch statements, while loops, for loops and scope.
+The implementations are different and have different pros and cons.  This will explore these three concepts in all three contexts.
 
 * Tested on Unreal Engine 5.2
 
