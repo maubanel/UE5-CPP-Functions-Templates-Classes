@@ -47,7 +47,7 @@ Now what happens when we move the **Sorry** function after the **Main** function
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**. In C++ you can have the definition of the **C++** file anywhere but you need to **declare** it to the compiler before it is called.
+Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**. In C++ you can have the definition of the **C++** file anywhere but you need to **declare** it to the compiler before it is called. In C++, a function declaration tells the compiler about a function's name, return type, and parameters, while a function definition provides the actual body of the function.
 
 ![compiled function error](images/identifierNotFound.png)
 
@@ -55,7 +55,11 @@ Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+So all we need to do to fix the problem is have a **Function Declaration** before it is called in `main()`.  In C++, a function declaration tells the compiler about a function's name, return type, and parameters, while a function definition provides the actual body of the function.
+
+Now press <kbd>Local Windows Debugger</kbd> button and the function runs as it did before and compiles fine.
+
+![run project with function declaration](images/functionDeclaration.png)
 
 ![](../images/line2.png)
 
