@@ -6,15 +6,24 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+In C++, a function is a block of code that performs a specific task. It is a reusable piece of code that can be called from anywhere in the program. Every C++ program has at least one function, which is the `main()` function. A function can be predefined or user-defined
 
+A predefined function is a function that is already defined in the C++ standard library, such as `std::cout`. A user-defined function is a function that is created by the programmer to perform a specific task. It is defined by specifying the function name, return type, and parameters (if any) in the function declaration, followed by the function body in the function definition.
+
+Lets create a user defined function.
 <br>
 
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+A user defined function has:
+
+```ReturnValueType NameOfFunction(Parameter to pass, Paremeter2 to pass....)```
+
+A function starts with a **return value** type.  If the function returns nothing the type is `void`. In C++, `void` is a keyword that is used to indicate the absence of a type. It is used in several different contexts. It is important to note that void is not a type qualifier on any value. Despite the name, this is semantically similar to an implicit unit type, not a zero or bottom type (which is sometimes confusingly called the "void type").
+
+![alt_text](images/basicFunction.png)
 
 ![](../images/line2.png)
 
