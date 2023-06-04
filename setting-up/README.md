@@ -30,13 +30,17 @@ Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Nex
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/configureProject.png)
+Enter `CPP_FTC` (short for Functions, Templates and Classes) into the **Project name** box.  Select a folder to save the solution to.  Press the <kbd>Create</kbd> button.
+
+![name project CPP_FTC then press create](images/configureProject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addNewCPPFile.png)
+Now we need a `.cpp` file to hold our **main()** function that runs with the program.  Right click on **Source Files** and select **Add New Item...**, then call the new file `Functions.cpp`.  Press the <kbd>Add</kbd> button.  Now we are ready to start programming.
+
+![add Functions.cpp file](images/addNewCPPFile.png)
 
 ![](../images/line.png)
 
