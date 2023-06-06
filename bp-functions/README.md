@@ -2,17 +2,19 @@
 
 ### Blueprint Functions
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Blueprint functions are a bit different in C++.  They allow for multiple return values and don't require a declaration.  It is defined and declared all in place.  Lets rebuild what we did in Vanilla C++ in Unreal.
 
 <br>
 
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+
+
 
 ![alt_text](images/.png)
 
@@ -144,5 +146,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
 |---|---|---|
