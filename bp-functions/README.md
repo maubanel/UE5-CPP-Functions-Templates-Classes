@@ -14,13 +14,11 @@ Blueprint functions are a bit different in C++.  They allow for multiple return 
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Start a new UE5 5.2.X project.  Select the **Game** template tab and select **Blank**.  Make sure it is type **C++** as we will need to use C++ classes as well.  Select a **Target Platform** of `Desktop`, **Quality Preset** of `Maximum`, and no **Starter Content** and **Raytracing** is not necessary.
+Start a new UE5 5.2.X project.  Select the **Game** template tab and select **Blank**.  Make sure it is type **C++** as we will need to use C++ classes as well.  Select a **Target Platform** of `Desktop`, **Quality Preset** of `Maximum`, and no **Starter Content** and **Raytracing** is not necessary. Pick a **Directory** and select a **Project Name**, I used `UE5_CPP_FTC`.
 
 If you have not already done so, you will need to set up visual studio and make sure you have all the components you need to compile the game.  Clear instructions are given on Unreal's [Setting up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
 
-
-
-![alt_text](images/UE5CPPFTCProject.png)
+![start a new C++ empty project called UE5_CPP_FTC](images/UE5CPPFTCProject.png)
 
 ![](../images/line2.png)
 
