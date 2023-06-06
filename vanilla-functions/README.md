@@ -108,7 +108,18 @@ Now when you run the program it is the same as before but with added padding at 
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Lets add another function that will return an integer.  
+
+```
+//ReturnValueType NameOfFunction(Parameter to pass, Paremeter2 to pass....)
+
+
+```
+
+
+So the 
+
+![alt_text](images/addDoDamage.png)
 
 ![](../images/line2.png)
 
