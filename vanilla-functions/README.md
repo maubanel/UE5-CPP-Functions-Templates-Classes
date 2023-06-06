@@ -2,7 +2,7 @@
 
 ### Vanilla CPP Functions
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../bp-functions/README.md#user-content-blueprint-functions)</sub>
 
 ![](../images/line3.png)
 
@@ -146,5 +146,5 @@ Next up lets try and build the same thing using a **Blueprint** function in Unre
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../setting-up/README.md#user-content-setting-up-unreal)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../bp-functions/README.md#user-content-blueprint-functions)|
 |---|---|---|
