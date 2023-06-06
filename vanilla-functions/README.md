@@ -124,9 +124,9 @@ So add this function decalration in **Functions.h**.
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-In C++, the return statement is used to return a value from a function. The value returned by the function can be of any data type, including built-in types and user-defined types.
+In C++, the return statement is used to return a value from a function. The value returned by the function can be of any data type, including built-in types and user-defined types. The return value must return the type specified by the function.  So in this case we are return the result of subtracing `Damage` from `Health`.
 
-![alt_text](images/returnInt.png)
+![return Damage - Health](images/returnInt.png)
 
 ![](../images/line2.png)
 
