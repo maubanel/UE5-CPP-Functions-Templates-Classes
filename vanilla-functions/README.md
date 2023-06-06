@@ -100,7 +100,9 @@ We do not use the `<>` naming as this is not a standard include.  We use the `""
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dotHdotCPP.png)
+Now when you run the program it is the same as before but with added padding at the bottom and the proper separtion of the declaration and definitions into their separate files.
+
+![h and cpp files working when run](images/dotHdotCPP.png)
 
 ![](../images/line2.png)
 
