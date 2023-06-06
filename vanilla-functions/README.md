@@ -80,13 +80,15 @@ Open up **Functions.h" which includes `#pragma once`.  This is a preprocessor di
 
 Now move the function definition from the `Functions.cpp` to `Functions.h`.
 
-![alt_text](images/moveSorryToDotH.png)
+![move the Sorry function definion to the .h file](images/moveSorryToDotH.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now at the top of **Functions.cpp** we need to include the header.  So this will basically read this before processing the code on the page so the compiler will know that this files will define `Sorry()` regardless of the order.
+
+![add an inlcude in the cpp file](images/includeNewHeader.png)
 
 ![](../images/line2.png)
 
