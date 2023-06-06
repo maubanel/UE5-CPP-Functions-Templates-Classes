@@ -16,7 +16,7 @@ Blueprint functions are a bit different in C++.  They allow for multiple return 
 
 
 
-![alt_text](images/.png)
+![alt_text](images/UE5CPPFTCProject.png)
 
 ![](../images/line2.png)
 
