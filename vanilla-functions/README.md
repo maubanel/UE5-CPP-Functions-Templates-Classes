@@ -86,7 +86,13 @@ Now move the function definition from the `Functions.cpp` to `Functions.h`.
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now at the top of **Functions.cpp** we need to include the header.  So this will basically read this before processing the code on the page so the compiler will know that this files will define `Sorry()` regardless of the order.
+Now at the top of **Functions.cpp** we need to include the header.  So this will basically read this before processing the code on the page so the compiler will know that this files will define `Sorry()` regardless of the order. 
+
+```
+#include "Functions.h"
+```
+
+We do not use the `<>` naming as this is not a standard include.  We use the `""` and it will look in the project directory for that file.
 
 ![add an inlcude in the cpp file](images/includeNewHeader.png)
 
@@ -94,7 +100,7 @@ Now at the top of **Functions.cpp** we need to include the header.  So this will
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/dotHdotCPP.png)
 
 ![](../images/line2.png)
 
