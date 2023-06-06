@@ -124,7 +124,7 @@ So add this function decalration in **Functions.h**.
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-In C++, the return statement is used to return a value from a function. The value returned by the function can be of any data type, including built-in types and user-defined types. The return value must return the type specified by the function.  So in this case we are return the result of subtracing `Damage` from `Health`.
+In C++, the return statement is used to return a value from a function. The value returned by the function can be of any data type, including built-in types and user-defined types. The return value must return the type specified by the function.  So in this case we are return the result of subtracing `Damage` from `Health`. So this is in our function definition.  We also in **main()** need to add an integer representing our `Health` percentage that starts at `100`.  Then we take the return from `DoDamage()`and put it in the health variable.  The damage parameter is passed at `10` so it should return `90` to health when called.
 
 ![return Damage - Health](images/returnInt.png)
 
@@ -132,7 +132,9 @@ In C++, the return statement is used to return a value from a function. The valu
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now press the <kbd>Local Windows Debugger</kbd> button to run the program, and will 
+
+![alt_text](images/runtheSimulation.png)
 
 ![](../images/line2.png)
 
