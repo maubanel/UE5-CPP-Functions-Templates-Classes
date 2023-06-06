@@ -112,20 +112,21 @@ Lets add another function that will return an integer.
 
 ```
 //ReturnValueType NameOfFunction(Parameter to pass, Paremeter2 to pass....)
-
-
+int DoDamage(int Damage, int Health);
 ```
+So we always start with the return value type.  In C++ we can pass many parameters but it can only return one type of data, and in the above example that is an `int`.  Then the name of the function is `DoDamage` and it requires the caller to include two integer parameters, one representing the amount of damage and the other representing the player's health.
 
+So add this function decalration in **Functions.h**.
 
-So the 
-
-![alt_text](images/addDoDamage.png)
+![add int DoDamage(int Damage, int Health) declaration](images/addDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+In C++, the return statement is used to return a value from a function. The value returned by the function can be of any data type, including built-in types and user-defined types.
+
+![alt_text](images/returnInt.png)
 
 ![](../images/line2.png)
 
