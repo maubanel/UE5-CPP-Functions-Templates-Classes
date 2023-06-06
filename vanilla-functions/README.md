@@ -76,7 +76,11 @@ User-defined header files are created by the user and can also be imported using
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **Functions.h" which includes `#pragma once`.  This is a preprocessor directive that is used to ensure that a header file is included only once in a single compilation. It is a non-standard but widely supported directive that serves the same purpose as include guards, but with several advantages, including less code, avoidance of name clashes, and sometimes improvement in compilation speed.  This means that you can include the same file in multiple portions of the game but it will only include a single copy of this code regardless of how many times the header is called.
+
+Now move the function definition from the `Functions.cpp` to `Functions.h`.
+
+![alt_text](images/moveSorryToDotH.png)
 
 ![](../images/line2.png)
 
