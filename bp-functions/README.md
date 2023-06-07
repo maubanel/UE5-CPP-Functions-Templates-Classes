@@ -90,7 +90,7 @@ If you have not already done so, you will need to set up visual studio and make 
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/defaultPlayerStart.png)
 
 ![](../images/line2.png)
 
