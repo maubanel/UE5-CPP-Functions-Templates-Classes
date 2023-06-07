@@ -42,49 +42,49 @@ If you have not already done so, you will need to set up visual studio and make 
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/doDamageParamsReturn.png)
+![alt_text](images/healthTextComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/defineFunction.png)
+![alt_text](images/doDamageParamsReturn.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/delayDoDamage.png)
+![alt_text](images/defineFunction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/playerHealthVar.png)
+![alt_text](images/delayDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/doDamageToText.png)
+![alt_text](images/playerHealthVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/doDamageToText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/setText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/dragBPHealthCounterIntoLevel.png)
 
 ![](../images/line2.png)
 
