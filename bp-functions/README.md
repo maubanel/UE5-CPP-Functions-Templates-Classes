@@ -102,7 +102,7 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/3
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/checkHealthAboveZero.png)
 
 ![](../images/line2.png)
 
