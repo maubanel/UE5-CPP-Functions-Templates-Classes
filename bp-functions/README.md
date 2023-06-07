@@ -2,7 +2,7 @@
 
 ### Blueprint Functions
 
-<sub>[previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../unreal-cpp-functions/README.md#user-content-unreal-capp-functions)</sub>
 
 ![](../images/line3.png)
 
@@ -116,37 +116,13 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/3
 
 ![alt_text](images/addDeathMessage.png)
 
-![](../images/line2.png)
-
-##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Unreal CPP Functions"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../vanilla-functions/README.md#user-content-vanilla-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../unreal-cpp-functions/README.md#user-content-unreal-capp-functions)|
 |---|---|---|
