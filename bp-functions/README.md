@@ -96,7 +96,7 @@ If you have not already done so, you will need to set up visual studio and make 
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/3ca43e93-6c6f-4e2f-8079-aae3b8e8ec3a
 
 ![](../images/line2.png)
 
