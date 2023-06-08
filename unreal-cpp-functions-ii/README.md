@@ -2,7 +2,7 @@
 
 ### Unreal CPP Functions II
 
-<sub>[previous](../unreal-cpp-functions/README.md#user-content-unreal-capp-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../unreal-cpp-functions/README.md#user-content-unreal-app-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../unreal-cpp-functions/README.md#user-content-unreal-capp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../unreal-cpp-functions/README.md#user-content-unreal-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
 |---|---|---|
