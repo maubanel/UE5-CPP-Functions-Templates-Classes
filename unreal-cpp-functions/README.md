@@ -128,13 +128,13 @@ Chapter introduction here.
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/GetTimerManagerWeb.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/getTimerManager.png)
 
 ![](../images/line.png)
 
