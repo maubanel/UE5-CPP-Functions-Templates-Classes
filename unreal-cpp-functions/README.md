@@ -116,7 +116,7 @@ Chapter introduction here.
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/compileRestart.png)
 
 ![](../images/line2.png)
 
