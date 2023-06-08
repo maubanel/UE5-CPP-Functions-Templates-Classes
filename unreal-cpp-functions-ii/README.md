@@ -20,7 +20,7 @@ Chapter introduction here.
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/11b18195-a838-4b85-a7c8-b49a8fa5e0fb
 
 ![](../images/line2.png)
 
