@@ -26,13 +26,13 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/1
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/ifHealth.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/playDeadText.png)
 
 ![](../images/line2.png)
 
