@@ -80,13 +80,13 @@ Chapter introduction here.
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/yellowInGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/doDamageFuncDef.png)
 
 ![](../images/line2.png)
 
