@@ -92,19 +92,19 @@ Chapter introduction here.
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/defineDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/compileDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/Do10DamageInGame.png)
 
 ![](../images/line2.png)
 
