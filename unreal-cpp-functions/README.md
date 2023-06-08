@@ -38,13 +38,13 @@ Chapter introduction here.
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/healthComponentInConstructor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/compile.png)
 
 ![](../images/line2.png)
 
