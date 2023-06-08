@@ -62,19 +62,19 @@ Chapter introduction here.
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addHealth.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/healthIntCastInGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/runGameFromDebugger.png)
 
 ![](../images/line2.png)
 
