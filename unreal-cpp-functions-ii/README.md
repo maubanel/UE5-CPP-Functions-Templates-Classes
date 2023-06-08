@@ -14,7 +14,7 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/playerIsDeadText.png)
 
 ![](../images/line2.png)
 
