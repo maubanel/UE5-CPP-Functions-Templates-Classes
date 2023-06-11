@@ -62,13 +62,19 @@ Now in Unreal we want to guarantee that an integer is 32 bit regardless of the p
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/healthComponentInConstructor.png)
+Now we will not see this in game yet as we have only intialized the **HealthText** and have not assigned it.  Go to the **CPP_HealthCounter.cpp** and we will add a component using the **CreateDefaultSubobject** method.  We ware creating a new **UTextRenderComponent** and add it to a category of **HealthText**. We do this inside the C++ Constructor (which we will get into more details later on).
+
+A constructor in C++ is a special method that is automatically called when an object of a class is created. It is used to initialize the data members of new objects generally. The constructor has the same name as the class and is always public. It does not have any return value or void.
+
+![assign HealthText](images/healthComponentInConstructor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/compile.png)
+Now press save in **Visual Studio** and go to the game and press the **C++ Compile** button (different than the blueprint compile).  Now we want to see a **Successful** message in the **Live Coding** window saying it succsfully compiled.
+
+![compile C++ code](images/compile.png)
 
 ![](../images/line2.png)
 
@@ -79,6 +85,8 @@ Now in Unreal we want to guarantee that an integer is 32 bit regardless of the p
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Since we will be restarting a lot 
 
 ![alt_text](images/healthCounterComponentCPP.png)
 
