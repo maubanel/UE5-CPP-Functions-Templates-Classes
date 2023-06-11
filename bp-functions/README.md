@@ -82,7 +82,7 @@ Now pull off of the **Health** output pin and select an **- (Subtraction)** node
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets go back to the **Event Graph** and right click on the empty graph next to the **Event Tick** and add a **Delay** node. hange the duration to `2.0` and pull off the **Completed** execution pin and select the **DoDamage** function you just wrote.
+Lets go back to the **Event Graph** and right click on the empty graph next to the **Event Tick** and add a **Delay** node. Change the duration to `2.0` and pull off the **Completed** execution pin and select the **DoDamage** function you just wrote.
 
 ![alt_text](images/delayDoDamage.png)
 
