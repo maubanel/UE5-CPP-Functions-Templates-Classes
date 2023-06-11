@@ -2,7 +2,7 @@
 
 ### Unreal CPP Functions II
 
-<sub>[previous](../unreal-cpp-functions/README.md#user-content-unreal-app-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../unreal-cpp-functions/README.md#user-content-unreal-app-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../macros/README.md#user-content-macros--blueprints)</sub>
 
 ![](../images/line3.png)
 
@@ -44,5 +44,5 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/1
 
 ![](../images/line.png)
 
-| [previous](../unreal-cpp-functions/README.md#user-content-unreal-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../unreal-cpp-functions/README.md#user-content-unreal-cpp-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../macros/README.md#user-content-macros--blueprints)|
 |---|---|---|
