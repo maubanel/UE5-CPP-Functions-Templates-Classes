@@ -92,11 +92,15 @@ Now in the **C++** section of the **Content** folder add the **CPP_HealthCounter
 
 If you do not see the C++ classes press ADDDD TTHIIIIIIIS ZZZZZZZZZZZZZZZZZZ.
 
+Notice that the actor has a TextRender component called **HealthText**. 
+
 ![add CPP_HealthCounter to level](images/healthCounterComponentCPP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets now set our **Health** variable to a value, that is usable and in this case we will set it to `100`.<br><br>In a blueprint we set the text based on the instancer of the component.  In CPP we access the method from the pointer to this component (we access the method with `->`).  We call the method `SetText` then cast the **Integer** to a **String** to a **Text** format.
 
 ![alt_text](images/addHealth.png)
 
