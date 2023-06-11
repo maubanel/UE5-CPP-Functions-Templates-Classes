@@ -80,15 +80,19 @@ Now press save in **Visual Studio** and go to the game and press the **C++ Compi
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/defaultLevels.png)
+Now we will be rebooting the game a lot so lets go to **File | Project Settings** and select the **Maps and Modes** tab. Change both the **Editor Startup Map** and the **Game Default Map** to `Functions`.
+
+![change default maps](images/defaultLevels.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Since we will be restarting a lot 
+Now in the **C++** section of the **Content** folder add the **CPP_HealthCounter** C++ class to the level.  And orient it to the camera and position it under the blueprint function example.
 
-![alt_text](images/healthCounterComponentCPP.png)
+If you do not see the C++ classes press ADDDD TTHIIIIIIIS ZZZZZZZZZZZZZZZZZZ.
+
+![add CPP_HealthCounter to level](images/healthCounterComponentCPP.png)
 
 ![](../images/line2.png)
 
