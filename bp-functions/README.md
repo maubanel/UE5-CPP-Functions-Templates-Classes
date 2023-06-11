@@ -140,21 +140,25 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/3
 
 It is never good to leave an edge case even in a silly example like this.  Lets stop the score from getting negative and display a message instead.  This is NOT the most efficient solution as it still subtracts on the delay when it is no longer necessary. Since this is an incomplete problem, we will just leave it as is.
 
-Before setting the text component we need to verify that the score is still above 0.  If it is not, set the text to display a death message.  Create a new **Text** variable called `DeadText` and set this default value to `You Are Dead!`.  Add it to your graph and check to see if it agove 0 and branch if it is, do what you did previously if not then set the text to this new **DeadText** variable. Your node chart should look something like this:
+Before setting the text component we need to verify that the score is still above 0.  If it is not, set the text to display a death message. Add a **Get PlayerHealth** node and connect it to a **>** node.  Send this output to a new **Branch** node. Hightjack the execution pin between **Set PlayerHealth** and **SetText** with it connecting through the **True** pin.
 
-![alt_text](images/checkHealthAboveZero.png)
+![check if PlayerHealth is greater than zero](images/checkHealthAboveZero.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+ 
+ Get a new reference to the **Health** component and add another **Set Text** node an connect this to the **False** pin of the **Branch** node.
 
-![alt_text](images/falseBranchPath.png)
+![add new Set Text node to the false pin from branch](images/falseBranchPath.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addDeathMessage.png)
+ There is another way of creating a variable.  Right click on **Set Text | Value** and select **Promote to Variable**. Call this text variable `DeathMessage` and set its default value to `Player is Dead!`. Make it `Private`. Add a **Get DeathMessage**.
+
+![promote Set Text Value to DeathMessage variable](images/addDeathMessage.png)
 
 ![](../images/line2.png)
 
