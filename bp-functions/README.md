@@ -74,7 +74,7 @@ Let's create the same function we just did in C++ in a blueprint.  Press the **+
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now pull off of the **Health** output pin and select an **- (Subtraction)** node.  Connect the pins making sure that you are deducting **Damage** from **Score** then sending the outut to the **Return Node | NewScore** input pin.
+Now pull off of the **Health** output pin and select an **- (Subtraction)** node.  Connect the pins making sure that you are deducting **Damage** from **Score** then sending the outut to the **Return Node | NewHealth** input pin.
 
 ![add subtraction node](images/defineFunction.png)
 
