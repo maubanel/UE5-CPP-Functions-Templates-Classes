@@ -30,7 +30,7 @@ Now most everything in a blueprint we can do as a C++ class.  So google **Text R
 
 In unreal the lowest base class is a **UObject**.  The **AActor** class inherits from **UObject**. This class gets garbage collected and replicated over the network.
 
-Now in Unreal's documentation they will always add an **Include** location so we know that the **UTextRenderComponent** can be accessed by including `Components/TextRenderComponent.h`.
+Now in Unreal's  [manual](http://api.unrealengine.com/INT/API/Runtime/Engine/Components/UTextRenderComponent/) they will always add an **Include** location so we know that the **UTextRenderComponent** can be accessed by including `Components/TextRenderComponent.h`.
 
 ![look at text render component in documentation](images/uTextRenderComponent.png)
 
