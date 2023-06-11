@@ -98,7 +98,7 @@ Create a new **Variable** and call it `PlayerHealth` and make it type **Integer*
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-Drag a **Get Health** reference to the graph and connect it to the **Health** input pin in the **DoDamage** function.  Add a **Random Integer in Rage** node and set the **Min** to `1` and the **Max** to `5`. Send the **Return Value** to the **Damage** parameter in **Do Damage**. Add a **Set PlayerHealth** reference node and connect its execution pin to **DoDamage** node and pipe the **NewHealth** return value to it's input **Health** pin.
+Drag a **Get Health** reference to the graph and connect it to the **Health** input pin in the **DoDamage** function.  Add a **Random Integer in Rage** node and set the **Min** to `1` and the **Max** to `5`. Send the **Return Value** to the **Damage** parameter in **Do Damage**. Add a **Set PlayerHealth** reference node and connect its execution pin to **DoDamage** node and pipe the **NewHealth** return value to it's input **Health** pin. 
 
 ![do random damage to health and set new value to PlayerHealth](images/doDamageToText.png)
 
@@ -106,9 +106,9 @@ Drag a **Get Health** reference to the graph and connect it to the **Health** in
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag a copy of the **Health Text** component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Your node chart should now look like this:
+Drag a copy of the **Health** text component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Connect th eoutput of **Set Text** node to the **Set Text | Value** node. 
 
-![alt_text](images/setText.png)
+![set text with PlayerHealth value](images/setText.png)
 
 ![](../images/line2.png)
 
