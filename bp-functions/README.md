@@ -166,7 +166,7 @@ Before setting the text component we need to verify that the score is still abov
 
 Now play the game and when the health goes below **0** you get the message instead of a negative number!
 
-![negative number](images/playerIsDead2.png)
+![no negative number](images/playerIsDead2.png)
 
 ![](../images/line.png)
 
