@@ -114,7 +114,9 @@ Drag a copy of the **Health** text component to the graph and pull off of its pi
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/dragBPHealthCounterIntoLevel.png)
+Go to the game and add the **BP_ScoreCounter** to the scene in front of the player. 
+
+![add BP_ScoreCounter to level](images/dragBPHealthCounterIntoLevel.png)
 
 ![](../images/line2.png)
 
