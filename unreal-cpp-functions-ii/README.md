@@ -38,7 +38,7 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/1
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Macros & Blueprints"> -->
 
 ![next up - ](images/banner.png)
 
