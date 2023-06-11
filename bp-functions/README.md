@@ -164,9 +164,9 @@ Before setting the text component we need to verify that the score is still abov
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/playerIsDead2.png)
+Now play the game and when the health goes below **0** you get the message instead of a negative number!
 
-
+![negative number](images/playerIsDead2.png)
 
 ![](../images/line.png)
 
