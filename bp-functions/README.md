@@ -40,31 +40,41 @@ Again, we do not need a streaming large level so press **File | New Level** and 
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a new folder to **Content** called `Maps`.  
+Add a new folder to **Content** called `Maps`.  Call the level `Functions`.
 
-![add folder maps](images/saveLevel.png)
+![add folder Maps and save Functions level](images/saveLevel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/bp_healthCounter.png)
+Add another folder called `Blueprints`.  Right click in that empty folder and add a **Blueprint Class** of type **Actor**.  Call the blueprint `BP_HealthCounter`.
+
+![add BP_HealthCounter actor blueprint to Blueprints folder](images/bp_healthCounter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/healthTextComponent.png)
+Add a **Text Render** component to the blueprint and call it `Health`. Set **Text** to `100` representing 100% health.  Change the **Horizontal Alignment** to `Center` and **Vertical Alignment** to `TextCenter`.  Change the **TextRenderColor** to the one you have been using and the **World Size** to `72` so it is nice, big and readable.
+
+![add Health text render component and format text](images/healthTextComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/doDamageParamsReturn.png)
+Let's create the same function we just did in C++ in a blueprint.  Press the **+ Function** button to create a new function and name this new function `DoDamage`.
+
+ Add an output of type **Integer** with the name of `NewHealth`.  Add two inputs called `Damage` and `Health` each of type **Integer**.  Notice that a **Return** node is added when you added an **Output** to the function.
+
+![add DoDamage Function](images/doDamageParamsReturn.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now pull off of the **Health** output pin and select an **Integer - Integer** node.  Notice that it has a green **f** next to it which indicates that this is a function as well.  It is a built in function that comes with the engine.
 
 ![alt_text](images/defineFunction.png)
 
