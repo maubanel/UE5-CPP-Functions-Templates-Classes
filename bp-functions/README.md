@@ -32,7 +32,7 @@ If you have not already done so, you will need to set up visual studio and make 
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Again, we do not need a streaming large level so press **File | New Level** and select a **Basic** level.
+Again, we do not need a streaming large level so press **File | New Level** and select a **Basic** level. Press the <kbd>Create</kbd> button.
 
 ![add basic level to game](images/NewLevel.png)
 
@@ -40,7 +40,9 @@ Again, we do not need a streaming large level so press **File | New Level** and 
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/saveLevel.png)
+Add a new folder to **Content** called `Maps`.  
+
+![add folder maps](images/saveLevel.png)
 
 ![](../images/line2.png)
 
