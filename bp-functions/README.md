@@ -106,6 +106,8 @@ Drag a **Get Health** reference to the graph and connect it to the **Health** in
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
+Drag a copy of the **Health Text** component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Your node chart should now look like this:
+
 ![alt_text](images/setText.png)
 
 ![](../images/line2.png)
