@@ -90,7 +90,7 @@ Lets go back to the **Event Graph** and right click on the empty graph next to t
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new **Variable** and call it `PlayerHealth` and make it type **Integer**.  Now since no other class needs to alter or read this function - set **Private** to true. This means no other blueprint (even one that inherits from this one) will be able to read or write to **PlayerHealth**. Press the **Compile** button and change the **Default Value** to `100`.
+Create a new **Variable** and call it `PlayerHealth` and make it type **Integer**.  Now since no other class needs to alter or read this function - set **Private** to `true`. This means no other blueprint (even one that inherits from this one) will be able to read or write to **PlayerHealth**. Press the **Compile** button and change the **Default Value** to `100`.
 
 ![add PlayerHealth var](images/playerHealthVar.png)
 
