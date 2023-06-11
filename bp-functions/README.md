@@ -122,6 +122,8 @@ Go to the game and add the **BP_ScoreCounter** to the scene in front of the play
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+But where does the player start?  Go to the **Add Actor** button and select a **Player Start** actor and add it to your level. Make sure the white arrow is pointing at the blueprint you just added.  Press the three dots next to the <kbd>Play</kbd> button and select **Default Player Start**.
+
 ![alt_text](images/defaultPlayerStart.png)
 
 ![](../images/line2.png)
