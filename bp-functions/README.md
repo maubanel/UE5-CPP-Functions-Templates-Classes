@@ -98,6 +98,8 @@ Create a new **Variable** and call it `PlayerHealth` and make it type **Integer*
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
+Drag a **Get Health** reference to the graph and connect it to the **Health** input pin in the **DoDamage** function.  Add a **Random Integer in Rage** node and set the **Min** to `1` and the **Max** to `5`. Send the **Return Value** to the **Damage** parameter in **Do Damage**.
+
 ![alt_text](images/doDamageToText.png)
 
 ![](../images/line2.png)
