@@ -124,17 +124,23 @@ Go to the game and add the **BP_ScoreCounter** to the scene in front of the play
 
 But where does the player start?  Go to the **Add Actor** button and select a **Player Start** actor and add it to your level. Make sure the white arrow is pointing at the blueprint you just added.  Press the three dots next to the <kbd>Play</kbd> button and select **Default Player Start**.
 
-![alt_text](images/defaultPlayerStart.png)
+![add player start](images/defaultPlayerStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Press the **Compile** button and run the game. Notice that if you keep running the game it will go below zero.  Lets fix that,
 
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/3ca43e93-6c6f-4e2f-8079-aae3b8e8ec3a
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
+
+It is never good to leave an edge case even in a silly example like this.  Lets stop the score from getting negative and display a message instead.  This is NOT the most efficient solution as it still subtracts on the delay when it is no longer necessary. Since this is an incomplete problem, we will just leave it as is.
+
+Before setting the text component we need to verify that the score is still above 0.  If it is not, set the text to display a death message.  Create a new **Text** variable called `DeadText` and set this default value to `You Are Dead!`.  Add it to your graph and check to see if it agove 0 and branch if it is, do what you did previously if not then set the text to this new **DeadText** variable. Your node chart should look something like this:
 
 ![alt_text](images/checkHealthAboveZero.png)
 
