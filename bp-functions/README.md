@@ -84,13 +84,15 @@ Now pull off of the **Health** output pin and select an **- (Subtraction)** node
 
 Lets go back to the **Event Graph** and right click on the empty graph next to the **Event Tick** and add a **Delay** node. Change the duration to `2.0` and pull off the **Completed** execution pin and select the **DoDamage** function you just wrote.
 
-![alt_text](images/delayDoDamage.png)
+![add Delay Node call DoDamage](images/delayDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/playerHealthVar.png)
+Create a new **Variable** and call it `PlayerHealth` and make it type **Integer**.  Now since no other class needs to alter or read this function - set **Private** to true. This means no other blueprint (even one that inherits from this one) will be able to read or write to **PlayerHealth**. Press the **Compile** button and change the **Default Value** to `100`.
+
+![add PlayerHealth var](images/playerHealthVar.png)
 
 ![](../images/line2.png)
 
