@@ -16,15 +16,23 @@ We will not be able to make a complete mirror as there is not a **Delay** functi
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-We are going to add our first C++ class inside of Unreal.  Press the **Add New** button and select **New C++ Class**.  
+In Unreal Engine, an Actor is any object that can be placed into a level, such as a camera, static mesh, or player start location. Actors support 3D transformations such as translation, rotation, and scaling. They can be created (spawned) and destroyed through gameplay code (C++ or Blueprints). AActor is the base class of all Actors (in game objects) in C++.
 
-![alt_text](images/newCppClass.png)
+We are going to add our first C++ class inside of Unreal.  *Select* the ****Tools | New C++ Class**** menu ite.  Now we select the same class as we do in a Blueprint.  We will not get into classes yet but will cover it later on.  Select **Actor** and press the <kbdNext</kbd> button. Call it `CPP_HealthCounter` and press the <kbd>Create Class</kbd> button.  Now wait a bit for the system to load up Visual Studio and create this new class in the Unreal project.
+
+![add new C++ Actor class](images/newCppClass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/uTextRenderComponent.png)
+Now most everything in a blueprint we can do as a C++ class.  So google **Text Render Component** and you will find a **UTextRenderComponent** which is the equivalent C++ class. 
+
+In unreal the lowest base class is a **UObject**.  The **AActor** class inherits from **UObject**. This class gets garbage collected and replicated over the network.
+
+Now in Unreal's documentation they will always add an **Include** location so we know that the **UTextRenderComponent** can be accessed by including `Components/TextRenderComponent.h`.
+
+![look at text render component in documentation](images/uTextRenderComponent.png)
 
 ![](../images/line2.png)
 
