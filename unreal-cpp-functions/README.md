@@ -100,9 +100,11 @@ Notice that the actor has a TextRender component called **HealthText**.
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets now set our **Health** variable to a value, that is usable and in this case we will set it to `100`.<br><br>In a blueprint we set the text based on the instancer of the component.  In CPP we access the method from the pointer to this component (we access the method with `->`).  We call the method `SetText` then cast the **Integer** to a **String** to a **Text** format.
+Lets now set our **Health** variable to a value, that is usable and in this case we will set it to `100`.
 
-![alt_text](images/addHealth.png)
+In a blueprint when we drag a reference to a component it sets a pointer to that object. In CPP we access the method from the pointer to this component (we access the function or variable with `->`).  We call the method `SetText` then cast an **Integer** to a **String** then to a **Text** format (there is no method from going from **int32** to **FText** in a single call).
+
+![set the text](images/addHealth.png)
 
 ![](../images/line2.png)
 
