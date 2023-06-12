@@ -110,7 +110,9 @@ In a blueprint when we drag a reference to a component it sets a pointer to that
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/healthIntCastInGame.png)
+Now since this change is in the constructor and the actor is already in the level you need to press **File | Save All** then quit and restart Unreal.  Press the <kbd>Play</kbd> button and the text is set to `100`.
+
+![save and reload to see text as 100 in game](images/healthIntCastInGame.png)
 
 ![](../images/line2.png)
 
