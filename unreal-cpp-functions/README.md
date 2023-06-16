@@ -176,14 +176,17 @@ Press the <kbd>Play</kbd> button and you will see the text go down by 10 points 
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now since it is in the constructor save and restart the game. Now in the editor we see that the font is larger and center.
 
-![alt_text](images/compileRestart.png)
+![editor larger font](images/compileRestart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/retestWork.png)
+Press the <kbd>Play</kbd> button and now you see the font is large and centered!
+
+![play in game with larger font](images/retestWork.png)
 
 ![](../images/line2.png)
 
