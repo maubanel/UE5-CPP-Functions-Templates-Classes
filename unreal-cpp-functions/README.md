@@ -144,6 +144,8 @@ Lets define our first method.  Uncomment out `int32 DoDamage(int32 Damage)`.  Th
 
 Now all we have to do is add the definition of the function.  In this case it is simple we deduct **Damange** from **Health**.  Now when we declare a variable in the `.h` file it is persistent with each instance of the class in game.  So the **Health** variable will stay up to date unitl the object is destroyed.  But a variable that is declared within the `cpp` file will go away once it leaves scope.  So once we get past line 34 in my example the **Damage** variable will no longer exist and will be returned to the OS.
 
+Call `DoDamage(10);` in the **Begin Play** event function definition.x
+
 ![Health - Damage](images/defineDoDamage.png)
 
 ![](../images/line2.png)
