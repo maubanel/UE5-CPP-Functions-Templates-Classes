@@ -150,7 +150,9 @@ Now all we have to do is add the definition of the function.  In this case it is
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/compileDoDamage.png)
+Press the **Save** in Visual Studio. Now since this is not in the constructor we should be able to go to the game and press the<kbd>C++ Compile</kbd> button and it will pop up the live coding box.  It will have a green succesful or a red failure if it doesn't compile.
+
+![cpp compile in game](images/compileDoDamage.png)
 
 ![](../images/line2.png)
 
