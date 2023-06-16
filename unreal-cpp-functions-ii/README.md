@@ -14,13 +14,17 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/playerIsDeadText.png)
+Press the <kbd>Play</kbd> button and notice that we have the original function back from the blueprint version.  The only issue is that the timer goes below zero to negative number space.  Lets fix it.
+
+https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/11b18195-a838-4b85-a7c8-b49a8fa5e0fb
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/11b18195-a838-4b85-a7c8-b49a8fa5e0fb
+First, in the constructor we assign **DeadText** with teh string `"Player is Dead"`. This is the message we will use when the health goes below zero.
+
+![assign DeadText](images/playerIsDeadText.png)
 
 ![](../images/line2.png)
 

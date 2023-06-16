@@ -192,13 +192,19 @@ Press the <kbd>Play</kbd> button and now you see the font is large and centered!
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/GetTimerManagerWeb.png)
+Now there is no function called **Delay**.  So we will change the algorythm a little bit and use the **UWorld::GetTimerManager** that will allows us to create a function call in the future (like a delay).
+
+![manual for GetTimerManager](images/GetTimerManagerWeb.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/getTimerManager.png)
+So back in teh visual studio we comment out the prior line we used in **BeginPlay** and instead set a timer for 2 seconds out.  `GetWorld()` is a getter for the cached world pointer and will get us access to the actor in the current level (sort of like using a level blueprint). This is needed as a the concept of the timer is within a level and not within the actor blueprint.
+
+So we call the PlayerIsHit function in **Begin Play**.  Then we need to uncomment out **PlayerIsHit()** and call oneself recursively every 2 seconds. This will mean that the player will get damage every 2 seconds, no matter what.
+
+![recursive timer call](images/getTimerManager.png)
 
 ![](../images/line.png)
 
