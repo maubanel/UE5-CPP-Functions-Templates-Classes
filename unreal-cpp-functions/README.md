@@ -118,13 +118,17 @@ Now since this change is in the constructor and the actor is already in the leve
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/runGameFromDebugger.png)
+In the blueprint the color of the font was titled **Text Render Color**.  So in C++ we call the `HealthText->SetTextRenderColor(FColor::Yelllow);` method.  This sets a color to yellow. 
+
+![add SetREnderColor](images/runGameFromDebugger.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/yellowInGame.png)
+Now since this change is in the constructor and the actor is already in the level you need to press **File | Save All** then quit and restart Unreal.  Press the <kbd>Play</kbd> button and the text is now yellow.
+
+![yellow text in game](images/yellowInGame.png)
 
 ![](../images/line2.png)
 
