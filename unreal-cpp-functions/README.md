@@ -134,7 +134,9 @@ Now since this change is in the constructor and the actor is already in the leve
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/doDamageFuncDef.png)
+Lets define our first method.  Uncomment out `int32 DoDamage(int32 Damage)`.  Then press the paint brush icon next to the function and select **Create definition of 'DoDamage' in CPP_HealthCounter.cpp**. This will create a compiling stub in the cpp file to save you the typing.
+
+![comment in int32 DoDamage(int32 Damage)](images/doDamageFuncDef.png)
 
 ![](../images/line2.png)
 
