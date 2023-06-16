@@ -160,15 +160,17 @@ Press the **Save** in Visual Studio. Now since this is not in the constructor we
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/Do10DamageInGame.png)
+Press the <kbd>Play</kbd> button and you will see the text go down by 10 points to `90`.  So our function **DoDamage** is called when we hit play.  The C++ BeginPlay is triggered when the object is instantiated just like it does in Blueprints. Now the font is a bit small and is not centered like our prior font was.
+
+![play game and look at DoDamage get called.](images/Do10DamageInGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
- upla
+ For **World Size** we just need to call the **SetWorldSize(72)** method and pass it `71`.  Then we can call teh same function for **Horizontal Alignment** and **Vertical Alignment**.  Now the enumerators are different and a quick click in the manual and we can see that **Center** is `EHTA_Center` and **Text Center** is `EVRTA_TextCenter`.
 
-![alt_text](images/sizeAlignment.png)
+![make font bigger and center it](images/sizeAlignment.png)
 
 ![](../images/line2.png)
 
