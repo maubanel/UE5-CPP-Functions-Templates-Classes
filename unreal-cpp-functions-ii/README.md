@@ -30,7 +30,9 @@ First, in the constructor we assign **DeadText** with teh string `"Player is Dea
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/ifHealth.png)
+Now open up **HealthCounter.cpp** and in **PlayerIsHit()**, and wrap the recursive function of doing damage then displaying the health string in a conditional statement check if `Health > 0`.  If not then set the text to the  **DeadText**.
+
+![set dead text if health is less than zero](images/ifHealth.png)
 
 ![](../images/line2.png)
 
