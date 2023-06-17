@@ -38,7 +38,9 @@ Now open up **HealthCounter.cpp** and in **PlayerIsHit()**, and wrap the recursi
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/playDeadText.png)
+Press the <kbd>Play</kbd> button and notice that when the **Health** goes below zero we display "Player is Dead".
+
+![play game to see dead text](images/playDeadText.png)
 
 ![](../images/line2.png)
 
