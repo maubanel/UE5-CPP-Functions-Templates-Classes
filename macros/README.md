@@ -202,12 +202,6 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/e
 
 ![alt_text](images/exapansionBug.png)
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - const keyword"> -->
