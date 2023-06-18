@@ -2,7 +2,7 @@
 
 ### Macros & Blueprints
 
-<sub>[previous](../unreal-cpp-functions-ii/README.md#user-content-unreal-cpp-functions-ii) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../unreal-cpp-functions-ii/README.md#user-content-unreal-cpp-functions-ii) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../const/README.md#user-content-const-keyword)</sub>
 
 ![](../images/line3.png)
 
@@ -216,5 +216,5 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/e
 
 ![](../images/line.png)
 
-| [previous](../unreal-cpp-functions-ii/README.md#user-content-unreal-cpp-functions-ii)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../unreal-cpp-functions-ii/README.md#user-content-unreal-cpp-functions-ii)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../const/README.md#user-content-const-keyword)|
 |---|---|---|
