@@ -55,7 +55,7 @@ The first parameter **EditAnywhere** is *Indicates that this property can be edi
 
 The last ia a **Categor** which specifies the category of the property when displayed in Blueprint editing tools. 
 
-Unreal calls function macros [Function Specifiers](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Functions/Specifiers/). In our case we want to be able to call **PlayerIsHit** from the blueprint so we will add:
+Lets create a new function that resets the **Health** variable and calls the MACRO we defined above.  On top of that we nee to add what Unreal calls function macros [Function Specifiers](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Functions/Specifiers/). In our case we want to be able to call **PlayerIsHit** from the blueprint so we will add:
 
 `UFUNCTION(BlueprintCallable, Category="Health")`.
 
@@ -68,6 +68,10 @@ Please note that functions and property specifiers only affect the single functi
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Next to the function definition click on the paint brush button and select **Create definition of `ResetHealth` in HealthCounter.cpp**.
+
+Then you just assign our **RESETHEALTH** macro to the **Health** variable.  Then we set the **Text** component to reflect this change to the **Health** variable.
 
 ![alt_text](images/callResetHealth.png)
 
