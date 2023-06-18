@@ -1,12 +1,16 @@
 ![](../images/line3.png)
 
-### Add Title
+### const Keyword
 
 <sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+In C++, the const keyword is used to specify that a variable's value is constant and cannot be modified. 
+
+It can be used to declare constant variables, constant pointers, and constant member functions.
+
+Declaring a variable as const means that its value cannot be changed once it has been initialized. 
 
 <br>
 
