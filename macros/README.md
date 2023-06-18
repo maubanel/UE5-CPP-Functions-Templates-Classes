@@ -35,13 +35,35 @@ It's worth noting that using macros to define global variables can introduce une
 
 It is a common style in C++ to have all MACROS (and global objects, variables and functions) in all caps.
 
+So in the case below the pre procesor with replace RESETHEALTH with `400`.
+
 ![add HEALTH macro to top of function](images/addMacro.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addUnrealMacroSpecifier.png)
+Unreal uses function-like macros to include both variables (*UPROPERTY()*) macro and functions (*UFUNCTION()*) in blueprints. Without these pre-processor macro directives these class variables and functions will not be accessible inside of lueprints.
+
+Unreal calls this a [Property Specifier](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/Specifiers/).
+
+So we want to expose **Health** to the blueprint so we will include it as a **UPROPERTY()**.
+
+`UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")`
+
+The first parameter **EditAnywhere** is *Indicates that this property can be edited by property windows, on archetypes and instances.*. The second specifier is **BlueprintReadWrte** which allows the variable to be read or written from a Blueprint. This Specifier is incompatible with the BlueprintReadOnly Specifier.
+
+The last ia a **Categor** which specifies the category of the property when displayed in Blueprint editing tools. 
+
+Unreal calls function macros [Function Specifiers](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Functions/Specifiers/). In our case we want to be able to call **PlayerIsHit** from the blueprint so we will add:
+
+`UFUNCTION(BlueprintCallable, Category="Health")`.
+
+The first parameter **BlueprintCallable** does what it says and allows the function can be executed in a Blueprint or Level Blueprint graph.  
+
+Please note that functions and property specifiers only affect the single function or property below it.  Each function and property needs its own specifier.
+
+![add property and function specifiers](images/addUnrealMacroSpecifier.png)
 
 ![](../images/line2.png)
 
