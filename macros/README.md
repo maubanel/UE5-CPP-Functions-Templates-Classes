@@ -162,7 +162,7 @@ Select the **File | Save All** menu item to save all your work.
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/ecfb7ecf-906a-47b3-a053-20cc374920bb
 
 ![](../images/line2.png)
 
