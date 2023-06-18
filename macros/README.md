@@ -154,7 +154,9 @@ Now we can add another **Delay** node set to `2.0` seconds and then call **Playe
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/saveAll.png)
+Select the **File | Save All** menu item to save all your work.
+
+![save all your work](images/saveAll.png)
 
 ![](../images/line2.png)
 
