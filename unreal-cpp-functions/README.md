@@ -90,7 +90,7 @@ Now we will be rebooting the game a lot so lets go to **File | Project Settings*
 
 Now in the **C++** section of the **Content** folder add the **CPP_HealthCounter** C++ class to the level.  And orient it to the camera and position it under the blueprint function example.
 
-If you do not see the C++ classes press ADDDD TTHIIIIIIIS ZZZZZZZZZZZZZZZZZZ.
+If you do not see the C++ classes press **Content Browswer | Settings** and select **Show C++ Classes**. 
 
 Notice that the actor has a TextRender component called **HealthText**. 
 
