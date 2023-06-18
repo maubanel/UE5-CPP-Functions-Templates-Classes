@@ -103,31 +103,44 @@ Now delete the old **CPP_HealthCounter** and replace it with the new **BP_Health
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dragHealth.png)
+Now since we had the function specifier we now see a **Health** variable in the blueprint under **Health**.  If you don't see it, reboot the game as this only updates at run time when linking the code.
+
+Drag a **Get Health** getter to the blueprint graph in the **Event Graph**.
+
+![see Health var and drag to bp](images/dragHealth.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addHealthBranch.png)
+Add a **<** less than node and connect it to **Health** leaving the bottom float to be `0`.  Then connect this to a **Branch** node (acts like an if statement) so we can call our new reset function if it passes.
+
+![add branching to health when it is less than zero](images/addHealthBranch.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/noDoDamage.png)
+Now lets try calling a function that we did not have a function specifier created.  Try calling **DoDamage** in the blueprint but it is not found.
+
+![cannot call DoDamage](images/noDoDamage.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/resetHealthCall.png)
+So instead a a **Delay** node and set it to `2.0` seconds and call **ResetHealth**.  Now this appears as we have a **UFUNCTION** specifier that allows blueprints to call this function.
+
+![add delay and call ResetHealth()](images/resetHealthCall.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/playerIsHitMacro.png)
+Now we will reset the health variable but it will no longer call **PlayerIsHit()**.  We need to call this again in the blueprint.  So go back to the C++ `.h` file and add a function specifier.
+
+![](images/resetHealthCall.png)
+](images/playerIsHitMacro.png)
 
 ![](../images/line2.png)
 
