@@ -146,7 +146,9 @@ Now we will reset the health variable but it will no longer call **PlayerIsHit()
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/callPlayerIsHit.png)
+Now we can add another **Delay** node set to `2.0` seconds and then call **PlayerIsHit**.
+
+![second dleay then PlayerIsHit() is called](images/callPlayerIsHit.png)
 
 ![](../images/line2.png)
 
