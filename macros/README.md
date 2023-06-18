@@ -31,7 +31,11 @@ Object-like macros are defined as simple identifiers that are replaced by a code
 
 They are global in scope and can be accessed anywhere.  So lets open up **HealthCOunter.h** and add a Macro before the class definition.
 
-![alt_text](images/addMacro.png)
+It's worth noting that using macros to define global variables can introduce unexpected behavior, especially since macros have global scope. It's generally recommended to use other methods, such as declaring the variable outside of any function, to define global variables in C++.
+
+It is a common style in C++ to have all MACROS (and global objects, variables and functions) in all caps.
+
+![add HEALTH macro to top of function](images/addMacro.png)
 
 ![](../images/line2.png)
 
