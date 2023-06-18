@@ -79,13 +79,17 @@ Then you just assign our **RESETHEALTH** macro to the **Health** variable.  Then
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/createBPFromCPP.png)
+Now previously we used a C++ class directly in the level.  To access it as a **Blueprint** we can also inherit from the C++ parent class and create a blueprint from it.  Go to **C++ Classes | UE5_CPP_FTC** and right click on **CPP_HealthCounter** and select **Create Blueprint class based on CPP_HealthCounter**.
+
+![create blueprint from C++ class](images/createBPFromCPP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/createBPClass.png)
+Call it `BP_CPPHealthCounter` and seave it in the **Blueprints** folder and press the <kbd>Create Blueprint Class</kbd> button to add a new blueprint to the project.
+
+![name blueprint BP_CPPHealthCounter](images/createBPClass.png)
 
 ![](../images/line2.png)
 
