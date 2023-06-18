@@ -95,7 +95,9 @@ Call it `BP_CPPHealthCounter` and seave it in the **Blueprints** folder and pres
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/replaceCPPBP.png)
+Now delete the old **CPP_HealthCounter** and replace it with the new **BP_HealthCounter** in your **Functions** level.
+
+![replace cpp actor with blueprint actor in game](images/replaceCPPBP.png)
 
 ![](../images/line2.png)
 
