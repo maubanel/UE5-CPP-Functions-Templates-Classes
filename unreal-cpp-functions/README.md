@@ -168,7 +168,7 @@ Press the <kbd>Play</kbd> button and you will see the text go down by 10 points 
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
- For **World Size** we just need to call the **SetWorldSize(72)** method and pass it `71`.  Then we can call teh same function for **Horizontal Alignment** and **Vertical Alignment**.  Now the enumerators are different and a quick click in the manual and we can see that **Center** is `EHTA_Center` and **Text Center** is `EVRTA_TextCenter`.
+ For **World Size** we just need to call the **SetWorldSize(72)** method and pass it `71`.  Then we can call the same function for **Horizontal Alignment** and **Vertical Alignment**.  Now the enumerators are different and a quick click in the manual and we can see that **Center** is `EHTA_Center` and **Text Center** is `EVRTA_TextCenter`.
 
 ![make font bigger and center it](images/sizeAlignment.png)
 
