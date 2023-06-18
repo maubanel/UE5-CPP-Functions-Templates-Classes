@@ -162,6 +162,8 @@ Select the **File | Save All** menu item to save all your work.
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Press the <kbd>Play</kbd> button and now after you die it resets and starts with the new health value of 400 that was set in the MACRO.
+
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/ecfb7ecf-906a-47b3-a053-20cc374920bb
 
 ![](../images/line2.png)
