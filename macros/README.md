@@ -6,13 +6,30 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Macros in C++ are different than Macros in blueprints.  We will cover blueprint Macros later.  But since we were using macros for UPROPERTY and UFUNCTION it would be good to explain what these are. 
+
+In C++, a macro is a piece of code that is replaced by the value of the macro. Macros are defined using the #define directive. 
+
+Whenever the compiler encounters a macro name, it replaces the name with the definition of the macro. Macro definitions need not be terminated by a semicolon.
+
+There are three types of macros in C++: object-like macros, function-like macros, and predefined macros. We will be looking at object and function-like Macros.
+
+A [macro](http://www.cplusplus.com/doc/tutorial/preprocessor/) is a preprocessor directive that is preceded by a hash sign `#`.  These lines are resolved by the pre processor before the compilation begins.  These do not resolve at rutime.
+
+Lets add a restart so that when the health gets to 0 it resets to a new value (just for testing) `400`.  We will do this initially by using Macros.
+
+One of the issues with Macros is that they are global in scope.
+
 
 <br>
 
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+
+Object-like macros are defined as simple identifiers that are replaced by a code fragment. They look like an object in code and are called object-like macros. 
+
+They are global in scope and can be accessed anywhere.  So lets open up **HealthCOunter.h** and add a Macro before the class definition.
 
 ![alt_text](images/addMacro.png)
 
