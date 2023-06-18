@@ -170,19 +170,19 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/e
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![if condition](images/ifCondition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![x is greater than y in running app](images/GreaterThan.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![ternary operator](images/ternaryOperator.png)
 
 ![](../images/line2.png)
 
