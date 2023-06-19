@@ -2,11 +2,13 @@
 
 ### Static Array
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../const/README.md#user-content-const-keyword) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+In C++, an array is a collection of elements of the same data type that are stored in contiguous memory locations. It is a **list** of elements of a type.
+
+A static array is allocated memory at compile time and its size is fixed, i.e., cannot be changed later. Static arrays store their values on the stack, and their size must be known at compile time. This means that if you want an array to be sized based on input from the user, then you cannot use static arrays. 
 
 <br>
 
@@ -144,5 +146,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../const/README.md#user-content-const-keyword)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
 |---|---|---|
