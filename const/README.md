@@ -42,7 +42,7 @@ Declaring a variable as const means that its value cannot be changed once it has
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/wontCompile.png)
 
 ![](../images/line2.png)
 
