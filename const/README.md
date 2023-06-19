@@ -24,7 +24,7 @@ Declaring a variable as const means that its value cannot be changed once it has
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/runThroughEditor.png)
 
 ![](../images/line2.png)
 
