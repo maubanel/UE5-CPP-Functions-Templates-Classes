@@ -16,7 +16,7 @@ A static array is allocated memory at compile time and its size is fixed, i.e., 
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/startClass.png)
 
 ![](../images/line2.png)
 
