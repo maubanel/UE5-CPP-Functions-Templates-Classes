@@ -103,7 +103,8 @@ Press the <kbd>Play</kbd> button and see that it prints all four cards on the sa
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+![alt_text](images/rangeForLoop.png)
 
 ![](../images/line2.png)
 
