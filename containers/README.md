@@ -137,11 +137,15 @@ The particular method we want to use is `random_shuffle`, which is a quick way o
 
 Now lets first shuffle the cards then use iterators (poiters, will explain in more detail later on) our final way of iterating through a four loop.  The `auto` type is generic and will accept any pointer type that the container contains (which could be any c++ class).  Don't worry if this doesn't make too much sense yet.
 
+Press the <kbd>Play</kbd> button multiple times and the vector of cards is always in the same position so the shuffle doesn't appear to be random?
+
 ![add random shuffle and loop with iterators](images/runProgram.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
+
+
 
 ![alt_text](images/.png)
 
