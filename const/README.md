@@ -72,7 +72,7 @@ Comment out this bug. Select the **File | Save** or <kbd>cntrl-c</kbd> to save t
 
 Notice it compiles again. Now lets move onto static arrays.
 
-![alt_text](images/nowCompiles.png)
+![project compiles again](images/nowCompiles.png)
 
 ![](../images/line.png)
 
