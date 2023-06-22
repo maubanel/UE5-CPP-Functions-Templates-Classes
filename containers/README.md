@@ -107,7 +107,14 @@ A range-based for loop is a C++11 feature that provides a more readable equivale
 
 The syntax of a range-based for loop is for `( range_declaration : range_expression ) {//do somehting..}` loop_statement.
 
-So in our case we will be adding 
+So in our case we will be adding:
+
+```cpp
+for (string I : Cards)
+{
+    //...
+}
+```
 
 ![alt_text](images/rangeForLoop.png)
 
