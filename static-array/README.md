@@ -60,7 +60,9 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/f
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/addArrayCounter.png)
+In the game access the **Content Drawer** and drag **C++ Classes | UE5_CPP_FTC | ArrayCounter** actor into the level.  Put it on top of the two countersa and make sure it is facing the camera.
+
+![add ArrayCounter to game](images/addArrayCounter.png)
 
 ![](../images/line2.png)
 
