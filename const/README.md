@@ -62,13 +62,15 @@ Notice that you get an error statying that the `l-value` (the value to the left 
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-Comment out this bug. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button. Notice it compiles again. Now lets move onto static arrays.
+Comment out this bug. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
 
 ![comment out bug](images/commentOutBug.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Notice it compiles again. Now lets move onto static arrays.
 
 ![alt_text](images/nowCompiles.png)
 
