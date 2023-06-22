@@ -126,7 +126,7 @@ Press the <kbd>Play</kbd> button and now we are looping through them with a rang
 
 In the `.h` file we will add the `<algorithm>` header from stl. The <algorithm> library in C++ is part of the Standard Template Library (STL) and provides a set of functions for a variety of purposes, such as searching, sorting, counting, and manipulating data that operate on ranges of elements. The library contains over 100 algorithms that can be used with any container that provides iterators, including arrays, vectors, lists, maps, and sets. The algorithms are designed to be efficient, generic, and easy to use, and they can be used to simplify code, reduce the likelihood of errors, and improve the performance of programs.
 
-The particular method we want to use is `simple_shuffle`, which is a quick way of shuffling the order of any stl container that provides iterators like **vector**.
+The particular method we want to use is `random_shuffle`, which is a quick way of shuffling the order of any stl container that provides iterators like **vector**.
 
 
 ![alt_text](images/addShuffleToHeader.png)
