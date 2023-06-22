@@ -76,13 +76,13 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/f
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/cardIndexReadWrite.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/cardIndexArr.png)
 
 ![](../images/line2.png)
 
