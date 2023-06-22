@@ -8,13 +8,19 @@
 
 In C++, an array is a collection of elements of the same data type that are stored in contiguous memory locations. It is a **list** of elements of a type.
 
+An array variable is represented with `[]`.  So `int foo[5]` is an array of integers and it is accessing the 6<sup>th</sup> item (arrays start at `0`).
+
 A static array is allocated memory at compile time and its size is fixed, i.e., cannot be changed later. Static arrays store their values on the stack, and their size must be known at compile time. This means that if you want an array to be sized based on input from the user, then you cannot use static arrays. 
+
+These basic C++ arrays are risky to use as the game will crash if it tries to access an element that is out of bounds (so if we have array of 3 elements and you try and access array [5], it will crash).
 
 <br>
 
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+
+Open up the **UE5_CPP_FTC** project.Select the **Tools | New C++ Class...** menu item and select the **Actor** class. Press the <kbd>Nexts</kbd> button. Name the `.cpp` file `ArrayCounter` and press the <kbd>Create Class</kbd> key.
 
 ![alt_text](images/startClass.png)
 
