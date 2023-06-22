@@ -50,21 +50,34 @@ Open up your **CPP_FTC** solution and open your **Function.cpp** file.Include th
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
+A template class has a different syntax than a static array.  We have the 
 
+```cpp
+// containerType<listType>(NumberOfStartingElements);
+vector <string> Cards(4);
+```
 
-![alt_text](images/declareTemplateArray.png)
+So we declare it in its unique way so it is a vector container with a list of 4 strings.  We then assign the strings in the same way we did with arrays.
+
+Press the <kbd>Play</kbd> button and you see that [2] prints the third card.
+
+![assigning method 1](images/declareTemplateArray.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+You can also assign the vector container with a list of multiple items in `{}` such as `{"one", "two", "three}`.  Press the <kbd>Play</kbd> button and notice that it is the same as before but takes much less space in the file and is a bit easier to read.
+
+![assigning method 1](images/AssigningVectorAlternate.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now just like arrays, you should not exceed the size of the area and try and access an item that does not exist.  If you change the item to `20` and press the Press the <kbd>Play</kbd> button, you will get an assertion.  Now this would allow you to write code to handle the assertion and potentially not crash.  If you press the <kbd>Ignore</kbd> button, then it goes and crashes just olike the array did prior.
+
+![out of bounds assertion](images/assertionInGame.png)
 
 ![](../images/line2.png)
 
