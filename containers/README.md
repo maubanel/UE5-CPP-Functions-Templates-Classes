@@ -103,6 +103,11 @@ Press the <kbd>Play</kbd> button and see that it prints all four cards on the sa
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+A range-based for loop is a C++11 feature that provides a more readable equivalent to the traditional for loop operating over a range of values, such as all elements in a container. Range-based for loops work with all standard container types as well as the ones included in **Unreal**, and they are just a shortcut for certain iterator operations
+
+The syntax of a range-based for loop is for `( range_declaration : range_expression ) {//do somehting..}` loop_statement.
+
+So in our case we will be adding 
 
 ![alt_text](images/rangeForLoop.png)
 
