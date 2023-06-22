@@ -102,7 +102,7 @@ Now it compiles again succesfully.
 
 You might have to restart the editor (stopping it in VS, then starting again) you will see that the arrays now show up in the **Details** panel and you could change the text on each instance.
 
-![alt_text](images/cardsInEditor.png)
+![arrays available to edit in details panel](images/cardsInEditor.png)
 
 ![](../images/line2.png)
 
