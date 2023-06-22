@@ -129,7 +129,7 @@ In the `.h` file we will add the `<algorithm>` header from stl. The <algorithm> 
 The particular method we want to use is `random_shuffle`, which is a quick way of shuffling the order of any stl container that provides iterators like **vector**.
 
 
-![alt_text](images/addShuffleToHeader.png)
+![add algorithm header to project from stl](images/addShuffleToHeader.png)
 
 ![](../images/line2.png)
 
