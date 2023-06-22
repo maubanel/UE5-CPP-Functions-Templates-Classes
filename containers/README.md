@@ -42,7 +42,7 @@ Lets start with a dynamic contiguous array in the Standard Template Library (STL
 
 A vector in C++ is a sequence container that represents an array that can change its size during runtime. It is a template class in the Standard Template Library (STL) of C++ programming language. Vectors are similar to dynamic arrays, but they have the ability to resize themselves automatically when an element is inserted or deleted. The storage of vector elements is handled automatically by the container, and the elements are placed in contiguous storage so that they can be accessed and traversed using iterators (pointers). In vectors, data is inserted at the end, and removing the last element is the most efficient.
 
-Open up your
+Open up your **CPP_FTC** solution and open your **Function.cpp** file.Include the **vector** .h file from the STL.
 
 ![add vector container to project](images/addVectorClassToCPP.png)
 
@@ -50,7 +50,9 @@ Open up your
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/declareTemplateArray.png)
 
 ![](../images/line2.png)
 
