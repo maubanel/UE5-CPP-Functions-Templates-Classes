@@ -20,7 +20,7 @@ These basic C++ arrays are risky to use as the game will crash if it tries to ac
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Open up the **UE5_CPP_FTC** project.Select the **Tools | New C++ Class...** menu item and select the **Actor** class. Press the <kbd>Nexts</kbd> button. Name the `.cpp` file `ArrayCounter` and press the <kbd>Create Class</kbd> key.
+Open up the **UE5_CPP_FTC** project.Select the **Tools | New C++ Class...** menu item and select the **Actor** class. Press the <kbd>Next</kbd> button. Name the `.cpp` file `ArrayCounter` and press the <kbd>Create Class</kbd> key.
 
 ![alt_text](images/startClass.png)
 
