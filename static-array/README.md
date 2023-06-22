@@ -68,6 +68,8 @@ In the game access the **Content Drawer** and drag **C++ Classes | UE5_CPP_FTC |
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
+Now lets turn this **Cards[]** array into a **UPROPERTY**.  Go to **ArrayCounter.h** and add a Macro with the **UPROPERTY** allowing the variable to be visible anyhwere and allow it to be blueprint read only. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Press the <kbd>Stop</kbd> button in vs and hit play again to go back to Unreal. We cannot just compile in engine as we have made a change to the `.h` file which is runnign currently in the editor.
+
 ![alt_text](images/addUProperty.png)
 
 ![](../images/line2.png)
