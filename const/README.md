@@ -48,7 +48,7 @@ Now we get the same result as before but it is using a **const** variable instea
 
 Lets prove that the constant is actually a constant.  Go to **ResetHealth** and add **ResetValue** at the bottom.  Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
 
-![alt_text](images/changeConst.png)
+![try changing const value](images/changeConst.png)
 
 ![](../images/line2.png)
 
@@ -56,13 +56,15 @@ Lets prove that the constant is actually a constant.  Go to **ResetHealth** and 
 
 Notice that you get an error statying that the `l-value` (the value to the left of the `=` operator) is a const object.  So it can't be changed and since this is a constant the compiler will trap this coding error.
 
-![alt_text](images/wontCompile.png)
+![compile and fail](images/wontCompile.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/commentOutBug.png)
+Comment out this bug. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button. Notice it compiles again. Now lets move onto static arrays.
+
+![comment out bug](images/commentOutBug.png)
 
 ![](../images/line2.png)
 
