@@ -83,7 +83,11 @@ Now just like arrays, you should not exceed the size of the area and try and acc
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now we can also figure out how many items there are in the vector class using `vector::size()`.  [This method](https://cplusplus.com/reference/vector/vector/size/) returns the number of elements the vector class contains.
+
+So now lets add a print out of how many cards are in the **Card** instance.  Press the <kbd>Play</kbd> button and you will notice that we have 4 cards.
+
+![size of vector class](images/AddSize.png)
 
 ![](../images/line2.png)
 
