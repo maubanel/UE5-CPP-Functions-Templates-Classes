@@ -42,7 +42,9 @@ Remember arrays start with `0` so there are 5 cards of **FTextz** type.
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/definitionInContructor.png)
+Now go to the **ArrayCounter.cpp** file and in the constructor add the **TextRender** component.  Then add 4 cards and you need to cast the strings `""` to **FText** with the `FText::FromString()` static function.
+
+![assign text render component and 4 cards](images/definitionInContructor.png)
 
 ![](../images/line2.png)
 
