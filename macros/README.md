@@ -170,11 +170,17 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/e
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![if condition](images/ifCondition.png)
+Open the **CPP_FTC** C++ terminal project again.  Lets look at a potential downside that we need to be careful about template functions as they are not the same as a regular function and you can have some unexpected behavior.  
+
+Comment out the newlines in the **Sorry** function and add them to the bottom of **Main()**.  Now after **Sorry()** lets look at an if - else statement.
+
+![if else condition](images/ifCondition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Press the <kbd>Play</kbd> button and the message you expect with X being greater than Y appears (X is 8 and Y is 5).
 
 ![x is greater than y in running app](images/GreaterThan.png)
 
@@ -182,19 +188,31 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/e
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+The conditional ternary operator  is used to evaluate a Boolean expression and return one of two expressions based on whether the Boolean expression is true or false. This produces the same compiled code, but is a bit easier to read and quicker to type.
+
+```// (if condition is true) ? do this : else do that```
+
+So we can rewrite the same logic using a ternary operator. Press the <kbd>Play</kbd> button and you will see the exact same message.
+
 ![ternary operator](images/ternaryOperator.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/macroFunction.png)
+Lets apply a turnary operator to a Macro Function.  This function takes two parameters (X and Y) and returns the greater of the two values (using the ternary operator).
+
+Call this macro passing it `MAXVAL(5, 7)`.  Press the <kbd>Play</kbd> button and you see the larger value of `7` returned.
+
+![add MAXVAL macro function](images/macroFunction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/varToMacro.png)
+Lets do this again but call **MAXVAL(X, Y) passing it two variables.  It returns `8` as expected.
+
+![pass X and Y to MAXVAL Macro Function](images/varToMacro.png)
 
 ![](../images/line2.png)
 
