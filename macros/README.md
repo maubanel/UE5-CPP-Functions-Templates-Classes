@@ -218,9 +218,21 @@ Lets do this again but call `MAXVAL(X, Y)` passing it two variables.  It returns
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-Now, with **X** being `8` and **Y** being `5` if we pass `MAXVAL(++X, ++Y)` we would expect it to return `9`.  But it returns `10` why?
+Now, with **X** being `8` and **Y** being `5` if we pass `MAXVAL(++X, ++Y)` we would expect it to return `9`.  Press the <kbd>Play</kbd> button and notice that it returns `10` 
 
-![alt_text](images/exapansionBug.png)
+Why did this happen?  It took `MAXVAL(++X, ++Y)` expands the parameter in the marc in both  `(++X) > (++Y)`  as well as `: (++X) : (++Y)`.  Notice that it runs **++X** anbd **++Y** twice with the text replacement.  This is how Macros work so we have to be careful with them. 
+
+Now Macros are used extensively in UE5 but you should avoid using them unless they are necessary.  Here are some of the downfalls:
+
+1.  There is no scope in namesapce for #define macros.  So any file that includes this header will inherit this macro.  If it is a common name then it will pick the macro over the local implementation of that variable or function.
+
+2. It is not type safe.  So there are no safeguards for using the wrong type.
+
+3. Macros cannot be debugged as easily as they are run by the preprocessor. You can't see what the macro is doing.
+
+4. Macros can have expansion issues like the one we just experienced.
+
+![expansion bug in c++](images/exapansionBug.png)
 
 ![](../images/line.png)
 
