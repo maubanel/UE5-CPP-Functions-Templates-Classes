@@ -52,6 +52,8 @@ Set the card value to the first array list item and then set the color.
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press the <kbd>Play</kbd> button from **Visual Studio** to launch the engine form the debugger.  Now it is probably best to stop it from the debugger as well (the play button turns to a stop button after it runs the program).
+
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/fee4469e-4c70-4c8c-a1cd-42c559d33522
 
 ![](../images/line2.png)
