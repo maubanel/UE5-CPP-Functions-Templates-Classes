@@ -116,7 +116,9 @@ for (string I : Cards)
 }
 ```
 
-![alt_text](images/rangeForLoop.png)
+Press the <kbd>Play</kbd> button and now we are looping through them with a ranged loop and we disntiguish this by adding the `-` character between cards.
+
+![ranged for loop](images/rangeForLoop.png)
 
 ![](../images/line2.png)
 
