@@ -210,7 +210,7 @@ Call this macro passing it `MAXVAL(5, 7)`.  Press the <kbd>Play</kbd> button and
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets do this again but call **MAXVAL(X, Y) passing it two variables.  It returns `8` as expected.
+Lets do this again but call `MAXVAL(X, Y)` passing it two variables.  It returns `8` as expected.
 
 ![pass X and Y to MAXVAL Macro Function](images/varToMacro.png)
 
