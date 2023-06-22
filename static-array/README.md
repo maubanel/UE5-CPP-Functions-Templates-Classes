@@ -68,27 +68,33 @@ In the game access the **Content Drawer** and drag **C++ Classes | UE5_CPP_FTC |
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-Now lets turn this **Cards[]** array into a **UPROPERTY**.  Go to **ArrayCounter.h** and add a Macro with the **UPROPERTY** allowing the variable to be visible anyhwere and allow it to be blueprint read only. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Press the <kbd>Stop</kbd> button in vs and hit play again to go back to Unreal. We cannot just compile in engine as we have made a change to the `.h` file which is runnign currently in the editor.
+Now lets turn this **Cards[]** array into a **UPROPERTY**.  Go to **ArrayCounter.h** and add a Macro with the **UPROPERTY** allowing the variable to be visible anyhwere and allow it to be blueprint read only. Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
 
-![alt_text](images/addUProperty.png)
+![add uproperty to cards[]](images/addUProperty.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/bpNoStaticArray.png)
+OK, now notice we get an error saying **Static arrays cannot be exposed to bluepritn Class: ArrayCounter**.  So we cannot access this variable inside a blueprint. 
+
+![compile error no arrays in blueprints](images/bpNoStaticArray.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/bpEditAnywhere.png)
+Now even though Unreal doesn't allow us to access them in **Blueprints** we can still use them in the editor in each instance in a level.  Keep **EditAnywhere** in the **UPROPERTY** but remove the **BlueprintReadOnly**.  Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
+
+![remove blueprintreadonly](images/bpEditAnywhere.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/compileSucceeds.png)
+Now it compiles again succesfully.
+
+![game compiles again](images/compileSucceeds.png)
 
 ![](../images/line2.png)
 
