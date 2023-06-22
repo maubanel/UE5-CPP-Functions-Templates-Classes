@@ -16,7 +16,7 @@ Declaring a variable as const means that its value cannot be changed once it has
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h**. Now comment out our Macro and we will replace it with a more suitable **const** var.
+Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h** in **Visual Studio**. Now comment out our Macro and we will replace it with a more suitable **const** var.
 
 ```cpp
 const int32 RESETHEALTH = 6000;
@@ -28,13 +28,17 @@ const int32 RESETHEALTH = 6000;
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/runThroughEditor.png)
+Press the <kbd>Play</kbd> from **Visual Studio** button to launch the game from the debugger. Now we want to run Unreal from Visual Studio as it is designed to inegrate smoothly and allows us to use breakpoints and use the full set of debug tools.
+
+![launch game from visual studio](images/runThroughEditor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/sixThousandConst.png)
+Now we get the same result as before but it is using a **const** variable instead of a macro.
+
+![same behavior in game](images/sixThousandConst.png)
 
 ![](../images/line2.png)
 
