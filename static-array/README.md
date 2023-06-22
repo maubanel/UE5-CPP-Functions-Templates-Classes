@@ -108,7 +108,9 @@ You might have to restart the editor (stopping it in VS, then starting again) yo
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/cardIndexReadWrite.png)
+Now there is a way we can still affect the array in a blueprint.  We can create a new **int32** variable that we will use to index into the array.
+
+![new int32 CardIndex](images/cardIndexReadWrite.png)
 
 ![](../images/line2.png)
 
