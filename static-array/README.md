@@ -108,7 +108,7 @@ You might have to restart the editor (stopping it in VS, then starting again) yo
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-Now there is a way we can still affect the array in a blueprint.  We can create a new **int32** variable that we will use to index into the array.
+Now there is a way we can still affect the array in a blueprint.  We can create a new **int32** variable that we will use to index into the array. We do this in the **ArrayCounter.h** file in visual studio.
 
 ![new int32 CardIndex](images/cardIndexReadWrite.png)
 
@@ -116,29 +116,43 @@ Now there is a way we can still affect the array in a blueprint.  We can create 
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/cardIndexArr.png)
+in the **ArrayCounter.cpp** file we add a change to the text component with one of the cards from the list. This integer can be accessed and changed in blueprints if we like. We could create functions that call and set arrays as well to make it even more functional inside of blueprints.
+
+![access list with an index int](images/cardIndexArr.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/cardIndex2.png)
+Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button. In the game select **CardIndex** `2` and Press the <kbd>Play</kbd> button and see that third array item **Ace of Diamonds** appears.  So our index variable is working.
+
+![ace of diamonds array showing](images/cardIndex2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/outOfArrayCrash.png)
+Now the fastest list we can have performance wise are these built in arrays - but there is a risky downside.  If you go out of bounds the whole program crashes.  Set an array index to `10` and press play and you will see it crash to the debugger.
+
+![game crashes accessing 10th array](images/outOfArrayCrash.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/clampValAndSlider.png)
+Unreal gives some powerful tools to make arrays safer to use without additional processing costs.  You can tell the editor to only accept values with a slider or by typing in directly into the editor to limit it to a range.  This makes sense for static arrays as we know the size of the array prior to compile time.  
+
+`ClampMin` and  `ClampMax` specifies the minimum value N that may be entered for the property.  `UIMin` and `UIMax` stops the number going out of range when the user drags the mouse over the property.
+
+Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
+
+![add clamps to game](images/clampValAndSlider.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Now no matter how you scrub the mouse or enter the value direclty you can't have any number under `0` or over `4` so you cannot crash this array.  This is a VERY powerful tool to make the project more error prone and is a best practice.
 
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/21c9ef63-5550-4b2e-aae9-1d76f7902ef2
 
