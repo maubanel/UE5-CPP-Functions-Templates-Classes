@@ -18,6 +18,10 @@ Declaring a variable as const means that its value cannot be changed once it has
 
 Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h**. Now comment out our Macro and we will replace it with a more suitable **const** var.
 
+```cpp
+const int32 RESETHEALTH = 6000;
+```
+
 ![alt_text](images/resetHealth.png)
 
 ![](../images/line2.png)
