@@ -22,13 +22,21 @@ These basic C++ arrays are risky to use as the game will crash if it tries to ac
 
 Open up the **UE5_CPP_FTC** project.Select the **Tools | New C++ Class...** menu item and select the **Actor** class. Press the <kbd>Next</kbd> button. Name the `.cpp` file `ArrayCounter` and press the <kbd>Create Class</kbd> key.
 
-![alt_text](images/startClass.png)
+![open up project and create ArrayCounter C++ class](images/startClass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/headerDeclarations.png)
+Again for our text component inclue the **TextRenderComponent.h** to the new **ArrayCounter.h** file in visual studio. Add a pointer to this new component called `CardText`.
+
+Also, add a new array with 5 elements in it by initializing the array with:
+
+`FText Cards[4]`
+
+Remember arrays start with `0` so there are 5 cards of **FTextz** type.
+
+![add text component and array](images/headerDeclarations.png)
 
 ![](../images/line2.png)
 
