@@ -32,14 +32,19 @@ Unordered associative containers provide the unsorted versions of the associativ
 
 Each container has its own set of member functions to access and manipulate its elements. Iterators are used to traverse the elements of a container. The elements of containers are accessed by using iterators, which have a common interface but each container defines its own specialized iterators.
 
-
 <br>
 
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Lets start with a dynamic contiguous array in the Standard Template Library (STL) called **Vector**.
+
+A vector in C++ is a sequence container that represents an array that can change its size during runtime. It is a template class in the Standard Template Library (STL) of C++ programming language. Vectors are similar to dynamic arrays, but they have the ability to resize themselves automatically when an element is inserted or deleted. The storage of vector elements is handled automatically by the container, and the elements are placed in contiguous storage so that they can be accessed and traversed using iterators (pointers). In vectors, data is inserted at the end, and removing the last element is the most efficient.
+
+Open up your
+
+![add vector container to project](images/addVectorClassToCPP.png)
 
 ![](../images/line2.png)
 
