@@ -218,6 +218,8 @@ Lets do this again but call **MAXVAL(X, Y) passing it two variables.  It returns
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
+Now, with **X** being `8` and **Y** being `5` if we pass `MAXVAL(++X, ++Y)` we would expect it to return `9`.  But it returns `10` why?
+
 ![alt_text](images/exapansionBug.png)
 
 ![](../images/line.png)
