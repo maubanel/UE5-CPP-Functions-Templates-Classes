@@ -40,19 +40,19 @@ https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/f
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addArrayCounter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addUProperty.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/bpNoStaticArray.png)
 
 ![](../images/line2.png)
 
