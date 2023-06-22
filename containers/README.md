@@ -135,7 +135,9 @@ The particular method we want to use is `random_shuffle`, which is a quick way o
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now 
+
+![alt_text](images/runProgram.png)
 
 ![](../images/line2.png)
 
