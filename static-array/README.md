@@ -100,6 +100,8 @@ Now it compiles again succesfully.
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
+You might have to restart the editor (stopping it in VS, then starting again) you will see that the arrays now show up in the **Details** panel and you could change the text on each instance.
+
 ![alt_text](images/cardsInEditor.png)
 
 ![](../images/line2.png)
