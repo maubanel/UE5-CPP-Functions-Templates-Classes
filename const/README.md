@@ -8,9 +8,7 @@
 
 In C++, the const keyword is used to specify that a variable's value is constant and cannot be modified. 
 
-It can be used to declare constant variables, constant pointers, and constant member functions.
-
-Declaring a variable as const means that its value cannot be changed once it has been initialized. 
+Declaring a variable as const means that its value cannot be changed once it has been initialized. A const variable in C++ needs to be initalized and assigned at the same time.
 
 <br>
 
