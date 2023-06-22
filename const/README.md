@@ -22,6 +22,8 @@ Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h** in **Visua
 const int32 RESETHEALTH = 6000;
 ```
 
+Please note, you should normally assign variables in the `.cpp` file and normally is done in the constructor.  But since constants need to be assigned and defined in place it is best to do it in the `.h`.
+
 ![alt_text](images/resetHealth.png)
 
 ![](../images/line2.png)
@@ -43,6 +45,8 @@ Now we get the same result as before but it is using a **const** variable instea
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets prove that the constant is actually a constant.  Go to **ResetHealth** and add **ResetValue** at the bottom
 
 ![alt_text](images/changeConst.png)
 
