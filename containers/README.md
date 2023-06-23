@@ -232,31 +232,37 @@ Now when you press the <kbd>Play</kbd> button you will see that the dashes are a
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This is a dynamic array so we have an equivalent function to `vector::push_back` and it is called `TArray::`
+This is a dynamic array so we have an equivalent function to `vector::push_back` and it is called `TArray::Push`.
 
-![alt_text](images/pushFourCards.png)
+![push four cards onto deck](images/pushFourCards.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button. Now press play and you should see that the text has 8 cards but it is a really long line.  Lets fix that.
+
+![play in game with 8 cards on one line](images/longString.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Add a carriage return at the end of the text in the loop using the newline escape character `\n`.  We no longer need to the trailing `-` as it will be like a bulleted list.
+
+![add carriage return to each card in loop](images/addCarriageReturn.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button. Press the <kbd>Play</kbd> button and adjust the location so it sits on top of the other text nicely.  Now we have a dashed list of 8 cards using **TArray** and **UText::Format**!
+
+![cards on separate lines](images/cardsOnSepLines.png)
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - More with Functions"> -->
 
 ![next up - ](images/banner.png)
 

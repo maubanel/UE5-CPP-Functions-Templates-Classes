@@ -22,6 +22,8 @@ The implementations are different and have different pros and cons.  This will e
 <kbd></kbd> &nbsp;&nbsp; [const Keyword](const/README.md#user-content-const-keyword) <br>
 <kbd></kbd> &nbsp;&nbsp; [Static Array](static-array/README.md#user-content-static-array) <br>
 <kbd></kbd> &nbsp;&nbsp; [Containers](containers/README.md#user-content-containers) <br>
+<kbd></kbd> &nbsp;&nbsp; [More with Functions](more-functions/README.md#user-content-more-with-functions) <br>
+
 
 
 <!-- LICENSE -->
