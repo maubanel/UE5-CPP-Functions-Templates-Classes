@@ -180,7 +180,9 @@ Press the <kbd>Play</kbd> button and you will see that we have 8 cards and it af
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets go back to our project. The standard C++ STL can be used in games, many game developers choose to avoid it due to concerns about memory management, performance, and predictability. Since Unreal does their own garbage collection and other features they have written their own version of a dynamic array called a **[TARRAY](https://docs.unrealengine.com/5.0/en-US/API/Runtime/Core/Containers/TArray/)**.  TArray is a container class in Unreal Engine 4 (UE4) that is responsible for the ownership and organization of a sequence of other objects of the same type
+Now lets go back to our Unreal **UE5_CPP_FTC** project. The standard C++ STL can be used in games, many game developers choose to avoid it due to concerns about memory management, performance, and predictability. Since Unreal does their own garbage collection and other features they have written their own version of a dynamic array called a **[TARRAY](https://docs.unrealengine.com/5.0/en-US/API/Runtime/Core/Containers/TArray/)**.  TArray is a container class in Unreal Engine 4 (UE4) that is responsible for the ownership and organization of a sequence of other objects of the same type.
+
+Open up **ArrayCounter.h** and change the **Card** from a static array to a **TArray**. Now TARray's are supported in Blueprints so you can make the **UPROPERTY** a **BlueprintReadWrite** and can access this class directly. 
 
 ![add TArray](images/changeToTArray.png)
 
@@ -188,7 +190,7 @@ Now lets go back to our project. The standard C++ STL can be used in games, many
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/addArrayDef.png)
 
 ![](../images/line2.png)
 
