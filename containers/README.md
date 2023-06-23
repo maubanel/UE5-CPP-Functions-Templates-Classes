@@ -208,25 +208,33 @@ In the Blueprints we were able to access the **Format** node.  In C++ we need to
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Play</kbd> button and you will now see that it formats the text in the loop and puts it all on one line. Now the only issue I see is that is starts with a dash `-` but doesn't end with one.  Let's be consistent.
+
+![play game to see TArray](images/playGameTArray.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/playGameTArray.png)
+After the loop add a dash after the loop finishes.
+
+![add dash after loop](images/addLoop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now when you press the <kbd>Play</kbd> button you will see that the dashes are at both ends.
+
+![play to see dash](images/fixedFormatting.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This is a dynamic array so we have an equivalent function to `vector::push_back` and it is called `TArray::`
+
+![alt_text](images/pushFourCards.png)
 
 ![](../images/line2.png)
 

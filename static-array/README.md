@@ -152,7 +152,7 @@ Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go bac
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now no matter how you scrub the mouse or enter the value direclty you can't have any number under `0` or over `4` so you cannot crash this array.  This is a VERY powerful tool to make the project more error prone and is a best practice.
+Now no matter how you scrub the mouse or enter the value direclty you can't have any number under `0` or over `4` so you cannot crash this array.  This is a VERY powerful tool to make the project more error prone and is a best practice. 
 
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/21c9ef63-5550-4b2e-aae9-1d76f7902ef2
 
