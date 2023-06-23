@@ -168,7 +168,11 @@ Now back in the `CPP` before we shuffle we will change the seed based on the cur
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now since this is a dynamic container we can make changes to the size even at runtime.  So if it was keeping track of enemies spawning in, we can do this at runtime.  The **Push_Back** method 
+Now since this is a dynamic container we can make changes to the size even at runtime.  So if it was keeping track of enemies spawning in, we can do this at runtime.  The **[push_back](https://cplusplus.com/reference/vector/vector/push_back/)** method.
+
+>Adds a new element at the end of the vector, after its current last element. The content of val is copied (or moved) to the new element.
+
+This effectively increases the container size by one, which causes an automatic reallocation of the allocated storage space if -and only if- the new vector size surpasses the current vector capacity.
 
 ![push_back four more Cards](images/dynamicArray.png)
 
