@@ -184,11 +184,23 @@ Now lets go back to our Unreal **UE5_CPP_FTC** project. The standard C++ STL can
 
 Open up **ArrayCounter.h** and change the **Card** from a static array to a **TArray**. Now TARray's are supported in Blueprints so you can make the **UPROPERTY** a **BlueprintReadWrite** and can access this class directly. 
 
+In the Blueprints we were able to access the **Format** node.  In C++ we need to include its namespace and key.  This is for text localizaiton so when you switch languages the engine will use the correct text for the game.  Remember that the **Text** type is for customer facing text that might need to be localized.  So to **Format** in C++ we need to call a macro function `NSLOCTEXT` and include the Namespace, and the Key. In the blueprint this is done automatically where if you press the small arrow in the Text or click on the flag you will get the **Namespace** (which defaults to blank) and a hash for a key that is not human readable.  In this case I am using the **Namespace** of `CardInfo` and the key as a human readable `DisplayText`.  Then we use the same method to have concatonation by including each variable with `{int}`.  Then we have a comma and the first variable goes with `0` and the second goes with `1`.
+
 ![add TArray](images/changeToTArray.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now in the **ArrayCounter.cpp** we can assign the variable in a single line with all four text strings. Unreal has included a range based loop for **TArray**'s where we can use the same syntax as a vector. with 
+
+```cpp
+for (Ftext Ft: Cards)
+```
+
+which will loop through all the cards in the **TArray**.
+
+Now to concatonate text we 
 
 ![alt_text](images/addArrayDef.png)
 
