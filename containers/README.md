@@ -2,7 +2,7 @@
 
 ### Containers
 
-<sub>[previous](../static-array/README.md#user-content-static-array) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../static-array/README.md#user-content-static-array) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../more-functions/README.md#user-content-more-with-functions)</sub>
 
 ![](../images/line3.png)
 
@@ -268,5 +268,5 @@ Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go bac
 
 ![](../images/line.png)
 
-| [previous](../static-array/README.md#user-content-static-array)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../static-array/README.md#user-content-static-array)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../more-functions/README.md#user-content-more-with-functions)|
 |---|---|---|
