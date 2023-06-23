@@ -152,21 +152,25 @@ Here are some key characteristics of PRNGs:
 - **Deterministic**: PRNGs are deterministic, meaning that given the same seed state, they will always produce the same sequence of numbers[1][3].
 - **Efficient**: PRNGs are efficient at generating large numbers of random-like values
 
-So 
+So we need to update the random see based on time.  So we will import `cstdlib` and `ctime` into the `.h` file.
 
-![alt_text](images/includeTimeSTDLib.png)
+![add cstdlib and ctime to .h](images/includeTimeSTDLib.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now back in the `CPP` before we shuffle we will change the seed based on the currect time in milliseconds, so we will not have the same seed twice when running the game. Press the <kbd>Play</kbd> button and notice that the order is different each time. So by updating the seed we make the number look truly random (though it is still deterministic, we will get the same order with the same seed)
+
+![add seed based on time](images/moreRandom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now since this is a dynamic container we can make changes to the size even at runtime.  So if it was keeping track of enemies spawning in, we can do this at runtime.  The **Push_Back** method 
+
+![push_back four more Cards](images/dynamicArray.png)
 
 ![](../images/line2.png)
 
