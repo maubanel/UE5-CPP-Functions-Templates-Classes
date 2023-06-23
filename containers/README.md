@@ -180,8 +180,9 @@ Press the <kbd>Play</kbd> button and you will see that we have 8 cards and it af
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets go back to our project. Open up  STL can be used in games, many game developers choose to avoid it due to concerns about memory management, performance, and predictability.
-![alt_text](images/changeToTArray.png)
+Now lets go back to our project. The standard C++ STL can be used in games, many game developers choose to avoid it due to concerns about memory management, performance, and predictability. Since Unreal does their own garbage collection and other features they have written their own version of a dynamic array called a **[TARRAY](https://docs.unrealengine.com/5.0/en-US/API/Runtime/Core/Containers/TArray/)**.  TArray is a container class in Unreal Engine 4 (UE4) that is responsible for the ownership and organization of a sequence of other objects of the same type
+
+![add TArray](images/changeToTArray.png)
 
 ![](../images/line2.png)
 
