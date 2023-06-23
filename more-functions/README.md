@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets take a close look at **Functions** in both CPP and Unreal
 
 <br>
 
