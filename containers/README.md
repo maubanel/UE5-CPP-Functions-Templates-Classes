@@ -182,9 +182,9 @@ Press the <kbd>Play</kbd> button and you will see that we have 8 cards and it af
 
 Now lets go back to our Unreal **UE5_CPP_FTC** project. The standard C++ STL can be used in games, many game developers choose to avoid it due to concerns about memory management, performance, and predictability. Since Unreal does their own garbage collection and other features they have written their own version of a dynamic array called a **[TARRAY](https://docs.unrealengine.com/5.0/en-US/API/Runtime/Core/Containers/TArray/)**.  TArray is a container class in Unreal Engine 4 (UE4) that is responsible for the ownership and organization of a sequence of other objects of the same type.
 
-Open up **ArrayCounter.h** and change the **Card** from a static array to a **TArray**. Now TARray's are supported in Blueprints so you can make the **UPROPERTY** a **BlueprintReadWrite** and can access this class directly. 
+Open up **ArrayCounter.h** and change the **Card** from a static array to a **TArray**. Now TArray's are supported in Blueprints so you can make the **UPROPERTY** a **BlueprintReadWrite** and can access this class directly. 
 
-In the Blueprints we were able to access the **Format** node.  In C++ we need to include its namespace and key.  This is for text localizaiton so when you switch languages the engine will use the correct text for the game.  Remember that the **Text** type is for customer facing text that might need to be localized.  So to **Format** in C++ we need to call a macro function `NSLOCTEXT` and include the Namespace, and the Key. In the blueprint this is done automatically where if you press the small arrow in the Text or click on the flag you will get the **Namespace** (which defaults to blank) and a hash for a key that is not human readable.  In this case I am using the **Namespace** of `CardInfo` and the key as a human readable `DisplayText`.  Then we use the same method to have concatonation by including each variable with `{int}`.  Then we have a comma and the first variable goes with `0` and the second goes with `1`.
+
 
 ![add TArray](images/changeToTArray.png)
 
@@ -192,7 +192,7 @@ In the Blueprints we were able to access the **Format** node.  In C++ we need to
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now in the **ArrayCounter.cpp** we can assign the variable in a single line with all four text strings. Unreal has included a range based loop for **TArray**'s where we can use the same syntax as a vector. with 
+Now in the **ArrayCounter.cpp** we can assign the variable in a single line with all four text strings. Unreal has included a range based loop for **TArray**'s where we can use the same syntax as a vector. 
 
 ```cpp
 for (Ftext Ft: Cards)
@@ -200,9 +200,9 @@ for (Ftext Ft: Cards)
 
 which will loop through all the cards in the **TArray**.
 
-Now to concatonate text we 
+In the Blueprints we were able to access the **Format** node.  In C++ we need to include its namespace and key.  This is for text localizaiton so when you switch languages the engine will use the correct text for the game.  Remember that the **Text** type is for customer facing text that might need to be localized.  So to **Format** in C++ we need to call a macro function `NSLOCTEXT` and include the Namespace, and the Key. In the blueprint this is done automatically where if you press the small arrow in the Text or click on the flag you will get the **Namespace** (which defaults to blank) and a hash for a key that is not human readable is customizable as well but we have not done it yet.  In this case I am using the **Namespace** of `CardInfo` and the key as a human readable `DisplayText`.  Then we use the same method to have concatonation by including each variable with `{int}`.  Then we have a comma and the first variable goes with `0` and the second goes with `1`.
 
-![alt_text](images/addArrayDef.png)
+![assign elements to TArray and loop and format Text](images/addArrayDef.png)
 
 ![](../images/line2.png)
 
@@ -214,7 +214,7 @@ Now to concatonate text we
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/playGameTArray.png)
 
 ![](../images/line2.png)
 
