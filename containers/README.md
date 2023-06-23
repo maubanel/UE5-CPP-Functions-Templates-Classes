@@ -145,9 +145,16 @@ Press the <kbd>Play</kbd> button multiple times and the vector of cards is alway
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
+We have the correct behavior as we are not changing the random see in a pseudorandom number generator (PRNG).  A PRNG is a computer algorithm that generates a sequence of numbers that look random, but are actually deterministic and repricable. 
 
+Here are some key characteristics of PRNGs:
+- **Seed state**: A PRNG starts from an arbitrary starting state using a seed state. Many numbers are generated in a short time and can also be reproduced later, if the starting point in the sequence is known.
+- **Deterministic**: PRNGs are deterministic, meaning that given the same seed state, they will always produce the same sequence of numbers[1][3].
+- **Efficient**: PRNGs are efficient at generating large numbers of random-like values
 
-![alt_text](images/.png)
+So 
+
+![alt_text](images/includeTimeSTDLib.png)
 
 ![](../images/line2.png)
 
