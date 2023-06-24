@@ -40,7 +40,9 @@ Press the <kbd>Play</kbd> button and notice that if we pass `-15` we get `15` ba
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If we send a double to the function by parameter it will cast it to an integer and we will get a truncated double back so `-15.7` becomes `15`.
+
+![pass double to parameter](images/sendDoubleToInt.png)
 
 ![](../images/line2.png)
 
