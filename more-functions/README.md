@@ -50,7 +50,7 @@ If we send a double to the function by parameter it will cast it to an integer a
 
 We can overload a function (a feature of C++) that allows multiple functions to have the same name but different parametersIn function overloading, the function name should be the same but the arguments should be different. Function overloading can be considered an example of a polymorphism feature in C++. Overloaded functions are those that belong to a class but have more than one instance with the same name but different parameters.
 
-So in our case we can overload **Abso()** with a different parameter type. So we will use the same return type, and the same name but a different parameter type.  In this case we will pass a double. It will be up to the program to pick the most appropriate version of the function based on the parameter given.
+So in our case we can overload **Abso()** with a different parameter type. Open up the `.h` file and we will use the same return type, and the same name but a different parameter type.  In this case we will pass a double. It will be up to the program to pick the most appropriate version of the function based on the parameter given.
 
 ![overload Abso with double parameter](images/overloadDoubleParam.png)
 
@@ -58,7 +58,11 @@ So in our case we can overload **Abso()** with a different parameter type. So we
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we have to define this new function in the `.cpp` file.  Now the code is the same as the math is identical.
+
+Now when we Press the <kbd>Play</kbd> button, the program picks the overloaded function and does this math on the double parameter, preserving the fractional number.
+
+![overloaded definition same as int](images/overloadedAbso.png)
 
 ![](../images/line2.png)
 
