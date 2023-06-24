@@ -30,7 +30,11 @@ Now click on the paintbrush next to the function declaration and select **Create
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up the `.cpp` file and lets define **Abso()**.  We will check to see if value is positive,and if so just return the integer and if it is negative return the opposite sign (--X == +X). Then in the **main()** function call this new method.
+
+Press the <kbd>Play</kbd> button and notice that if we pass `-15` we get `15` back!
+
+![define abso cpp and call it](images/defineAndCallAbso.png)
 
 ![](../images/line2.png)
 
