@@ -22,7 +22,9 @@ Re-open **CPP_FTC** solution and pick **Functions.h** and lets add a new functio
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now click on the paintbrush next to the function declaration and select 
+
+![alt_text](images/copySignature.png)
 
 ![](../images/line2.png)
 
