@@ -78,7 +78,7 @@ return X = X (X > 0) ? X : -X;
 
 This effectively does nothing as this parameter we changed will be removed from the stack when the function ends and will have no effect. So in **main()** create a `Num` variable and set it to `-15.7`.  Now we can pass it to the **Abso** function then print Num after.  Lets see if the function changed the **Num** variable or made a copy and left it unchanged.
 
-Press the <kbd>Play</kbd> button and notice that it is unchanged!
+Press the <kbd>Play</kbd> button and notice that it is unchanged and is still a negative number!
 
 ![pass by value test](images/confrimPassByVal.png)
 
@@ -86,7 +86,11 @@ Press the <kbd>Play</kbd> button and notice that it is unchanged!
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Is there a way to pass a value to a function and have it actually change the passed value?
+
+Pass by reference is a method of passing arguments to a function in C++ where the reference of an argument is copied into the formal parameter of the function. In this case, changes made to the parameter inside the function affect the argument. Pass by reference is useful when the function needs to modify the value of the argument or when the argument is large and copying it would be inefficient. To pass an argument by reference, the function parameter must be declared as a reference type using the `&` operator. When a reference is used to pass an argument, the memory location of the passed variable and parameter is the same, so any changes made to the parameter also reflect in the variable inside its parent function. Pass by reference is more efficient than pass by value because it avoids copying the argument and instead directly works with the original variable. 
+
+![alt_text](images/passByReference.png)
 
 ![](../images/line2.png)
 
@@ -103,7 +107,7 @@ Press the <kbd>Play</kbd> button and notice that it is unchanged!
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
-
+However, pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized.
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
