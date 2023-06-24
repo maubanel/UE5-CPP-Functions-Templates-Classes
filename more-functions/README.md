@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Lets take a close look at **Functions** in both CPP and Unreal
+Lets take a close look at **Functions** in C++.  
 
 <br>
 
@@ -14,7 +14,7 @@ Lets take a close look at **Functions** in both CPP and Unreal
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/newFunction.png)
 
 ![](../images/line2.png)
 
