@@ -68,7 +68,19 @@ Now when we Press the <kbd>Play</kbd> button, the program picks the overloaded f
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When we call a function what is happening to that data?  When we pass the integer as we have in our two examples we are passing it by value. This is a method of passing arguments to a function in C++ where the actual value of an argument is copied into the parameter of the function. In this method, changes made to the parameter inside the function have no effect on the argument. Pass by value is the default argument passing technique for all data types in a C++ program except arrays.
+
+Lets confirm this.  Notice that I have in the function actually changed the parameter:
+
+```cpp
+return X = X (X > 0) ? X : -X;
+```
+
+This effectively does nothing as this parameter we changed will be removed from the stack when the function ends and will have no effect. So in **main()** create a `Num` variable and set it to `-15.7`.  Now we can pass it to the **Abso** function then print Num after.  Lets see if the function changed the **Num** variable or made a copy and left it unchanged.
+
+Press the <kbd>Play</kbd> button and notice that it is unchanged!
+
+![pass by value test](images/confrimPassByVal.png)
 
 ![](../images/line2.png)
 
