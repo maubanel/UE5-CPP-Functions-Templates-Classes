@@ -90,7 +90,9 @@ Is there a way to pass a value to a function and have it actually change the pas
 
 Pass by reference is a method of passing arguments to a function in C++ where the reference of an argument is copied into the formal parameter of the function. In this case, changes made to the parameter inside the function affect the argument. Pass by reference is useful when the function needs to modify the value of the argument or when the argument is large and copying it would be inefficient. To pass an argument by reference, the function parameter must be declared as a reference type using the `&` operator. When a reference is used to pass an argument, the memory location of the passed variable and parameter is the same, so any changes made to the parameter also reflect in the variable inside its parent function. Pass by reference is more efficient than pass by value because it avoids copying the argument and instead directly works with the original variable. 
 
-![alt_text](images/passByReference.png)
+Return to the `.h` file and change the parameter type to pass by reference by adding the `&` operator in front of the parameter name passed so `X` becomes `&X` and this will now pass by reference.
+
+![pass by reference to function](images/passByReference.png)
 
 ![](../images/line2.png)
 
