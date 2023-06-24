@@ -16,7 +16,7 @@ Lets take a close look at **Functions** in C++.
 
 Re-open **CPP_FTC** solution and pick **Functions.h** and lets add a new function called `Abso`. This function will return type **double** and take an integer parameter.  This will return an absolute value to the integer passed (so it is always a positive number -5 would be become 5).
 
-![alt_text](images/newFunction.png)
+![add Abso function to .h](images/newFunction.png)
 
 ![](../images/line2.png)
 
