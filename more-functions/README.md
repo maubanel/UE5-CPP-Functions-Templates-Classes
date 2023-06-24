@@ -22,9 +22,9 @@ Re-open **CPP_FTC** solution and pick **Functions.h** and lets add a new functio
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Now click on the paintbrush next to the function declaration and select 
+Now click on the paintbrush next to the function declaration and select **Create definition of `Abso` in Function.cpp**.  This will give you a compilable start to the function definition.
 
-![alt_text](images/copySignature.png)
+![create definition](images/copySignature.png)
 
 ![](../images/line2.png)
 
