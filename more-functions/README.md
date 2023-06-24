@@ -40,7 +40,7 @@ Press the <kbd>Play</kbd> button and notice that if we pass `-15` we get `15` ba
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If we send a double to the function by parameter it will cast it to an integer and we will get a truncated double back so `-15.7` becomes `15`.
+If we send a double to the function by parameter it will cast it to an integer and we will get a truncated double back so `-15.7` becomes `15`. How can we accomplish this objective?
 
 ![pass double to parameter](images/sendDoubleToInt.png)
 
@@ -48,7 +48,11 @@ If we send a double to the function by parameter it will cast it to an integer a
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+We can overload a function (a feature of C++) that allows multiple functions to have the same name but different parametersIn function overloading, the function name should be the same but the arguments should be different. Function overloading can be considered an example of a polymorphism feature in C++. Overloaded functions are those that belong to a class but have more than one instance with the same name but different parameters.
+
+So in our case we can overload **Abso()** with a different parameter type. So we will use the same return type, and the same name but a different parameter type.  In this case we will pass a double. It will be up to the program to pick the most appropriate version of the function based on the parameter given.
+
+![overload Abso with double parameter](images/overloadDoubleParam.png)
 
 ![](../images/line2.png)
 
