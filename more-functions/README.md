@@ -92,7 +92,7 @@ Pass by reference is a method of passing arguments to a function in C++ where th
 
 Return to the `.h` file and change the parameter type to pass by reference by adding the `&` operator in front of the parameter name passed so `X` becomes `&X` and this will now pass by reference.
 
-![pass by reference to function](images/passByReference.png)
+![pass by reference to functions](images/passByReference.png)
 
 ![](../images/line2.png)
 
