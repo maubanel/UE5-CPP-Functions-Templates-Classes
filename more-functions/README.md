@@ -160,32 +160,40 @@ Now we have to make some changes to the definitions in the `.cpp` file.  We need
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Since pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized we can use it in combination with `const` to get a desired behavior.  If we are sending a large file to a function (like a video, or a very large texture) - we do NOT want to pass by value and make a copy and take double the memory.  But we want safety that it will not be altered by the function.  This is where one of the more common uses of passing by reference in a fuction is passsing a const reference:
+Since pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized we can use it in combination with `const` to get a desired behavior.  If we are sending a large file to a function (like a video, or a very large texture) - we do NOT want to pass by value and make a copy and take double the memory.  But we want safety that it will not be altered by the function.  This is where one of the more common uses of passing by reference in a fuction is passsing a const reference.
+
+If you see this in the hearder file it is a promise that this function will not mutate that object passed.
 
 ```cpp
 void Print(const vector<int>& V);
 ```
 
-![alt_text](images/printDeclaration.png)
+![const reference to a pointer](images/printDeclaration.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets define the **Print** function in the `.cpp` file.  In this case we will just loop through the vector and print out each element in the container.
+
+![Print definition](images/definePrint.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we will create a new vector of `int`s and give the container some initial values.  We will then send it to the function as a const reference. Press the <kbd>Play</kbd> button and see that it prints the values as is.
+
+![alt_text](images/assignVectors.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if you try and make a change to the array like adding an element the compiler will give an error as the parameter is imutable.
+
+![compiler detects data mutation](images/compilerErrorNoMatch.png)
 
 ![](../images/line2.png)
 
