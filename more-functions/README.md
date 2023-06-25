@@ -102,6 +102,8 @@ Now all we need to do is go to the Definition and change the parameters to pass 
 
 Press the <kbd>Play</kbd> button and notice that the value has changed from `-15.7` to `15.7` and the underlying variable has changed.
 
+However, pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized.
+
 ![pass by reference](images/PassByRef.png)
 
 ![](../images/line2.png)
@@ -121,20 +123,16 @@ Now it doesn't compile as it needs the address of the variable and not the under
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
-However, pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized.
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Here, `&Num` is the address of the variable `Num`, and `pNum2` is a pointer variable that stores the address of `Num`. This time it compiles.
 
 ![assign address](images/assignAddress.png)
 
+![alt_text](images/.png)
+
 ![](../images/line2.png)
 
-##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 We are now going to output the pointer.  Now instead of seeing `15.7`, we are seeing a hexadecimal number.  This will most likely be different for you.  This is assigned by the OS when the memory was assigned for this variable and it is the hexadecimal memory address. What if we want to print the underlying value and not the memory address?
 
@@ -142,7 +140,7 @@ We are now going to output the pointer.  Now instead of seeing `15.7`, we are se
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 The `*` operator is used to dereference the pointer and access the value stored at the memory address pointed to by the pointer. So we will now **cout** the `*pNum2` and then press the <kbd>Play</kbd> button and get the underlyiing number that is stored in that memory location.
 
@@ -150,16 +148,23 @@ The `*` operator is used to dereference the pointer and access the value stored 
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![alt_text](images/pointerInHeader.png)
+
+##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
+
+
+![alt_text](images/redefineForPointers.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/redefineForPointers.png)
 
+![alt_text](images/.png)
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
