@@ -128,7 +128,7 @@ However, pass by reference can be dangerous if the function modifies the argumen
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Here, &x is the address of the variable x, and ptr is a pointer variable that stores the address of x.
+Here, `&Num` is the address of the variable `Num`, and `pNum2` is a pointer variable that stores the address of `Num`. This time it compiles.
 
 ![assign address](images/assignAddress.png)
 
@@ -136,7 +136,9 @@ Here, &x is the address of the variable x, and ptr is a pointer variable that st
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+We are now going to output the pointer.  Now instead of seeing `15.7`, we are seeing a hexadecimal number.  This will most likely be different for you.  This is assigned by the OS when the memory was assigned for this variable and it is the hexadecimal memory address. What if we want to print the underlying value and not the memory address?
+
+![print pointer](images/printPointer.png)
 
 ![](../images/line2.png)
 
