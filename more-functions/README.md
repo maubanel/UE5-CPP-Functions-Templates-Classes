@@ -199,14 +199,20 @@ Now if you try and make a change to the array like adding an element the compile
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+We can do the same thing with a const pointer.  Change the **Print()** declaration in the `.h` file to a const pointer reference.
+
+![change Print to const pointer ref](images/constPointerRef.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now to dereference the **Print** statement to access **push_back** it takes an extra set of brackets to make sure the pointer is properly dereferenced before selecting the method.  This makes for code that is hard to read.
 
+![strange dereferencing syntax](images/funnyPrint.png)
+
+
+compactSyntax
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
