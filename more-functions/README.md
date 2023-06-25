@@ -144,19 +144,21 @@ We are now going to output the pointer.  Now instead of seeing `15.7`, we are se
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/displayVar.png)
+The `*` operator is used to dereference the pointer and access the value stored at the memory address pointed to by the pointer. So we will now **cout** the `*pNum2` and then press the <kbd>Play</kbd> button and get the underlyiing number that is stored in that memory location.
+
+![display pointer](images/displayVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/pointerInHeader.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/redefineForPointers.png)
 
 ![](../images/line2.png)
 
