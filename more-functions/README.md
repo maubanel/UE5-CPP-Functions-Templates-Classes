@@ -98,7 +98,11 @@ Return to the `.h` file and change the parameter type to pass by reference by ad
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now all we need to do is go to the Definition and change the parameters to pass by reference. Now line 113 running the function actually changes the underlying variable as it is no longer passing a copy but an alias to the location of the original variable.  This is useful if a function needs to change more than one variable which is the limit to what a function can return.
+
+Press the <kbd>Play</kbd> button and notice that the value has changed from `-15.7` to `15.7` and the underlying variable has changed.
+
+![pass by reference](images/PassByRef.png)
 
 ![](../images/line2.png)
 
