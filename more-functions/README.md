@@ -2,7 +2,7 @@
 
 ### More with Functions
 
-<sub>[previous](../containers/README.md#user-content-containers) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../containers/README.md#user-content-containers) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../classes-cpp/README.md#user-content-classes-in-cpp)</sub>
 
 ![](../images/line3.png)
 
@@ -211,15 +211,23 @@ Now to dereference the **Print** statement to access **push_back** it takes an e
 
 ![strange dereferencing syntax](images/funnyPrint.png)
 
+![](../images/line2.png)
 
-compactSyntax
+##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+In C++, the arrow operator -> is used to access the members of a class or struct when working with pointers. The arrow operator is a shorthand for dereferencing a pointer and accessing a member of the object that the pointer points to. The arrow operator is formed by using a minus sign, followed by the greater than symbol.  So this is a lot easier to read with the arrow operator.
+
+Notice, it still won't compile because we have declared this as a const pointer.  Try removing the `const` from the declaration and definition and it should compile and run.
+
+![use arrow operator](images/compactSyntax.png)
+
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Classes"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../containers/README.md#user-content-containers)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../containers/README.md#user-content-containers)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../classes-cpp/README.md#user-content-classes-in-cpp)|
 |---|---|---|
