@@ -148,14 +148,15 @@ The `*` operator is used to dereference the pointer and access the value stored 
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now in the `.h` file lets change the **Abso** function so it passes by pointer instead of by reference so replace `&X` with `*X`.
 
-
-![alt_text](images/pointerInHeader.png)
+![siwtch Aso to passing by pointer](images/pointerInHeader.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
+Now we have to make some changes to the definitions in the `.cpp` file.  We need to dereference the pointer whne we want to use the value and NOT the location in memory.
 
-![alt_text](images/redefineForPointers.png)
+![dereference pointer in definition](images/redefineForPointers.png)
 
 ![](../images/line2.png)
 
