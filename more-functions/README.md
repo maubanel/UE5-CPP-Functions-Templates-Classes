@@ -102,8 +102,6 @@ Now all we need to do is go to the Definition and change the parameters to pass 
 
 Press the <kbd>Play</kbd> button and notice that the value has changed from `-15.7` to `15.7` and the underlying variable has changed.
 
-However, pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized.
-
 ![pass by reference](images/PassByRef.png)
 
 ![](../images/line2.png)
@@ -162,8 +160,14 @@ Now we have to make some changes to the definitions in the `.cpp` file.  We need
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Since pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized we can use it in combination with `const` to get a desired behavior.  If we are sending a large file to a function (like a video, or a very large texture) - we do NOT want to pass by value and make a copy and take double the memory.  But we want safety that it will not be altered by the function.  This is where one of the more common uses of passing by reference in a fuction is passsing a const reference:
+
+```cpp
+void Print(const vector<int>& V);
+```
 
 ![alt_text](images/printDeclaration.png)
+
 ![](../images/line2.png)
 
 
