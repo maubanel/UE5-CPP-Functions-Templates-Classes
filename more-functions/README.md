@@ -128,8 +128,6 @@ Here, `&Num` is the address of the variable `Num`, and `pNum2` is a pointer vari
 
 ![assign address](images/assignAddress.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
