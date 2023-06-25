@@ -110,7 +110,7 @@ Press the <kbd>Play</kbd> button and notice that the value has changed from `-15
 
 Finally we can pass by pointer. In C++, a pointer is a variable that stores the memory address of another variable. Pointers are used extensively in both C and C++ for various purposes including passing variables to other functions. To declare a pointer variable in C++, the unary operator `*` is used. For example, to declare a pointer variable ptr that points to an integer variable x, the following syntax is used:
 
-![alt_text](images/.png)
+![alt_text](images/assignAPointer.png)
 
 ![](../images/line2.png)
 
