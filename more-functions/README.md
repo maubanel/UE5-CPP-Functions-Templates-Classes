@@ -144,7 +144,7 @@ We are now going to output the pointer.  Now instead of seeing `15.7`, we are se
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/displayVar.png)
 
 ![](../images/line2.png)
 
