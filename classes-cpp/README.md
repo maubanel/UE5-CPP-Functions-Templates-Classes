@@ -128,13 +128,15 @@ The initialization list is used to directly initialize data members of a class. 
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* **Save** and return to **Main.cpp** and try to compile.  The compiler complains that you can't create the **Card** class as it is expecting two parameters and the **Card** and **Suit** variables are private and not reachable from **main**.
+
+![compile errors due to .h changes](images/CardClassErrorsInMain.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/AceOfSpades.png)
 
 ![](../images/line2.png)
 
