@@ -58,7 +58,13 @@ Now if you select **Card.h** you will see that there is a template to start with
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-In a user defined class we need to initialize all the variables and functions 
+Lets start by adding the libraries that this class will need, for now it is just `iostream`.  We will also add the `using` keyword to make it quicker to type `cout` and `string`.
+
+In a user defined class we need to initialize all the variables and functions. In C++, a class can have member variables and member functions, which are also called data members and methods. The access to these members is governed by the three access specifiers: private, protected, and public. By default, the access to members of a C++ class is private, which means that the private members can only be accessed through methods of the class. The public members, on the other hand, form an interface to the class and are accessible outside the class using the direct member access operator `.` with the object of that class. All the class members declared under public will be available to everyone, including other classes. The data members and member functions declared public can be accessed by other classes too. 
+
+We typically seperate interface(public) from implementation (private/protected).  THe public members are the API we want other classes (or the main() function) to use to access this class.  
+
+We will start by creating an `int Number;` to represent the number of a playing card with 1 meaning ace and 11 meaning Jack.  We will also create a `string Suit` to hold one of the four suits of playing cards (Clubs, Diamonds, Hearts, Spades).
 
 ![alt_text](images/firstPassClass.png)
 
