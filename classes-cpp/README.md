@@ -42,7 +42,7 @@ Right click on the **Card Game** project and add a new **Class** called `Card`. 
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the project and add a new **Add | Item | Object** and call it `main.cpp`.
+*Right click* on the project and add a new **Add | New Item...** and call it `Main.cpp`.
 
 ![alt_text](images/addMain.png)
 
