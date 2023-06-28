@@ -144,7 +144,15 @@ So we will pass **NextCard** an integer of `1` and a string of `"Spades"`.  In t
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now using an integer to represent a card value is flawed.  If it was used to represent the points a card is worth then an integer is appropirate.  But I have to create a rule that `1` is Ace and `11` is Jack etc... The 2 through 10 card works but not for aces or face cards.  
+
+The is a special class that we can use to use essentially an unsiged int but give it a human readble name. In C++11, a new type of enum called an enum class (or scoped enum) was introduced. An enum class is a strongly typed enumeration that provides better type safety and scoping than traditional enums. An enum class is declared using the enum class keyword, followed by the name of the enum and a list of enumerators enclosed in braces.
+
+We can also set the starting value of the enumerator class that defaults to start at `0`.
+
+So we have created two enumerator classes 
+
+![alt_text](images/enumeratorpng)
 
 ![](../images/line2.png)
 
