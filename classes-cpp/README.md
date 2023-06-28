@@ -136,7 +136,9 @@ Now *press* **Save** and return to **Main.cpp** and try to compile.  The compile
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/AceOfSpades.png)
+So we will pass **NextCard** an integer of `1` and a string of `"Spades"`.  In the **cout** we will use the getter to get the number and suit.  Run the simulation and see that we are now using the public interface to instantiate the card with a card of our choice and a suit.  We can then access it with the **GetNumber()** and **GetSuit()** getters.
+
+![fix compile errors](images/AceOfSpades.png)
 
 ![](../images/line2.png)
 
