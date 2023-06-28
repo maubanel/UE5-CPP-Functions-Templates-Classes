@@ -18,7 +18,9 @@ The public interface is the api that accesses the members of the class and the p
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Press **File | Add |**
+
+![alt_text](images/addNewProject.png)
 
 ![](../images/line2.png)
 
