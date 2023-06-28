@@ -152,7 +152,7 @@ We can also set the starting value of the enumerator class that defaults to star
 
 So we have created two enumerator classes 
 
-![alt_text](images/enumerator.spng)
+![alt_text](images/enumerators.png)
 
 ![](../images/line2.png)
 
