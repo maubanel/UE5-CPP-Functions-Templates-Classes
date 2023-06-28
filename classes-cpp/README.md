@@ -26,7 +26,9 @@ Press **File | Add | New Project...** and select a new **Empty Project** for **C
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Call the new project you want to add to the solution `CardGame`. Keep it in the same directory as the solution file. 
+
+![create CardGame project](images/createCardGameProject.png)
 
 ![](../images/line2.png)
 
