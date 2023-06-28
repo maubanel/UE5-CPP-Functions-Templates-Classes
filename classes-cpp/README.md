@@ -74,9 +74,14 @@ Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **Main.cpp**.
+Now open up **Main.cpp**. We first need to include the libraries we need.  Now don't have to include `iostream` as when we include `"Card.h"`, this will also use its includes so we will get access to `iostream` through `"Card.h"`.  We will create a new **main()** function as it will be used when we run the project.  Create a new variable of type **Card**.  
 
-![alt_text](images/PrintThreeOfSpades.png)
+In C++ the dot operator `.` is used to reference individual members of classes and is also known as the class member access operator. The dot operator is applied to the actual object, and it is used to access public members of a class.
+Public members contain data members (variables) and member functions (class methods) of a class. The dot operator can only be used on objects, not on pointers.
+
+So we can access the **Card** and **Suit** variables and define them in our CPP file.  We then print the results and you see that we have created an instance of the card class, adjusted its variables and sent them to the output stream.
+
+![print card to screen](images/PrintThreeOfSpades.png)
 
 ![](../images/line2.png)
 
