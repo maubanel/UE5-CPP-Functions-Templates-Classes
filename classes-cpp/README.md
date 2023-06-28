@@ -116,7 +116,15 @@ In this case we creeate a parameterized function with two members that we HAVE t
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now right click on the constructor and select 
+Now right click on the constructor and select **Create definition`Card` in Card.cpp**.
+
+In C++, an initialization list is used in a constructor to initialize the data members of a class. The initialization list is a comma-separated list of data members to be initialized, each followed by its corresponding value in parentheses[. The initialization list is indicated with the constructor as a comma-separated list followed by a colon `:`. The initialization list is inserted after the constructor parameters and before the constructor body[. 
+
+The initialization list is used to directly initialize data members of a class. It allows us to initialize the data members of a class before the constructor body is executed. The initialization list is used to initialize const and reference members of a class, and to initialize members of a class that do not have a default constructor. 
+
+      
+
+
 
 ![alt_text](images/assignmentConstructor.png)
 
