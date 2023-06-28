@@ -66,13 +66,17 @@ We typically seperate interface(public) from implementation (private/protected).
 
 We will start by creating an `int Number;` to represent the number of a playing card with 1 meaning ace and 11 meaning Jack.  We will also create a `string Suit` to hold one of the four suits of playing cards (Clubs, Diamonds, Hearts, Spades).
 
-![alt_text](images/firstPassClass.png)
+Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  
+
+![add two public variables to represent number and suit of card](images/firstPassClass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **Main.cpp**.
+
+![alt_text](images/PrintThreeOfSpades.png)
 
 ![](../images/line2.png)
 
