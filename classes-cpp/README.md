@@ -18,9 +18,9 @@ The public interface is the api that accesses the members of the class and the p
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Press **File | Add |**
+Press **File | Add | New Project...** and select a new **Empty Project** for **C++** and **Console**. Press the <kbd>Next</kbd> button.
 
-![alt_text](images/addNewProject.png)
+![add new C++ Console Project](images/addNewProject.png)
 
 ![](../images/line2.png)
 
