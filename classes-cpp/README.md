@@ -58,7 +58,7 @@ Now if you select **Card.h** you will see that there is a template to start with
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-
+In a user defined class we need to initialize all the variables and functions 
 
 ![alt_text](images/firstPassClass.png)
 
