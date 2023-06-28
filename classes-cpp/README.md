@@ -81,13 +81,24 @@ Public members contain data members (variables) and member functions (class meth
 
 So we can access the **Card** and **Suit** variables and define them in our CPP file.  We then print the results and you see that we have created an instance of the card class, adjusted its variables and sent them to the output stream.
 
+We have created our first user defined class, created an instance of it and altered its public interface.
+
 ![print card to screen](images/PrintThreeOfSpades.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets open up **Card.h** again and we don't want the card to be in the public open API.  Do we want someone using our card class just arbitrarilly change the value of a card?  I think once the card is assigned it should be fixed and not mutable.  So lets change the access to **Private**.
+
+Now how do we create a read only interface so we can give the other class the value and suit of the card? 
+
+In C++, a getter function is a member function of a class that is used to retrieve the value of a private member variable of that class. Since private member variables cannot be accessed outside the class, getter functions provide a way to access them indirectly. Getter functions are also known as accessor methods or simply getters.  To create a getter function in C++, a public member function is defined that returns the value of the private member variable
+The function can have any name, but it is common to use a name that starts with "get" followed by the name of the member variable.
+
+
+
+![alt_text](images/createInterface.png)
 
 ![](../images/line2.png)
 
