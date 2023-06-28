@@ -96,15 +96,29 @@ Now how do we create a read only interface so we can give the other class the va
 In C++, a getter function is a member function of a class that is used to retrieve the value of a private member variable of that class. Since private member variables cannot be accessed outside the class, getter functions provide a way to access them indirectly. Getter functions are also known as accessor methods or simply getters.  To create a getter function in C++, a public member function is defined that returns the value of the private member variable
 The function can have any name, but it is common to use a name that starts with "get" followed by the name of the member variable.
 
+So we will create two public getter functions `int GetNumber()` and `string GetSuit()` and return the private member.  So we are giving read access to this property!
 
+Notice there is a function with the name of the class in **Public**
 
-![alt_text](images/createInterface.png)
+```cpp
+Card(int N, string S);
+```
+
+Notice it has no type in front of what looks like a regular function name.  It is a special member function called a **constructor**. The constructor is called when an object of that class is instantiated. The constructor is used to initialize the object's data members and allocate any necessary resources. A constructor has the same name as the class and no return type.
+
+There are two types of constructors in C++: default constructors and parameterized constructors. A default constructor is a constructor that takes no arguments, while a parameterized constructor takes one or more arguments.
+
+In this case we creeate a parameterized function with two members that we HAVE to send to the class when creating it with an integer and a string.
+
+![create a public and private interface in the Card class](images/createInterface.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now right click on the constructor and select 
+
+![alt_text](images/assignmentConstructor.png)
 
 ![](../images/line2.png)
 
