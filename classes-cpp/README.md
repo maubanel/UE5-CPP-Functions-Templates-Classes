@@ -44,19 +44,23 @@ Right click on the **Card Game** project and add a new **Class** called `Card`. 
 
 *Right click* on the project and add a new **Add | New Item...** and call it `Main.cpp`.
 
-![alt_text](images/addMain.png)
+![add Main.cpp to the project](images/addMain.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now if you select **Card.h** you will see that there is a template to start with.
+
+![open up Card.h](images/dotHTemplate.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/firstPassClass.png)
 
 ![](../images/line2.png)
 
