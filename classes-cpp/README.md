@@ -26,7 +26,7 @@ Press **File | Add | New Project...** and select a new **Empty Project** for **C
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Call the new project you want to add to the solution `CardGame`. Keep it in the same directory as the solution file. 
+Call the new project you want to add to the solution `CardGame`. Keep it in the same directory as the solution file. Press the <kbd>Create</kbd> button.
 
 ![create CardGame project](images/createCardGameProject.png)
 
@@ -34,7 +34,9 @@ Call the new project you want to add to the solution `CardGame`. Keep it in the 
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the **Card Game** project and add a new **Class** called `Card`.  Press the <kbd>OK</kbd> button.
+
+![Add Card Class](images/AddClass.png)
 
 ![](../images/line2.png)
 
