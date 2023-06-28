@@ -122,9 +122,7 @@ In C++, an initialization list is used in a constructor to initialize the data m
 
 The initialization list is used to directly initialize data members of a class. It allows us to initialize the data members of a class before the constructor body is executed. The initialization list is used to initialize const and reference members of a class, and to initialize members of a class that do not have a default constructor. 
 
-
-
-![alt_text](images/assignmentConstructor.png)
+![define class and assign variables](images/assignmentConstructor.png)
 
 ![](../images/line2.png)
 
