@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets look at overloading the C++ constructor to allow for different ways to initialize the class.  We will also look at ways to cast from integers to enumerators safely.
 
 <br>
 
@@ -14,7 +14,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets say we wanted to allow a power user to remember the order of the cards and suits (which are alphabetical) and use integers to save time (may not be a recommneded practice though).  We can overload the constructor to also accept two integers.
+
+![overload constructor](images/overloadConsructor.png)
 
 ![](../images/line2.png)
 
