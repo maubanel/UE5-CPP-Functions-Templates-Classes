@@ -34,7 +34,7 @@ So in our case we want to go to **CardNumber** and **CardClass** as a destinatio
 
 Open up the **Main.cpp** and pass the **Card** initialization two integers.  In this case a 3 of clubs.  Run the program to see if it overrides the constructor correctly.
 
-![use int to initialize card](images/.png)
+![use int to initialize card](images/UseIntToInializeCard.png)
 
 ![](../images/line2.png)
 
