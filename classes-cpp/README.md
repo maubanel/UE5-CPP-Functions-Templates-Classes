@@ -170,7 +170,7 @@ Now we will make **Cards** a `CardNumber` enum and **Suit** to a `CardSuit` enum
 
 In C++ we cannot just send an enumerator to the output stream.  If we try and compile our **Main.cpp** we get an error that says **CardNumber** and **CardSuit** have no `<<` operator. It is because it doesn't know what this type is supposed to displa as it is not a number or a string.
 
-![alt_text](images/cantOutputEnum.png)
+![error can't output enum](images/cantOutputEnum.png)
 
 ![](../images/line2.png)
 
@@ -178,7 +178,9 @@ In C++ we cannot just send an enumerator to the output stream.  If we try and co
 
 C++ allows us to overload operators to have user-defined meanings to user-defined classes. The operator function is defined using the `operator` keyword followed by the symbol to be overloaded, in this case `<<`. Link any function an overloaded operator can have parameters and a return type. 
 
-![alt_text](images/cantOutputEnum.png)
+We will inside our class make the overloaded `ostream` a friend class allowing it to see the private members of our **Card** class.
+
+![alt_text](images/operatorOverload.png)
 
 ![](../images/line2.png)
 
