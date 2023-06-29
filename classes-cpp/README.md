@@ -160,7 +160,9 @@ Now we can access the enumerator by selecting `CardNumber.Ace` (it will return t
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we will make **Cards** a 
+
+![change from int and string to enum](images/changeToEnum.png)
 
 ![](../images/line2.png)
 
