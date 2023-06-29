@@ -160,7 +160,7 @@ Now we can access the enumerator by selecting `CardNumber.Ace` (it will return t
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we will make **Cards** a 
+Now we will make **Cards** a `CardNumber` enum and **Suit** to a `CardSuit` enum type in the `.h` file.  Then change all the parameters and return values to these enumerators. Do the same in the `.CPP`.
 
 ![change from int and string to enum](images/changeToEnum.png)
 
@@ -168,13 +168,17 @@ Now we will make **Cards** a
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+In C++ we cannot just send an enumerator to the output stream.  If we try and compile our **Main.cpp** we get an error that says **CardNumber** and **CardSuit** have no `<<` operator. It is because it doesn't know what this type is supposed to displa as it is not a number or a string.
+
+![alt_text](images/cantOutputEnum.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+C++ allows us to overload operators to have user-defined meanings to user-defined classes. The operator function is defined using the `operator` keyword followed by the symbol to be overloaded, in this case `<<`. Link any function an overloaded operator can have parameters and a return type. 
+
+![alt_text](images/cantOutputEnum.png)
 
 ![](../images/line2.png)
 
