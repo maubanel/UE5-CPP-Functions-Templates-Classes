@@ -168,6 +168,8 @@ Now we will make **Cards** a `CardNumber` enum and **Suit** to a `CardSuit` enum
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+In **Main.cpp** change the parameters passed to the **Card** to the enumerators. 
+
 In C++ we cannot just send an enumerator to the output stream.  If we try and compile our **Main.cpp** we get an error that says **CardNumber** and **CardSuit** have no `<<` operator. It is because it doesn't know what this type is supposed to displa as it is not a number or a string.
 
 ![error can't output enum](images/cantOutputEnum.png)
@@ -178,49 +180,54 @@ In C++ we cannot just send an enumerator to the output stream.  If we try and co
 
 C++ allows us to overload operators to have user-defined meanings to user-defined classes. The operator function is defined using the `operator` keyword followed by the symbol to be overloaded, in this case `<<`. Link any function an overloaded operator can have parameters and a return type. 
 
-We will inside our class make the overloaded `ostream` a friend class allowing it to see the private members of our **Card** class.
+We will inside our class make the overloaded `ostream` a friend class allowing it to see the private members of our **Card** class. So we then after our class overload the `std::ostream`'s `<<` operator.
 
-![alt_text](images/operatorOverload.png)
+![overload operator](images/operatorOverload.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets finish adding all cards of a deck to **CardValue** enumerator class.
+
+![complete Card enum](images/completeCardEnum.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the paintbrush to add this to our `.cpp` file. Then you will pass a string to the `osstream` with the name of each card using a **Switch** statement.
+
+![pass string of card to definition](images/operatorOverloadDefinition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we also need to overload the `<<` operator for **CardSuit**.  So in the `.h` we need to make it a friend class to our **CardClass** then initilize the overload.
+
+![initilaize CardSuit overload](images/overloadCardSuit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Define the **CardSuit** in the same manner as the number except passing the 4 suits to `<<` overload.
+
+![define CardSuit << overload](images/defineCardSuitOverload.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Now when we run the program it prints the card number and name just as we want to!
+
+![output card number and name](images/PrintsCardName.png)
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
-
-![](../images/line.png)
-
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Classes in CPP II"> -->
 
 ![next up - ](images/banner.png)
 
