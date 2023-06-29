@@ -40,19 +40,33 @@ Open up the **Main.cpp** and pass the **Card** initialization two integers.  In 
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we have to be careful about using `static_cast` to ensure a safe conversion.  If we pass card a value that is no in the range of our enumerator there will be a runtime crash. Make the following change to line 5.
+
+```cpp
+Card NextCard(1, 5);
+```
+
+So we know there is no 45 fifth card and the program crashes when run.
+
+![program crashes on out of bounds array](images/staticCastCrash.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now it is crashing in our operator overload as there is no case for the switch statement that is valid.  This is where the **default** catch all will work and we will return an error message warning the programmer that they are not accessing a valid value. 
+
+This default cast will run on any other possible integer value and return the error message below. Now it will run without crashing and give us some feedback.
+
+![add default case to both enumerators](images/addDefaultToBothEnums.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/enterInvalidSuit.png)
 
 ![](../images/line2.png)
 
