@@ -96,7 +96,9 @@ In the definition we will pass an Ace of Clubs to the default constructor.
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now you can run and the constructor overload will pick the correct definition and return the ace of spades!
+
+![ace of spades when running program](images/overloadedDefaultConstructorRun.png)
 
 ![](../images/line2.png)
 
