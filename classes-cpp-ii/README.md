@@ -32,7 +32,9 @@ So in our case we want to go to **CardNumber** and **CardClass** as a destinatio
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up the **Main.cpp** and pass the **Card** initialization two integers.  In this case a 3 of clubs.  Run the program to see if it overrides the constructor correctly.
+
+![use int to initialize card](images/.png)
 
 ![](../images/line2.png)
 
