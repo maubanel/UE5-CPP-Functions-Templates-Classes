@@ -22,7 +22,11 @@ Now lets say we wanted to allow a power user to remember the order of the cards 
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now the compiler doesn't natively convert from `int` to `enum`.  So you need to call the `static_cast` operator. It is a compile-time cast that can be used for operations such as implicit conversions between types (such as int to enumerator class, int to float, or pointer to void*). The syntax of `static_cast` is `static_cast<dest_type>(source)` where `dest_type` is the data type to which the source is to be converted.
+
+So in our case we want to go to **CardNumber** and **CardClass** as a destination and our sourse is an **int**.
+
+![static cast](images/staticCast.png)
 
 ![](../images/line2.png)
 
