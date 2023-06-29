@@ -2,7 +2,7 @@
 
 ### Classes in CPP
 
-<sub>[previous](../more-functions/README.md#user-content-more-with-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../more-functions/README.md#user-content-more-with-functions) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../classes-cpp-ii/README.md#user-content-classes-in-cpp-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -233,5 +233,5 @@ Now when we run the program it prints the card number and name just as we want t
 
 ![](../images/line.png)
 
-| [previous](../more-functions/README.md#user-content-more-with-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../more-functions/README.md#user-content-more-with-functions)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../classes-cpp-ii/README.md#user-content-classes-in-cpp-ii)|
 |---|---|---|
