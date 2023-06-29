@@ -90,7 +90,7 @@ We can overload the constructor so it has a a default constructor to run if no p
 
 In the definition we will pass an Ace of Clubs to the default constructor.
 
-![ace of clubs in default constructor](images/.png)
+![ace of clubs in default constructor](images/defineAceClubs.png)
 
 ![](../images/line2.png)
 
