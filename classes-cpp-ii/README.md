@@ -104,7 +104,15 @@ Now you can run and the constructor overload will pick the correct definition an
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now what if we wanted the player to be able to increment the card?  This is just an example since we have made the card read only and private I wouldn't want you to mutate the card.
+
+This is just a demonstration that for custom classes we can override the mathematical operators with any logic we want.  Now we want to be germain to their original meaning.  So I am interpreting `++` operator as the next card number in the same suit.
+
+So lets override the `++` operator.  We need to versions for for `foo++` a post fix operator and `++foo` a prefix operator.
+
+For the 
+
+![add definition](images/override++Operator.png)
 
 ![](../images/line2.png)
 
