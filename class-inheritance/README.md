@@ -24,7 +24,9 @@ Add a new project to the solution by selecting **File | Add New | Project** and 
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/solutionExplorer.png)
 
 ![](../images/line2.png)
 
