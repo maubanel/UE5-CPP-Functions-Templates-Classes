@@ -153,6 +153,8 @@ That's it for this walk through. Thanks for following through to the end.
 
 ![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=That's All Folks"> -->
+
 ![the end](images/banner.png)
 
 ![](../images/line.png)
