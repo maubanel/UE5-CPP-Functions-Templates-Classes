@@ -32,9 +32,19 @@ Call the project `ClassInheritanceCasting` and leave it in the same folder. Pres
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a `Main.cpp` file to the project.  
+Add a `Main.cpp` file to the project.  We will start by including `iostream` and allowing us to direftly call `cout` and `string`. We will start with our base class `Enemy` which will have two public members, with the first being the number of heads the creature has and then the species name.  We initialize the number of heads to a default of `1` the most common and since each **Name** will be unique we leave it an empty string.
 
-![alt_text](images/startingMain.png)
+We will then create two derived classes one `Aligator` and the other `Lion`.  Now they are derived by deriving aligator from enemy using the public access specifier.
+```cpp
+class Aligator : public Enemy
+{
+// do something
+};
+```
+
+Then we will create a **Lion** type and define its name.  We don't need to define the **NumberOfHeads** as the default of `1` we inherit will do.
+
+![create two derived classes from Enemy](images/startingMain.png)
 
 ![](../images/line2.png)
 
