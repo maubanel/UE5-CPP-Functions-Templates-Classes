@@ -56,7 +56,18 @@ Then we will create a **Lion** type and define its name.  We don't need to defin
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Run the project.  Even though there are no variables in the derived **Lions** class it still has access to its parents public and protected members.  Remember protected allows any derived class to access those members but not other classes.
+
+This is called encapsulation which is a fundamental concept in object-oriented programming (OOP) that involves bundling data members and functions inside a single class. 
+
+Encapsulation helps to protect the internal state of an object by keeping its data members private, and access to and modification of these data members is restricted to the class’s public methods, ensuring controlled and secure data manipulation. 
+
+Encapsulation also leads to data abstraction, which is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
+
+So we get a lion with 1 head.
+
+
+![run projetd lion with 1 head](images/InheritDerivedVars.png)
 
 ![](../images/line2.png)
 
