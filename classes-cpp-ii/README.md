@@ -140,15 +140,17 @@ Lets test this definition.
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Lets test the prefix overload by outputing `(++NextCard).GetNumber() to test that we can use the prefix operator and chain it with the function. Run the program and yes in fact our Ace of Clubs goes to Two of Clubs inline!
 
-
-![alt_text](images/testPrefixOverload.png)
+![prefix operator runs in program](images/testPrefixOverload.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+To test the postfix operator we will call it twice.  First inline, then refer to it again the next line.  As expected the value returned was the preincremented value but the underlying value did change which shows up in the second output.
+
+![postfix operator test succeeds](images/testPostOperator.png)
 
 ![](../images/line2.png)
 
