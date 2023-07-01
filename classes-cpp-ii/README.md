@@ -2,7 +2,7 @@
 
 ### Classes in CPP II
 
-<sub>[previous](../classes-cpp/README.md#user-content-classes-in-cpp) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../classes-inheritance/README.md#user-content-class-inheritance)</sub>
+<sub>[previous](../classes-cpp/README.md#user-content-classes-in-cpp) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../class-inheritance/README.md#user-content-class-inheritance)</sub>
 
 ![](../images/line3.png)
 
@@ -199,5 +199,5 @@ Then we test that the decriment operator wraps back to King.  Now more thorough 
 
 ![](../images/line.png)
 
-| [previous](../classes-cpp/README.md#user-content-classes-in-cpp)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../classes-inheritance/README.md#user-content-class-inheritance)|
+| [previous](../classes-cpp/README.md#user-content-classes-in-cpp)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../class-inheritance/README.md#user-content-class-inheritance)|
 |---|---|---|
