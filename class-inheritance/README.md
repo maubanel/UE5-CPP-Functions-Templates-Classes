@@ -18,7 +18,7 @@ To inherit a class in C++, we use the colon (:) symbol followed by the access sp
 
 Add a new project to the solution by selecting **File | Add New | Project** and select a console C++ project and press the <kbd>Next</kbd> button.
 
-![add console cpp project to solution](images/.png)
+![add console cpp project to solution](images/addProject.png)
 
 ![](../images/line2.png)
 
