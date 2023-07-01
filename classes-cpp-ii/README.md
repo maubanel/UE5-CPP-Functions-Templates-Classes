@@ -118,7 +118,7 @@ For the postfix we are returning with a pass by reference and prefix a by value.
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Right click on both override initializations and select ****.
+Right click on both override initializations and select **Create definition of `operator++` in Card.cpp**. This will create two boilerplates to work from in the `.cpp` file.
 
 ![boilerplate definition](images/boilerplateDefinition.png)
 
@@ -126,7 +126,9 @@ Right click on both override initializations and select ****.
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+We can overload the pre-increment operator by returning a reference to the object being incremented. So `Card& overload++(Card& Orig)` returns a reference to the object itself which allows for chaining multiple increment opertaions todather like `++(++NextCard)`.
+
+![incrementer definitions](images/incrementerDefinitions.png)
 
 ![](../images/line2.png)
 
