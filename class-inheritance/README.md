@@ -141,7 +141,7 @@ To access this member through a pointer to the base class we will have to **cast
 
 In C++, `static_cast` is an operator that performs an explicit type conversion. It can be used for operations such as implicit conversions between types as well as pointers.
 
-To cast a pointer from one type to another, `static_cast` can be used. For example, to cast a pointer of a `base class` to a pointer of a `derived class`, `static_cast` can be used. In our case we are casting from our **Enemy** base class to our **Lion** derived class.
+To cast a pointer from one type to another, `static_cast` can be used. For example, to cast a pointer of a `base class` to a pointer of a `derived class`, `static_cast` can be used. In our case we are casting from our **Enemy** base class to our **Aligator** derived class.
 
 ![static cast with pointers](images/staticCastPointers.png)
 
