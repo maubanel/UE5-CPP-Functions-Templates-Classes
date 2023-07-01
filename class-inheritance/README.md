@@ -73,6 +73,10 @@ So we get a lion with 1 head.
 
 ##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
+Now what if we wanted to keep an array of all enemies regardless of the derived class (so in our case both **Aligator** and **Lion**). This is where pointers can be useful.  Since they both derive from the same enemy class we can store an array of pointers of the base class type.
+
+Now when we access this base class member we will get the derived value.  Let me demonstrate this.
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
