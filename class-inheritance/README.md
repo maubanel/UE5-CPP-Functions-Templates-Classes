@@ -97,33 +97,43 @@ Inheritance is a mechanism that allows a class to inherit properties and methods
 
 Polymorphism is useful for code reusability, as it allows us to reuse attributes and methods of an existing class when we create a new class. Polymorphism is also useful for creating more flexible and extensible code, as it allows us to write code that can work with different types of objects.
 
-It also can cause some interesting challenges that we need to be aware of.
+It also can cause some interesting challenges that we need to be aware of. So it allows us to have variables that are only accessible in the derived classes.  Lets add a new `string` called **Feature** to each derived class and output them.
 
-![alt_text](images/derivedMembers.png)
+![output feature variable](images/derivedMembers.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now since this is not in the derived class we cannot access the member.  We get a compiler error.
+
+![cannot access members not in base class](images/notInDerivedClass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+To access this member through a pointer to the base class we will have to **cast** it to the derived class.
+
+ADD EXAMPLE
+
+![alt_text](images/ADD.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-![alt_text](images/.png)
+We now will change the number of heads a **Lion** has to `3`.  Now the base class initialized it to `1`.  What will we get when we point to this variable in the **Base Class**?
+
+![change lionts head to three](images/changeLionsHead.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+It is still showing the derived value even though it is pointing to the base class **NumberOfHeads**.
+
+![showing derived value](images/stillShowsDerivedValue.png)
 
 ![](../images/line2.png)
 
