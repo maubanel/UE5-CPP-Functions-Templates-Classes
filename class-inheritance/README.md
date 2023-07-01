@@ -77,6 +77,14 @@ Now what if we wanted to keep an array of all enemies regardless of the derived 
 
 Now when we access this base class member we will get the derived value.  Let me demonstrate this.
 
+We create a pointer to the base class by calling:
+
+```cpp
+Enemy* pE = &L;
+```
+
+So we create a pointer to the **Enemy** (not the **Lion**) base class of **L** (which is an instance of the derived Lions class).  We then output the **Name** from the parent class.  But it prints out **Lion** and not an empty string as it wasn't initialized.
+
 ![alt_text](images/derivedPointer.png)
 
 ![](../images/line2.png)
