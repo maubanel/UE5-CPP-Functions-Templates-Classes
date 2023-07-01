@@ -91,7 +91,15 @@ So we create a pointer to the **Enemy** (not the **Lion**) base class of **L** (
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This is called polymorphism.  This is one of the key features of object-oriented programming. In C++, polymorphism can be achieved through inheritance, overriding, and overloading.
+
+Inheritance is a mechanism that allows a class to inherit properties and methods from another class. Overriding is a feature that allows a subclass to provide its own implementation of a method that is already defined in its superclass. 
+
+Polymorphism is useful for code reusability, as it allows us to reuse attributes and methods of an existing class when we create a new class. Polymorphism is also useful for creating more flexible and extensible code, as it allows us to write code that can work with different types of objects.
+
+It also can cause some interesting challenges that we need to be aware of.
+
+![alt_text](images/derivedMembers.png)
 
 ![](../images/line2.png)
 
