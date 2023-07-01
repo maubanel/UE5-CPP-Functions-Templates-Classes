@@ -128,13 +128,21 @@ Right click on both override initializations and select **Create definition of `
 
 We can overload the pre-increment operator by returning a reference to the object being incremented. So `Card& overload++(Card& Orig)` returns a reference to the object itself which allows for chaining multiple increment opertaions todather like `++(++NextCard)`.
 
+We also need to allow for ++ to wrap so that when we increment the **King** we go back to the **Ace**.  We then need to cast the to a **CardNumber** the private **Number** member.  This means we need to make it a friend class which we did in the `.h`.  If it was not a private member we could have left it a public class.
+
+For the postfix operator we pass it a `operator++(Card& Orig, int)` a dummy parameter to differentioate it from the prefix operator. So in this case we make a copy of the card and return that value so it is unchanged.  Then we increment the rereference with the prefix operator (handles the King wrapping logic).  So this function retunrs a copy of the object before it was incremented.  So the next line we will get the incremented value.
+
+Lets test this definition.
+
 ![incrementer definitions](images/incrementerDefinitions.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/testPrefixOverload.png)
 
 ![](../images/line2.png)
 
