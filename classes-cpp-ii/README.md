@@ -2,7 +2,7 @@
 
 ### Classes in CPP II
 
-<sub>[previous](../classes-cpp/README.md#user-content-classes-in-cpp) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../)</sub>
+<sub>[previous](../classes-cpp/README.md#user-content-classes-in-cpp) • [home](../README.md#user-content-ue5-cpp-functions--templates--classes) • [next](../classes-inheritance/README.md#user-content-class-inheritance)</sub>
 
 ![](../images/line3.png)
 
@@ -156,45 +156,48 @@ To test the postfix operator we will call it twice.  First inline, then refer to
 
 ##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets test the wrapping by incrementing until it gets to a King of Clubs. Then we will print the output of the king.
+
+![test wrapping prep](images/testWrapping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets test the wrapping by adding
+
+```cpp
+cout << "\nThe next card should wrap back to the begining as a " << (++NextCard).GetNumber() << " of " << NextCard.GetSuit(); 
+```
+
+Now run and we should go from King to Ace as opposed to an invalid card.
+
+![call card wrapping](images/TestCardWrapping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now repeat this for the decriment overload and the edge condition changes from decrimenting Ace to become King.
+
+![decrinment overload](images/decrimentOverload.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Then we test that the decriment operator wraps back to King.  Now more thorough testing is needed to make sure both definitions work - but this is a good starting point.
+
+![test decriment operator](images/decrimentTest.png)
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UECPPFTC`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line.png)
-
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Class Inheritance"> -->
 
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../classes-cpp/README.md#user-content-classes-in-cpp)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../)|
+| [previous](../classes-cpp/README.md#user-content-classes-in-cpp)| [home](../README.md#user-content-ue5-cpp-functions--templates--classes) | [next](../classes-inheritance/README.md#user-content-class-inheritance)|
 |---|---|---|

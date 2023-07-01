@@ -25,6 +25,7 @@ The implementations are different and have different pros and cons.  This will e
 <kbd></kbd> &nbsp;&nbsp; [More with Functions](more-functions/README.md#user-content-more-with-functions) <br>
 <kbd></kbd> &nbsp;&nbsp; [Classes in CPP](classes-cpp/README.md#user-content-classes-in-cpp) <br>
 <kbd></kbd> &nbsp;&nbsp; [Classes in CPP II](classes-cpp-ii/README.md#user-content-classes-in-cpp-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Class Inheritance](classes-inheritance/README.md#user-content-class-inheritance) <br>
 
 <!-- LICENSE -->
 ## License
