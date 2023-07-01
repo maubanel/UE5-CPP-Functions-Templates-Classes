@@ -110,15 +110,17 @@ This is just a demonstration that for custom classes we can override the mathema
 
 So lets override the `++` operator.  We need to versions for for `foo++` a post fix operator and `++foo` a prefix operator.
 
-For the 
+For the postfix we are returning with a pass by reference and prefix a by value.
 
-![add definition](images/override++Operator.png)
+![add ++ overide initilialization](images/override++Operator.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right click on both override initializations and select ****.
+
+![boilerplate definition](images/boilerplateDefinition.png)
 
 ![](../images/line2.png)
 
