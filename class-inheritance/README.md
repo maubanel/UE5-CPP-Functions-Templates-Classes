@@ -77,7 +77,7 @@ Now what if we wanted to keep an array of all enemies regardless of the derived 
 
 Now when we access this base class member we will get the derived value.  Let me demonstrate this.
 
-![alt_text](images/.png)
+![alt_text](images/derivedPointer.png)
 
 ![](../images/line2.png)
 
