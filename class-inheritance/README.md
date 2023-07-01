@@ -24,15 +24,17 @@ Add a new project to the solution by selecting **File | Add New | Project** and 
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
+Call the project `ClassInheritanceCasting` and leave it in the same folder. Press the <kbd>Create</kbd> button.  Now right click the new project in the **Solution Explorer** and select **Set as Startup Project**. 
 
-
-![alt_text](images/solutionExplorer.png)
+![create ClassInheritanceCasting project and set as default](images/solutionExplorer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a `Main.cpp` file to the project.  
+
+![alt_text](images/startingMain.png)
 
 ![](../images/line2.png)
 
