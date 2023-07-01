@@ -6,7 +6,9 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+In C++, inheritance is a process in which one class acquires the properties and behaviors of another class automatically. The class that inherits the members of another class is called the derived class, and the class whose members are inherited is called the base class.
+
+To inherit a class in C++, we use the colon (:) symbol followed by the access specifier and the name of the base class. The access specifier can be public, protected, or private, and it determines the visibility of the base class members in the derived class. The most common is to use the public access specifier.
 
 <br>
 
@@ -14,7 +16,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Add a new project to the solution by selecting **File | Add New | Project** and select a console C++ project and press the <kbd>Next</kbd> button.
+
+![add console cpp project to solution](images/.png)
 
 ![](../images/line2.png)
 
