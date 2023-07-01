@@ -113,23 +113,13 @@ Now since this is not in the derived class we cannot access the member.  We get 
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-To access this member through a pointer to the base class we will have to **cast** it to the derived class.
-
-ADD EXAMPLE
-
-![alt_text](images/ADD.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
-
 We now will change the number of heads a **Lion** has to `3`.  Now the base class initialized it to `1`.  What will we get when we point to this variable in the **Base Class**?
 
 ![change lionts head to three](images/changeLionsHead.png)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
 It is still showing the derived value even though it is pointing to the base class **NumberOfHeads**.
 
@@ -137,11 +127,23 @@ It is still showing the derived value even though it is pointing to the base cla
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
 This can be dangerous though as there can be some issues.  If we create a **Private** member in the base class of **Feature** the compiler will not complain.  We can add a getter function to get the value in a derived class.  But when we point to **Feature** in from the pointer to the base class we don't get the overloaded derived public feature but the private one.  So be careful.  
 
 ![feature in base class with different access specifier](images/dangerousBug.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+To access this member through a pointer to the base class we will have to **cast** it to the derived class. This is very common in Unreal to go from a class like your **Character** class then cast to your derived class that you are using in the game.  
+
+In C++, `static_cast` is an operator that performs an explicit type conversion. It can be used for operations such as implicit conversions between types as well as pointers.
+
+To cast a pointer from one type to another, `static_cast` can be used. For example, to cast a pointer of a `base class` to a pointer of a `derived class`, `static_cast` can be used. In our case we are casting from our **Enemy** base class to our **Lion** derived class.
+
+![static cast with pointers](images/staticCastPointers.png)
 
 ![](../images/line2.png)
 
