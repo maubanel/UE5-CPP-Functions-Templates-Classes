@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-In C++, a function is a block of code that performs a specific task. It is a reusable piece of code that can be called from anywhere in the program. Every C++ program has at least one function, which is the `main()` function. A function can be predefined or user-defined
+In C++, a function is a block of code that performs a specific task. It is a reusable piece of code that can be called from anywhere in the program. Every C++ program has at least one function, which is the `main()` function. A function can be predefined or user-defined.
 
 A predefined function is a function that is already defined in the C++ standard library, such as `std::cout`. A user-defined function is a function that is created by the programmer to perform a specific task. It is defined by specifying the function name, return type, and parameters (if any) in the function declaration, followed by the function body in the function definition.
 
@@ -92,7 +92,7 @@ Now at the top of **Functions.cpp** we need to include the header.  So this will
 #include "Functions.h"
 ```
 
-We do not use the `<>` naming as this is not a standard include.  We use the `""` and it will look in the project directory for that file.
+> We do not use the `<>` naming as this is not a standard include.  We use the `""` and it will look in the project directory for that file.
 
 ![add an inlcude in the cpp file](images/includeNewHeader.png)
 
