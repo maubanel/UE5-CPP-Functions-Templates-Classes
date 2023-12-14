@@ -12,7 +12,7 @@ Lets set up a new project in Visual Studio 22.
 
 ---
 
-##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+##### `Step 1.`\|`UECPPFTC`| :small_blue_diamond:
 
 Open up **Visual Studio 22** and press the **Create new project** button.
 
@@ -20,7 +20,7 @@ Open up **Visual Studio 22** and press the **Create new project** button.
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: 
 
 Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Next</kbd> button.
 
@@ -28,7 +28,7 @@ Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Nex
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Enter `CPP_FTC` (short for Functions, Templates and Classes) into the **Project name** box.  Select a folder to save the solution to.  Press the <kbd>Create</kbd> button.
 
@@ -36,7 +36,7 @@ Enter `CPP_FTC` (short for Functions, Templates and Classes) into the **Project 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need a `.cpp` file to hold our **main()** function that runs with the program.  Right click on **Source Files** and select **Add New Item...**, then call the new file `Functions.cpp`.  Press the <kbd>Add</kbd> button.  Now we are ready to start programming.
 
@@ -46,7 +46,10 @@ Now we need a `.cpp` file to hold our **main()** function that runs with the pro
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Vanilla CPP Functions"> -->
 
-![next up - ](images/banner.png)
+<!--![next up - ](images/banner.png)--><!-- old code -->
+<a href="../vanilla-functions/README.md#user-content-vanilla-cpp-functions"><!-- new code -->
+  <img src="images/banner.png" alt="Next Up - Vanilla CPP Functions" />
+</a>
 
 ![](../images/line.png)
 
