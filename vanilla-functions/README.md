@@ -15,7 +15,7 @@ Lets create a user defined function.
 
 ---
 
-##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+##### `Step 1.`\|`UECPPFTC`| :small_blue_diamond:
 
 A user defined function has:
 
@@ -29,7 +29,7 @@ Lets now create a function. Now we have used functions before `main()` but visua
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: 
 
  Run the game and `Main()` runs and calls the `Sorry()` function.  The function just prints `Sorry!` to the console.
 
@@ -37,7 +37,7 @@ Lets now create a function. Now we have used functions before `main()` but visua
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now what happens when we move the **Sorry** function after the **Main** function.  Will it still work?  Copy and paste the function definition below the **Main** function and press the <kbd>Local Windows Debugger</kbd> button. Woops we get an error message saying it didn't compile.  We don't want to run the last build so press <kbd>No</kbd>.
 
@@ -45,7 +45,7 @@ Now what happens when we move the **Sorry** function after the **Main** function
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we don't know the error.  So **Build** the project (`cntrl shift b`) and you get an error saying it doesn't recognize **Sorry**. In C++ you can have the definition of the **C++** file anywhere but you need to **declare** it to the compiler before it is called. In C++, a function declaration tells the compiler about a function's name, return type, and parameters, while a function definition provides the actual body of the function.
 
@@ -142,7 +142,10 @@ Next up lets try and build the same thing using a **Blueprint** function in Unre
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Blueprint Functions"> -->
 
-![next up - ](images/banner.png)
+<!--![next up - ](images/banner.png)--><!-- old code -->
+<a href="../bp-functions/README.md#user-content-blueprint-functions"><!-- new code -->
+  <img src="images/banner.png" alt="next up - !" />
+</a>
 
 ![](../images/line.png)
 
