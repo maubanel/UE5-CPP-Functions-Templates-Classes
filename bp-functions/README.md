@@ -20,17 +20,17 @@ Lets rebuild what we did in Vanilla C++ in Unreal.
 
 ---
 
-##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
+##### `Step 1.`\|`UECPPFTC`| :small_blue_diamond:
 
 Start a new UE5 5.2.X project.  Select the **Game** template tab and select **Blank**.  Make sure it is type **C++** as we will need to use C++ classes as well.  Select a **Target Platform** of `Desktop`, **Quality Preset** of `Maximum`, and no **Starter Content** and **Raytracing** is not necessary. Pick a **Directory** and select a **Project Name**, I used `UE5_CPP_FTC`.
 
-If you have not already done so, you will need to set up visual studio and make sure you have all the components you need to compile the game.  Clear instructions are given on Unreal's [Setting up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
+>If you have not already done so, you will need to set up visual studio and make sure you have all the components you need to compile the game.  Clear instructions are given on Unreal's [Setting up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
 
 ![start a new C++ empty project called UE5_CPP_FTC](images/UE5CPPFTCProject.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: 
 
 Again, we do not need a streaming large level so press **File | New Level** and select a **Basic** level. Press the <kbd>Create</kbd> button.
 
@@ -38,7 +38,7 @@ Again, we do not need a streaming large level so press **File | New Level** and 
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a new folder to **Content** called `Maps`.  Call the level `Functions`.
 
@@ -46,7 +46,7 @@ Add a new folder to **Content** called `Maps`.  Call the level `Functions`.
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add another folder called `Blueprints`.  Right click in that empty folder and add a **Blueprint Class** of type **Actor**.  Call the blueprint `BP_HealthCounter`.
 
@@ -74,7 +74,7 @@ Let's create the same function we just did in C++ in a blueprint.  Press the **+
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now pull off of the **Health** output pin and select an **- (Subtraction)** node.  Connect the pins making sure that you are deducting **Damage** from **Score** then sending the outut to the **Return Node | NewHealth** input pin.
+Now pull off of the **Health** output pin and select an **- (Subtraction)** node.  Connect the pins making sure that you are deducting **Damage** from **Score** then sending the output to the **Return Node | NewHealth** input pin.
 
 ![add subtraction node](images/defineFunction.png)
 
@@ -98,7 +98,7 @@ Create a new **Variable** and call it `PlayerHealth` and make it type **Integer*
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-Drag a **Get Health** reference to the graph and connect it to the **Health** input pin in the **DoDamage** function.  Add a **Random Integer in Rage** node and set the **Min** to `1` and the **Max** to `5`. Send the **Return Value** to the **Damage** parameter in **Do Damage**. Add a **Set PlayerHealth** reference node and connect its execution pin to **DoDamage** node and pipe the **NewHealth** return value to it's input **Health** pin. 
+Drag a **Get PlayerHealth** reference to the graph and connect it to the **Health** input pin in the **DoDamage** function.  Add a **Random Integer in Rage** node and set the **Min** to `1` and the **Max** to `5`. Send the **Return Value** to the **Damage** parameter in **Do Damage**. Add a **Set PlayerHealth** reference node and connect its execution pin to **DoDamage** node and pipe the **NewHealth** return value to it's input **Health** pin. 
 
 ![do random damage to health and set new value to PlayerHealth](images/doDamageToText.png)
 
@@ -106,7 +106,7 @@ Drag a **Get Health** reference to the graph and connect it to the **Health** in
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag a copy of the **Health** text component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Connect th eoutput of **Set Text** node to the **Set Text | Value** node. 
+Drag a copy of the **Health** text component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Connect the output of **Set Text** node to the **Set Text | Value** node. 
 
 ![set text with PlayerHealth value](images/setText.png)
 
@@ -122,7 +122,7 @@ Go to the game and add the **BP_ScoreCounter** to the scene in front of the play
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-But where does the player start?  Go to the **Add Actor** button and select a **Player Start** actor and add it to your level. Make sure the white arrow is pointing at the blueprint you just added.  Press the three dots next to the <kbd>Play</kbd> button and select **Default Player Start**.
+But where does the player start?  Go to the **Add Actor** button and select a **Player Start** actor and add it to your level. Make sure the Blue arrow is pointing at the blueprint you just added.  Press the three dots next to the <kbd>Play</kbd> button and select **Default Player Start**.
 
 ![add player start](images/defaultPlayerStart.png)
 
@@ -172,7 +172,10 @@ Now play the game and when the health goes below **0** you get the message inste
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Unreal CPP Functions"> -->
 
-![next up - ](images/banner.png)
+<!--![next up - ](images/banner.png)--><!-- old code -->
+<a href="../unreal-cpp-functions/README.md#user-content-unreal-capp-functions"><!-- new code -->
+  <img src="images/banner.png" alt="Next Up - Unreal CPP Functions" />
+</a>
 
 ![](../images/line.png)
 
