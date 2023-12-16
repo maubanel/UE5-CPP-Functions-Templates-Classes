@@ -106,7 +106,7 @@ Drag a **Get PlayerHealth** reference to the graph and connect it to the **Healt
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag a copy of the **Health** text component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set Score** to **Set Text**.  Connect the output of **Set Text** node to the **Set Text | Value** node. 
+Drag a copy of the **Health** text component to the graph and pull off of its pin to select a **Set Text** node. Connect execution pin from **Set PlayerHealth** to **Set Text**.  Connect the output of **Set Text** node to the **Set Text | Value** node. 
 
 ![set text with PlayerHealth value](images/setText.png)
 
