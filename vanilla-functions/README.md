@@ -85,7 +85,7 @@ User-defined header files are created by the user and can also be imported using
 
 Open up **Functions.h" which includes `#pragma once`.  This is a preprocessor directive that is used to ensure that a header file is included only once in a single compilation. It is a non-standard but widely supported directive that serves the same purpose as include guards, but with several advantages, including less code, avoidance of name clashes, and sometimes improvement in compilation speed.  This means that you can include the same file in multiple portions of the game but it will only include a single copy of this code regardless of how many times the header is called.
 
-Now move the function definition from the `Functions.cpp` to `Functions.h`.
+Now move the function declaration from the `Functions.cpp` to `Functions.h`.
 
 ![move the Sorry function definion to the .h file](images/moveSorryToDotH.png)
 
@@ -93,12 +93,11 @@ Now move the function definition from the `Functions.cpp` to `Functions.h`.
 
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now at the top of **Functions.cpp** we need to include the header.  So this will basically read this before processing the code on the page so the compiler will know that this files will define `Sorry()` regardless of the order. 
+Now at the top of **Functions.cpp** we need to include the header.  So this will basically read this before processing the code on the page so the compiler will know that this files will define `Sorry()` regardless of the order. This is why all of our *#include*'s are at the top of the page.
 
 ```
 #include "Functions.h"
 ```
-
 > We do not use the `<>` naming as this is not a standard include.  We use the `""` and it will look in the project directory for that file.
 
 ![add an inlcude in the cpp file](images/includeNewHeader.png)
@@ -107,7 +106,7 @@ Now at the top of **Functions.cpp** we need to include the header.  So this will
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now when you run the program it is the same as before but with added padding at the bottom and the proper separtion of the declaration and definitions into their separate files.
+Now when you run the program it is the same as before but we are declaring our functions in the `.h` file and including it in the `.cpp`.
 
 ![h and cpp files working when run](images/dotHdotCPP.png)
 
