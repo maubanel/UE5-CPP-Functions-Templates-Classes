@@ -14,13 +14,26 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
+
+So back in the visual studio we comment out the prior line we used in **BeginPlay** and instead set a timer for 2 seconds out.  `GetWorld()` is a getter for the cached world pointer and will get us access to the actor in the current level (sort of like using a level blueprint). This is needed as a the concept of the timer is within a level and not within the actor blueprint.
+
+So we call the PlayerIsHit function in **Begin Play**.  Then we need to uncomment out **PlayerIsHit()** and call oneself recursively every 2 seconds. This will mean that the player will get damage every 2 seconds, no matter what.
+
+![recursive timer call](images/getTimerManager.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
+
+
 Press the <kbd>Play</kbd> button and notice that we have the original function back from the blueprint version.  The only issue is that the timer goes below zero to negative number space.  Lets fix it.
 
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/11b18195-a838-4b85-a7c8-b49a8fa5e0fb
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 First, in the constructor we assign **DeadText** with teh string `"Player is Dead"`. This is the message we will use when the health goes below zero.
 
@@ -28,7 +41,7 @@ First, in the constructor we assign **DeadText** with teh string `"Player is Dea
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now open up **HealthCounter.cpp** and in **PlayerIsHit()**, and wrap the recursive function of doing damage then displaying the health string in a conditional statement check if `Health > 0`.  If not then set the text to the  **DeadText**.
 
@@ -36,13 +49,13 @@ Now open up **HealthCounter.cpp** and in **PlayerIsHit()**, and wrap the recursi
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
 Press the <kbd>Play</kbd> button and notice that when the **Health** goes below zero we display "Player is Dead".
 
 ![play game to see dead text](images/playDeadText.png)
 
-![](../images/line2.png)
+
 
 ![](../images/line.png)
 
