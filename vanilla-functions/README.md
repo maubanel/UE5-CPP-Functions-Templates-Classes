@@ -31,7 +31,7 @@ Lets now create a function. Now we have used functions before `main()` but visua
 
 ##### `Step 2.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: 
 
- Run the game and `Main()` runs and calls the `Sorry()` function.  The function just prints `Sorry!` to the console.
+ Run the program and `main()` runs and calls the `Sorry()` function.  The function just prints `Sorry!` to the console.
 
 ![run Sorry() function](images/sorryToConsole.png)
 
