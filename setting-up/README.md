@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Lets set up a new project in Visual Studio 22.
+Lets set up a new Solution and Project in Rider 2023.
 
 <br>
 
@@ -14,15 +14,15 @@ Lets set up a new project in Visual Studio 22.
 
 ##### `Step 1.`\|`UECPPFTC`| :small_blue_diamond:
 
-Open up **Visual Studio 22** and press the **Create new project** button.
+Open up **Rider 2023** and press the <kbd>New Solution</kbd> button.
 
-![create new vs22 project](images/newProject.png)
+![create new vs22 project](images/newProject.png)s
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: 
 
-Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Next</kbd> button.
+Select a **C++ | Console Application** and call the solution `CPP-FTC`. Call the prject name `Functions`.  I am using the default diretory for Rider of `C:\Users\MyPCUsername\RiderProjects`.  Press the <kbd>Create</kbd> button.
 
 ![create an empty c++ project](images/emptycppproj.png)
 
@@ -30,7 +30,7 @@ Select an **Empty Project** for **C++ | Windows | Console**.  Press the <kbd>Nex
 
 ##### `Step 3.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Enter `CPP_FTC` (short for Functions, Templates and Classes) into the **Project name** box.  Select a folder to save the solution to.  Press the <kbd>Create</kbd> button.
+So if we go in **Explorer** to our **C:\Users\MyPCUsername\RiderProjects** directory we will see that our solution is the top most folder. 
 
 ![name project CPP_FTC then press create](images/configureProject.png)
 
@@ -38,9 +38,17 @@ Enter `CPP_FTC` (short for Functions, Templates and Classes) into the **Project 
 
 ##### `Step 4.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a `.cpp` file to hold our **main()** function that runs with the program.  Right click on **Source Files** and select **Add New Item...**, then call the new file `Functions.cpp`.  Press the <kbd>Add</kbd> button.  Now we are ready to start programming.
+Inside our solution folder we find a rider solution file called **CPP-FTC.sln**.  We have a hidden folder **.idea** and our project folder **Functions**.  This will contain our `.cpp` file.
 
 ![add Functions.cpp file](images/addNewCPPFile.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
+
+Now we are ready to go with an empty template of our blank cpp file.
+
+![empty template](images/emptyTemplate.png)
 
 ![](../images/line.png)
 
