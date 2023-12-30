@@ -114,6 +114,8 @@ Now when you run the program it is the same as before but we are declaring our f
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
+Start off by adding a comment on top of the first function. 
+
 Lets add another function that will return an integer.  
 
 ```
