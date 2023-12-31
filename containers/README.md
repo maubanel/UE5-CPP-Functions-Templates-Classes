@@ -42,7 +42,7 @@ Lets start with a dynamic contiguous array in the Standard Template Library (STL
 
 A vector in C++ is a sequence container that represents an array that can change its size during runtime. It is a template class in the Standard Template Library (STL) of C++ programming language. Vectors are similar to dynamic arrays, but they have the ability to resize themselves automatically when an element is inserted or deleted. The storage of vector elements is handled automatically by the container, and the elements are placed in contiguous storage so that they can be accessed and traversed using iterators (pointers). In vectors, data is inserted at the end, and removing the last element is the most efficient.
 
-Open up your **CPP_FTC** solution and open your **Function.cpp** file.Include the **vector** .h file from the STL.
+Open up your **CPP_FTC** solution and open your **Function.cpp** file.Include the **vector** .h file from the STL. Also to reduce the amount of typing include `using std::vector` so you can use type `vector` without the namespace.
 
 ![add vector container to project](images/addVectorClassToCPP.png)
 
@@ -59,7 +59,7 @@ vector <string> Cards(4);
 
 So we declare it in its unique way so it is a vector container with a list of 4 strings.  We then assign the strings in the same way we did with arrays.
 
-Press the <kbd>Play</kbd> button and you see that [2] prints the third card.
+Press the <kbd>Run</kbd> button and you see that [2] prints the third card, the ace of hearts.
 
 ![assigning method 1](images/declareTemplateArray.png)
 
@@ -75,7 +75,7 @@ You can also assign the vector container with a list of multiple items in `{}` s
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now just like arrays, you should not exceed the size of the area and try and access an item that does not exist.  If you change the item to `20` and press the Press the <kbd>Play</kbd> button, you will get an assertion.  Now this would allow you to write code to handle the assertion and potentially not crash.  If you press the <kbd>Ignore</kbd> button, then it goes and crashes just olike the array did prior.
+Now just like arrays, you should not exceed the size of the area and try and access an item that does not exist.  If you change the item to `20` and press the Press the <kbd>Play</kbd> button, you will get an assertion.  Now this would allow you to write code to handle the assertion and potentially not crash.  If you press the <kbd>Ignore</kbd> button, then it goes and crashes just like the array did prior.
 
 ![out of bounds assertion](images/assertionInGame.png)
 
@@ -172,7 +172,7 @@ Now since this is a dynamic container we can make changes to the size even at ru
 
 >Adds a new element at the end of the vector, after its current last element. The content of val is copied (or moved) to the new element.<br><br>This effectively increases the container size by one, which causes an automatic reallocation of the allocated storage space if -and only if- the new vector size surpasses the current vector capacity.
 
-Press the <kbd>Play</kbd> button and you will see that we have 8 cards and it affects all our loops as well!
+Press the <kbd>Run</kbd> button and you will see that we have 8 cards and it affects all our loops as well!
 
 ![push_back four more Cards](images/dynamicArray.png)
 
