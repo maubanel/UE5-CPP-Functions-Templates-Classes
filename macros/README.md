@@ -53,7 +53,7 @@ So we want to expose **Health** to the blueprint so we will include it as a **UP
 
 The first parameter **EditAnywhere** is *Indicates that this property can be edited by property windows, on archetypes and instances.*. The second specifier is **BlueprintReadWrte** which allows the variable to be read or written from a Blueprint. This Specifier is incompatible with the BlueprintReadOnly Specifier.
 
-The last ia a **Categor** which specifies the category of the property when displayed in Blueprint editing tools. 
+The last ia a **Category** which specifies the category of the property when displayed in Blueprint editing tools. 
 
 Lets create a new function that resets the **Health** variable and calls the MACRO we defined above.  On top of that we nee to add what Unreal calls function macros [Function Specifiers](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Functions/Specifiers/). In our case we want to be able to call **PlayerIsHit** from the blueprint so we will add:
 
@@ -69,7 +69,7 @@ Please note that functions and property specifiers only affect the single functi
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Next to the function definition click on the paint brush button and select **Create definition of `ResetHealth` in HealthCounter.cpp**.
+Next to the function definition click on the icon and select **Create definition of `ResetHealth` in HealthCounter.cpp**.
 
 Then you just assign our **RESETHEALTH** macro to the **Health** variable.  Then we set the **Text** component to reflect this change to the **Health** variable.
 
@@ -231,6 +231,8 @@ Now Macros are used extensively in UE5 but you should avoid using them unless th
 3. Macros cannot be debugged as easily as they are run by the preprocessor. You can't see what the macro is doing.
 
 4. Macros can have expansion issues like the one we just experienced.
+
+Rider gives lots of suggestions and even though this compiles, it warns of the risks of using the `++` operator in a macro!
 
 ![expansion bug in c++](images/exapansionBug.png)
 
