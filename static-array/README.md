@@ -132,7 +132,7 @@ Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go bac
 
 ##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now the fastest list we can have performance wise are these built in arrays - but there is a risky downside.  If you go out of bounds the whole program crashes.  Set an array index to `10` and press play and you will see it crash to the debugger.
+Now the fastest list we can have performance wise are these built in arrays - but there is a risky downside.  If you go out of bounds the whole program crashes.  Set an array index to `10` and press play and you will see it crash to the game.
 
 ![game crashes accessing 10th array](images/outOfArrayCrash.png)
 
@@ -140,7 +140,19 @@ Now the fastest list we can have performance wise are these built in arrays - bu
 
 ##### `Step 15.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: 
 
-Unreal gives some powerful tools to make arrays safer to use without additional processing costs.  You can tell the editor to only accept values with a slider or by typing in directly into the editor to limit it to a range.  This makes sense for static arrays as we know the size of the array prior to compile time.  
+Now if we do get crashes we get a lot more information if it goes back to Rider and we can inspect the call stack.  So when debugging it is best to run the game in debug mode by pressing the <kbd>Run in Debug</kbg> button.
+
+![run in debug mode](images/runInDebug.png)
+
+Now recreate the above problem and then instead of just crashing it goes back to **Rider** and we can inspect the call stack to get a clue to the issue!
+
+![crash to call stack](images/CallStack.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Unreal gives some powerful tools to make arrays safer to use without additional processing costs.  You can tell the editor to only accept values with a slider or by typing in directly into the editor to limit it to a range.  This makes sense for static arrays as we know the size of the array prior to compile time.
 
 `ClampMin` and  `ClampMax` specifies the minimum value N that may be entered for the property.  `UIMin` and `UIMax` stops the number going out of range when the user drags the mouse over the property.
 
@@ -150,7 +162,7 @@ Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go bac
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now no matter how you scrub the mouse or enter the value direclty you can't have any number under `0` or over `4` so you cannot crash this array.  This is a VERY powerful tool to make the project more error prone and is a best practice. 
 
