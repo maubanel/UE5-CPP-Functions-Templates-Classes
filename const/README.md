@@ -16,7 +16,7 @@ Declaring a variable as const means that its value cannot be changed once it has
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h** in **Visual Studio**. Now comment out our Macro and we will replace it with a more suitable **const** var.
+Load the **UE5_CPP_FTC** project and open the **CPP_HealthCounter.h** in **Rider**. Now comment out our Macro and we will replace it with a more suitable **const** var.
 
 ```cpp
 const int32 RESETHEALTH = 6000;
@@ -30,9 +30,9 @@ Please note, you should normally assign variables in the `.cpp` file and normall
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Play</kbd> from **Visual Studio** button to launch the game from the debugger. Now we want to run Unreal from Visual Studio as it is designed to inegrate smoothly and allows us to use breakpoints and use the full set of debug tools.
+Press the <kbd>Run</kbd> button in **Rider** button to launch the game from the debugger. 
 
-![launch game from visual studio](images/runThroughEditor.png)
+![launch game from rider](images/runThroughEditor.png)
 
 ![](../images/line2.png)
 
@@ -46,7 +46,7 @@ Now we get the same result as before but it is using a **const** variable instea
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets prove that the constant is actually a constant.  Go to **ResetHealth** and add **ResetValue** at the bottom.  Select the **File | Save** or <kbd>cntrl-c</kbd> to save the change.  Now go back to Unreal and press the <kbd>Compile</kbd> button.
+Lets prove that the constant is actually a constant.  Go to **ResetHealth** and add **ResetValue** at the bottom.  Select the **File | Save** or <kbd>cntl-s</kbd> to save the change. Press <kbd>cntl shift B</kbd> to build and compile. 
 
 ![try changing const value](images/changeConst.png)
 
@@ -54,7 +54,7 @@ Lets prove that the constant is actually a constant.  Go to **ResetHealth** and 
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-Notice that you get an error statying that the `l-value` (the value to the left of the `=` operator) is a const object.  So it can't be changed and since this is a constant the compiler will trap this coding error.
+We can also compile in Unreal Now go back to Unreal and press the <kbd>Compile</kbd> button.Notice that you get an error statying that the `l-value` (the value to the left of the `=` operator) is a const object.  So it can't be changed and since this is a constant the compiler will trap this coding error.
 
 ![compile and fail](images/wontCompile.png)
 

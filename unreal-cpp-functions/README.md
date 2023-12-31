@@ -28,7 +28,7 @@ It will prompt you to restart the editor which you need to do before continuing.
 
 In Unreal Engine, an Actor is any object that can be placed into a level, such as a camera, static mesh, or player start location. Actors support 3D transformations such as translation, rotation, and scaling. They can be created (spawned) and destroyed through gameplay code (C++ or Blueprints). AActor is the base class of all Actors (in game objects) in C++.
 
-We are going to add our first C++ class inside of Unreal.  *Select* the ****Tools | New C++ Class**** menu ite.  Now we select the same class as we do in a Blueprint.  We will not get into classes yet but will cover it later on.  Select **Actor** and press the <kbd>Next</kbd> button. Call it `CPP_HealthCounter` and press the <kbd>Create Class</kbd> button.  Now wait a bit for the system to load up Visual Studio and create this new class in the Unreal project.
+We are going to add our first C++ class inside of Unreal.  *Select* the ****Tools | New C++ Class**** menu ite.  Now we select the same class as we do in a Blueprint.  We will not get into classes yet but will cover it later on.  Select **Actor** and press the <kbd>Next</kbd> button. Call it `CPP_HealthCounter` and press the <kbd>Create Class</kbd> button.  Now wait a bit for the system to load up Rider and create this new class in the Unreal project.
 
 ![add new C++ Actor class](images/newCppClass.png)
 
@@ -48,11 +48,11 @@ Now in Unreal's  [manual](http://api.unrealengine.com/INT/API/Runtime/Engine/Com
 
 ##### `Step 4.`\|`UECPPFTC`| :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This will open up Visual Studio (if it is not already open) and you can see that it creates a `.cpp` and `.h` file for you with a standard boiler starter for this class type.
+This will open up Rider (if it is not already open) and you can see that it creates a `.cpp` and `.h` file for you with a standard boiler starter for this class type.
 
-<!-- err77 (add common problems with visual studio). -->
+<!-- err77 (add common problems with Rider). -->
 
-If Visual Studio does not boot up, or you just want to open the class from the menu this can be done. Press the arrow button next to **Filters** in the **Content Browser** <!-- err99 (filters and content browser?). --> and you will see the parent diretory to **Contents**.  Then you will see a directory called C++ Classes. If you do not you will need to click on **View Options** <!-- err99 (view option?). --> and make sure that **Show C++ Classes** is selected.<br><br>Please note that you need to think carefully about what folder to include the class in and its name.  It is quite a chore to change the C++ location or adjust its class name in UE5.
+If Rider does not boot up, or you just want to open the class from the menu this can be done. Press the arrow button next to **Filters** in the **Content Browser** <!-- err99 (filters and content browser?). --> and you will see the parent diretory to **Contents**.  Then you will see a directory called C++ Classes. If you do not you will need to click on **View Options** <!-- err99 (view option?). --> and make sure that **Show C++ Classes** is selected.<br><br>Please note that you need to think carefully about what folder to include the class in and its name.  It is quite a chore to change the C++ location or adjust its class name in UE5.
 
 So now lets open the **CPP_HealthCounter.h** and `#include Components/TextRenderComponent.h` to the top of the headers. Now be careful the `.generated.h` **ALWAYS** has to be the last header loaded or the game will not work correclty. So I added it just before the generated header.
 
@@ -84,7 +84,7 @@ A constructor in C++ is a special method that is automatically called when an ob
 
 ##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now press save in **Visual Studio** and go to the game and press the **C++ Compile** button (different than the blueprint compile).  Now we want to see a **Successful** message in the **Live Coding** window saying it succsfully compiled.
+Now press save in **Rider** and go to the game and press the **C++ Compile** button (different than the blueprint compile).  Now we want to see a **Successful** message in the **Live Coding** window saying it succsfully compiled.
 
 ![compile C++ code](images/compile.png)
 

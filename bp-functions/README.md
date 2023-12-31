@@ -24,7 +24,7 @@ Lets rebuild what we did in Vanilla C++ in Unreal.
 
 Start a new UE5 5.2.X project.  Select the **Game** template tab and select **Blank**.  Make sure it is type **C++** as we will need to use C++ classes as well.  Select a **Target Platform** of `Desktop`, **Quality Preset** of `Maximum`, and no **Starter Content** and **Raytracing** is not necessary. Pick a **Directory** and select a **Project Name**, I used `UE5_CPP_FTC`.
 
->If you have not already done so, you will need to set up visual studio and make sure you have all the components you need to compile the game.  Clear instructions are given on Unreal's [Setting up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
+>If you have not already done so, you will need to set up visual studio and make sure you have all the components you need to compile the game. Rider needs all the same tool chain that Unreal requires for VS. Clear instructions are given on Unreal's [Setting up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
 
 ![start a new C++ empty project called UE5_CPP_FTC](images/UE5CPPFTCProject.png)
 

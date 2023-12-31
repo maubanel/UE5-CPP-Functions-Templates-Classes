@@ -28,7 +28,7 @@ Open up the **UE5_CPP_FTC** project.Select the **Tools | New C++ Class...** menu
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Again for our text component inclue the **TextRenderComponent.h** to the new **ArrayCounter.h** file in visual studio. Add a pointer to this new component called `CardText`.
+Again for our text component inclue the **TextRenderComponent.h** to the new **ArrayCounter.h** file in Rider. Add a pointer to this new component called `CardText`.
 
 Also, add a new array with 5 elements in it by initializing the array with:
 
@@ -52,7 +52,7 @@ Set the card value to the first array list item and then set the color.
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Play</kbd> button from **Visual Studio** to launch the engine form the debugger.  Now it is probably best to stop it from the debugger as well (the play button turns to a stop button after it runs the program).
+Press the <kbd>Play</kbd> button from **Rider** to launch the engine form the debugger.  Now it is probably best to stop it from the debugger as well (the play button turns to a stop button after it runs the program).
 
 https://github.com/maubanel/UE5-CPP-Functions-Templates-Classes/assets/5504953/fee4469e-4c70-4c8c-a1cd-42c559d33522
 
@@ -108,7 +108,7 @@ You might have to restart the editor (stopping it in VS, then starting again) yo
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-Now there is a way we can still affect the array in a blueprint.  We can create a new **int32** variable that we will use to index into the array. We do this in the **ArrayCounter.h** file in visual studio.
+Now there is a way we can still affect the array in a blueprint.  We can create a new **int32** variable that we will use to index into the array. We do this in the **ArrayCounter.h** file in Rider.
 
 ![new int32 CardIndex](images/cardIndexReadWrite.png)
 
