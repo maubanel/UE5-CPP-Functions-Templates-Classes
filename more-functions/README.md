@@ -42,7 +42,7 @@ Press the <kbd>Play</kbd> button and notice that if we pass `-15` we get `15` ba
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If we send a double to the function by parameter it will cast it to an integer and we will get a truncated double back so `-15.7` becomes `15`. How can we accomplish this objective by having a single function handle different parameter types?
+If we send a double to the function by parameter it will cast it to an integer and we will get a truncated double back so `-20.7` becomes `20`. How can we accomplish this objective by having a single function handle different parameter types?
 
 ![pass double to parameter](images/sendDoubleToInt.png)
 
@@ -94,7 +94,7 @@ Pass by reference is a method of passing arguments to a function in C++ where th
 
 When a reference is used to pass an argument, the memory location of the passed variable and parameter is the same, so any changes made to the parameter also reflect in the variable inside its parent function. Pass by reference is more efficient than pass by value because it avoids copying the argument and instead directly works with the original variable. 
 
-Return to the `.h` file and add a new function that also changes the parameter passed and lets call it `MakeAbso`. We can override the function to take both `int` and `double`. Th eonly difference is to mark the parameter type to pass by reference by adding the `&` operator after the type in the paremeter parenthesis passed so `X` becomes `&X` and this will now pass by reference.
+Return to the `.h` file and add a new function that also changes the parameter passed and lets call it `MakeAbso`. We can override the function to take both `int` and `double`. Th only difference is to mark the parameter type to pass by reference by adding the `&` operator after the type in the parameter parenthesis passed so `X` becomes `&X` and this will now pass by reference.
 
 ![pass by reference to functions](images/passByReference.png)
 
