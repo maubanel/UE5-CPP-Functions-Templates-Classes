@@ -174,7 +174,7 @@ Now we will create a new variable of type `double` called `Abso2` and set it to 
 ##### `Step 17.`\|`UECPPFTC`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Since pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized we can use it in combination with `const` to get a desired behavior.  If we are sending a large file to a function (like a video, or a very large texture) - we do NOT want to pass by value and make a copy and take double the memory.  But we want safety that it will not be altered by the function.  This is where one of the more common uses of passing by reference in a fuction is passsing a const reference.
+Since pass by reference can be dangerous if the function modifies the argument in unexpected ways or if the reference is not properly initialized we can use it in combination with `const` to get a desired behavior.  If we are sending a large file to a function (like a video, or a very large texture) - we do NOT want to pass by value and make a copy and take double the memory.  But we want safety that it will not be altered by the function.  This is where one of the more common uses of passing by reference in a function is passing a const reference.
 
 If you see this in the hearder file it is a promise that this function will not mutate that object passed.
 
