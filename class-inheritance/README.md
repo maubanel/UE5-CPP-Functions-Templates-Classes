@@ -10,8 +10,6 @@ In C++, inheritance is a process in which one class acquires the properties and 
 
 To inherit a class in C++, we use the colon (:) symbol followed by the access specifier and the name of the base class. The access specifier can be public, protected, or private, and it determines the visibility of the base class members in the derived class. The most common is to use the public access specifier.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
