@@ -16,7 +16,7 @@ To inherit a class in C++, we use the colon (:) symbol followed by the access sp
 
 ##### `Step 1.`\|`UECPPFTC`|:small_blue_diamond:
 
-Add a new project to the solution by selecting **File | Add New | Project** and select a console C++ project and press the <kbd>Next</kbd> button.
+Add a new project to the sCPP-FTC solution by opening it up and right clicking on the top most folder and selecting **Add | New Project**. Set the project as a **C++ | Console Application** and call it `ClassInheritance`.  Press the <kbd>Create</kbd> button.
 
 ![add console cpp project to solution](images/addProject.png)
 
@@ -24,7 +24,7 @@ Add a new project to the solution by selecting **File | Add New | Project** and 
 
 ##### `Step 2.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: 
 
-Call the project `ClassInheritanceCasting` and leave it in the same folder. Press the <kbd>Create</kbd> button.  Now right click the new project in the **Solution Explorer** and select **Set as Startup Project**. 
+Right click on the **ClassInheritance** folder and select **Run 'ClassInheritance'** so it runs **main()** from this project.
 
 ![create ClassInheritanceCasting project and set as default](images/solutionExplorer.png)
 
@@ -32,17 +32,18 @@ Call the project `ClassInheritanceCasting` and leave it in the same folder. Pres
 
 ##### `Step 3.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a `Main.cpp` file to the project.  We will start by including `iostream` and allowing us to direftly call `cout` and `string`. We will start with our base class `Enemy` which will have two public members, with the first being the number of heads the creature has and then the species name.  We initialize the number of heads to a default of `1` the most common and since each **Name** will be unique we leave it an empty string.
+We will start by including `iostream` and allowing us to direftly call `cout` and `string`. We will start with our base class `Actor` which will have two public members, with the first being the X position of the actor initialized to `0` and a string with the actor **Name** initialized to `Name`.
 
-We will then create two derived classes one `Aligator` and the other `Lion`.  Now they are derived by deriving aligator from enemy using the public access specifier.
+We will then create one derived classes one `Weapon` with no implementation.
+
 ```cpp
-class Aligator : public Enemy
+class Weapon : public Actor
 {
-// do something
+// do nothing for now
 };
 ```
 
-Then we will create a **Lion** type and define its name.  We don't need to define the **NumberOfHeads** as the default of `1` we inherit will do.
+In main, we will create a **Weapon** class and change the **Name** and the **X** value with the dot access specifier.
 
 ![create two derived classes from Enemy](images/startingMain.png)
 
@@ -50,62 +51,71 @@ Then we will create a **Lion** type and define its name.  We don't need to defin
 
 ##### `Step 4.`\|`UECPPFTC`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets print out the derived Weapon class.  Notice that even though there is no code within the class that it still has access to its parents public and protected members. Protected allows any derived class to access those members but not other classes.
+
+Run the project and even though there are no variables in the derived **Weapons** class it still has access to its parents public and protected members and displays the overriden derived settings of `5` and `Weapon`.  
+
+This is called encapsulation which is a fundamental concept in object-oriented programming (OOP) that involves bundling data members and functions inside a single class.
+
+Encapsulation helps to protect the internal state of an object by keeping its data members private, and access to and modification of these data members is restricted to the class’s public methods, ensuring controlled and secure data manipulation.
+
+Encapsulation also leads to data abstraction, which is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
+
+So we get an **Actor with an **X** of `5` called `Weapon`.
+
+
+![run projetd lion with 1 head](images/InheritDerivedVars.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UECPPFTC`| :small_orange_diamond:
 
-Run the project.  Even though there are no variables in the derived **Lions** class it still has access to its parents public and protected members.  Remember protected allows any derived class to access those members but not other classes.
+Now what if we wanted to keep an array of all actors regardless of the derived class (so in our case both **Weapon** derived from **Actor**). This is where pointers can be useful.  Since they both derive from the same enemy class we can store an array of pointers of the base class type. 
 
-This is called encapsulation which is a fundamental concept in object-oriented programming (OOP) that involves bundling data members and functions inside a single class. 
-
-Encapsulation helps to protect the internal state of an object by keeping its data members private, and access to and modification of these data members is restricted to the class’s public methods, ensuring controlled and secure data manipulation. 
-
-Encapsulation also leads to data abstraction, which is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
-
-So we get a lion with 1 head.
-
-
-![run projetd lion with 1 head](images/InheritDerivedVars.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
-
-Now what if we wanted to keep an array of all enemies regardless of the derived class (so in our case both **Aligator** and **Lion**). This is where pointers can be useful.  Since they both derive from the same enemy class we can store an array of pointers of the base class type.
+Since storage containers can only keep a class of a single type this way we could keep any object that inherited from the **Actor** class in a single array.
 
 Now when we access this base class member we will get the derived value.  Let me demonstrate this.
 
 We create a pointer to the base class by calling:
 
 ```cpp
-Enemy* pE = &L;
+Actor* pA = &W;
 ```
 
-So we create a pointer to the **Enemy** (not the **Lion**) base class of **L** (which is an instance of the derived Lions class).  We then output the **Name** from the parent class.  But it prints out **Lion** and not an empty string as it wasn't initialized.
+So we create a pointer to the **Actor** base of derived class of **W**.  We then output the **Name** and **X** from the parent class.  But it prints out **Weapon** and not an Name string as it was in the parent's class. The value was overriden by the derived class but the parent still has access to its original members.  
 
 ![alt_text](images/derivedPointer.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond:
 
 This is called polymorphism.  This is one of the key features of object-oriented programming. In C++, polymorphism can be achieved through inheritance, overriding, and overloading.
 
-Inheritance is a mechanism that allows a class to inherit properties and methods from another class. Overriding is a feature that allows a subclass to provide its own implementation of a method that is already defined in its superclass. 
+Inheritance is a mechanism that allows a class to inherit properties and methods from another class. Overriding is a feature that allows a subclass to provide its own implementation of a method that is already defined in its superclass.
 
 Polymorphism is useful for code reusability, as it allows us to reuse attributes and methods of an existing class when we create a new class. Polymorphism is also useful for creating more flexible and extensible code, as it allows us to write code that can work with different types of objects.
 
-It also can cause some interesting challenges that we need to be aware of. So it allows us to have variables that are only accessible in the derived classes.  Lets add a new `string` called **Feature** to each derived class and output them.
+Lets instead of setting the weapon's variables in **main** set them in its class constructor.  So in **Weapon** add a constructor `Weapon` and in the definition make the **X** `10` and leave the name as **Weapon**. 
+
+Now <kbd>Run</kbd> the program and we get the same result as before with both the derived and parent class printing out the save value.
 
 ![output feature variable](images/derivedMembers.png)
 
 ![](../images/line2.png)
 
+##### `Step 7.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We can still override this in **main()**.
+
+![output feature variable](images/overrideMain.png)
+
+![](../images/line2.png)
+
 ##### `Step 8.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now since this is not in the derived class we cannot access the member.  We get a compiler error.
+Now change the spcifier in the **Actor** parent class from `public:` to `private`.  Now compile and since this is no longer accessible in the derived class we cannot access the member.  We get a compiler error.
 
 ![cannot access members not in base class](images/notInDerivedClass.png)
 
@@ -113,7 +123,9 @@ Now since this is not in the derived class we cannot access the member.  We get 
 
 ##### `Step 9.`\|`UECPPFTC`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We now will change the number of heads a **Lion** has to `3`.  Now the base class initialized it to `1`.  What will we get when we point to this variable in the **Base Class**?
+Lets make the accessor **Protected** in the *Actor** class.  This means that **Weapon** the derived class can still access its members.  Then create two getters so that **main** can access the output of those protected values (main can only access public members).
+
+<kbd>Run</kbd> the simulation and we have now protected these members of the derived class.
 
 ![change lionts head to three](images/changeLionsHead.png)
 
@@ -121,7 +133,7 @@ We now will change the number of heads a **Lion** has to `3`.  Now the base clas
 
 ##### `Step 10.`\|`UECPPFTC`| :large_blue_diamond:
 
-It is still showing the derived value even though it is pointing to the base class **NumberOfHeads**.
+We need to be careful.  Because if we give the derived class it's own variable `Ammo` and set it to `Bullets`.  This can be accessed through it derived class `W.Ammo` but is **NOT** accessible from the parents pointer `pA->Ammo`.
 
 ![showing derived value](images/stillShowsDerivedValue.png)
 
@@ -129,7 +141,13 @@ It is still showing the derived value even though it is pointing to the base cla
 
 ##### `Step 11.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: 
 
-This can be dangerous though as there can be some issues.  If we create a **Private** member in the base class of **Feature** the compiler will not complain.  We can add a getter function to get the value in a derived class.  But when we point to **Feature** in from the pointer to the base class we don't get the overloaded derived public feature but the private one.  So be careful.  
+To access this member through a pointer to the base class we will have to **cast** it to the derived class. This is very common in Unreal to go from a class like your **Character** class then cast to your derived class that you are using in the game.
+
+In C++, `static_cast` is an operator that performs an explicit type conversion. It can be used for operations such as implicit conversions between types as well as pointers.
+
+To cast a pointer from one type to another, `static_cast` can be used. For example, to cast a pointer of a `base class` to a pointer of a `derived class`, `static_cast` can be used. In our case we are casting from our **Actor** base class to our **Weapon** derived class. 
+
+Now we can print the new variable from the new derived class pointer. You need to change `pA` to `pW` in the `cout <<...` print statement.
 
 ![feature in base class with different access specifier](images/dangerousBug.png)
 
@@ -137,11 +155,11 @@ This can be dangerous though as there can be some issues.  If we create a **Priv
 
 ##### `Step 12.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-To access this member through a pointer to the base class we will have to **cast** it to the derived class. This is very common in Unreal to go from a class like your **Character** class then cast to your derived class that you are using in the game.  
+In games inheritance can only get us so far. So for weapons deriving from a base class and using polymorphism makes sense. But what about a game where there is physics, sounds, animation and multiple unrelated systems.  It doesn't make sense for them to inherit from each other.
 
-In C++, `static_cast` is an operator that performs an explicit type conversion. It can be used for operations such as implicit conversions between types as well as pointers.
+We can decouple this relationship by using the component design pattern. This allows us to decouple attributes of a class and allows a single component to be inheritable by multiple domains.  It is extensively used in Unreal and Unity.
 
-To cast a pointer from one type to another, `static_cast` can be used. For example, to cast a pointer of a `base class` to a pointer of a `derived class`, `static_cast` can be used. In our case we are casting from our **Enemy** base class to our **Aligator** derived class.
+Create a new **Component** class before **Weapon** and give it access to its **Parent** through  pointer.  In this case its parent class will be an `Actor`.
 
 ![static cast with pointers](images/staticCastPointers.png)
 
@@ -149,9 +167,23 @@ To cast a pointer from one type to another, `static_cast` can be used. For examp
 
 ##### `Step 13.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-That's it for this walk through. Thanks for following through to the end.
+Now we can create a component class and access its parent's object through the pointer.  
+
+![static cast with pointers](images/deriveAccessParent.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UECPPFTC`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond:
+
+Now in our Weapon's class we can add a component and point it to our own class using `this` which is the derived instance of the weapon class.  
+
+The full design pattern is more complex but this gives you a simple example of how Unreal is implementing its components.
+
+![static cast with pointers](images/componentAccess.png)
 
 ![](../images/line.png)
+
+That's it for this walk through. Thanks for following through to the end.
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=That's All Folks"> -->
 
